@@ -1,0 +1,43 @@
+##|23:14:40.603 [go] Job Started: 2017-09-11 23:14:40 UTC
+##|23:14:40.603 
+pr|23:14:40.605 [go] Start to prepare workshop_pipeline/2/Build/1/build_fatjar on 174a695a3ce1 [/go]
+pr|23:14:40.615 [go] Start to update materials.
+pr|23:14:40.615 
+pr|23:14:40.615 [go] Start updating files at revision 31c2a71a579e2cc84b8b7b45a1799d5d7f1ce7c7 from https://github.com/faustocv/springboot-workshop-i.git
+pr|23:14:40.840 [GIT] Fetching changes
+pr|23:14:41.630 [GIT] Performing git gc
+pr|23:14:41.734 [GIT] Reset working directory pipelines/workshop_pipeline
+pr|23:14:41.734 [GIT] Cleaning all unversioned files in working copy
+pr|23:14:41.951 [GIT] Cleaning submodule configurations in .git/config
+pr|23:14:42.056 [GIT] Updating working copy to revision 31c2a71a579e2cc84b8b7b45a1799d5d7f1ce7c7
+pr|23:14:42.063 HEAD is now at 31c2a71 Adds new line
+pr|23:14:42.164 [GIT] Removing modified files in submodules
+pr|23:14:42.189 [GIT] Cleaning all unversioned files in working copy
+pr|23:14:42.404 [go] Done.
+pr|23:14:42.404 
+pr|23:14:42.406 [go] overriding environment variable 'GO_SERVER_URL' with value 'https://server:8154/go'
+pr|23:14:42.406 [go] setting environment variable 'GO_TRIGGER_USER' to value 'changes'
+pr|23:14:42.406 [go] setting environment variable 'GO_PIPELINE_NAME' to value 'workshop_pipeline'
+pr|23:14:42.406 [go] setting environment variable 'GO_PIPELINE_COUNTER' to value '2'
+pr|23:14:42.406 [go] setting environment variable 'GO_PIPELINE_LABEL' to value '2'
+pr|23:14:42.406 [go] setting environment variable 'GO_STAGE_NAME' to value 'Build'
+pr|23:14:42.407 [go] setting environment variable 'GO_STAGE_COUNTER' to value '1'
+pr|23:14:42.407 [go] setting environment variable 'GO_JOB_NAME' to value 'build_fatjar'
+pr|23:14:42.407 [go] setting environment variable 'GO_REVISION_REPO' to value '31c2a71a579e2cc84b8b7b45a1799d5d7f1ce7c7'
+pr|23:14:42.407 [go] setting environment variable 'GO_TO_REVISION_REPO' to value '31c2a71a579e2cc84b8b7b45a1799d5d7f1ce7c7'
+pr|23:14:42.407 [go] setting environment variable 'GO_FROM_REVISION_REPO' to value '31c2a71a579e2cc84b8b7b45a1799d5d7f1ce7c7'
+pr|23:14:42.407 
+##|23:14:42.446 [go] Start to build workshop_pipeline/2/Build/1/build_fatjar on 174a695a3ce1 [/go]
+!!|23:14:42.446 [go] Task: sh -c "./gradlew jar"
+&1|23:14:43.283 :compileJava UP-TO-DATE
+&1|23:14:43.284 :processResources UP-TO-DATE
+&1|23:14:43.285 :classes UP-TO-DATE
+&1|23:14:43.285 :jar SKIPPED
+&1|23:14:43.285 
+&1|23:14:43.286 BUILD SUCCESSFUL in 0s
+&1|23:14:43.286 2 actionable tasks: 2 up-to-date
+?0|23:14:43.414 [go] Task status: passed (968 ms)
+j0|23:14:43.435 [go] Current job status: passed
+##|23:14:43.443 [go] Start to create properties workshop_pipeline/2/Build/1/build_fatjar on 174a695a3ce1 [/go]
+ar|23:14:43.443 [go] Start to upload workshop_pipeline/2/Build/1/build_fatjar on 174a695a3ce1 [/go]
+ex|23:14:43.522 [go] Job completed workshop_pipeline/2/Build/1/build_fatjar on 174a695a3ce1 [/go]
