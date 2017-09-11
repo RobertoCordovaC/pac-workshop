@@ -1,0 +1,387 @@
+##|14:53:14.202 [go] Job Started: 2017-08-25 14:53:14 UTC
+##|14:53:14.202 
+pr|14:53:14.203 [go] Start to prepare workshop_pipeline/1/Tests/1/unit_tests on 7d78b502909c [/go]
+pr|14:53:14.224 [go] Start to update materials.
+pr|14:53:14.224 
+pr|14:53:14.228 [go] Start updating files at revision 31c2a71a579e2cc84b8b7b45a1799d5d7f1ce7c7 from https://github.com/faustocv/springboot-workshop-i.git
+pe|14:53:14.255 STDERR: Cloning into '/go/pipelines/workshop_pipeline'...
+pr|14:53:15.880 [GIT] Fetching changes
+pr|14:53:16.617 [GIT] Performing git gc
+pr|14:53:16.723 [GIT] Reset working directory pipelines/workshop_pipeline
+pr|14:53:16.723 [GIT] Cleaning all unversioned files in working copy
+pr|14:53:16.943 [GIT] Cleaning submodule configurations in .git/config
+pr|14:53:17.053 [GIT] Updating working copy to revision 31c2a71a579e2cc84b8b7b45a1799d5d7f1ce7c7
+pr|14:53:17.063 HEAD is now at 31c2a71 Adds new line
+pr|14:53:17.164 [GIT] Removing modified files in submodules
+pr|14:53:17.299 [GIT] Cleaning all unversioned files in working copy
+pr|14:53:17.514 [go] Done.
+pr|14:53:17.514 
+pr|14:53:17.521 [go] overriding environment variable 'GO_SERVER_URL' with value 'https://server:8154/go'
+pr|14:53:17.521 [go] setting environment variable 'GO_TRIGGER_USER' to value 'changes'
+pr|14:53:17.521 [go] setting environment variable 'GO_PIPELINE_NAME' to value 'workshop_pipeline'
+pr|14:53:17.521 [go] setting environment variable 'GO_PIPELINE_COUNTER' to value '1'
+pr|14:53:17.521 [go] setting environment variable 'GO_PIPELINE_LABEL' to value '1'
+pr|14:53:17.521 [go] setting environment variable 'GO_STAGE_NAME' to value 'Tests'
+pr|14:53:17.521 [go] setting environment variable 'GO_STAGE_COUNTER' to value '1'
+pr|14:53:17.521 [go] setting environment variable 'GO_JOB_NAME' to value 'unit_tests'
+pr|14:53:17.521 [go] setting environment variable 'GO_REVISION_REPO' to value '31c2a71a579e2cc84b8b7b45a1799d5d7f1ce7c7'
+pr|14:53:17.522 [go] setting environment variable 'GO_TO_REVISION_REPO' to value '31c2a71a579e2cc84b8b7b45a1799d5d7f1ce7c7'
+pr|14:53:17.522 [go] setting environment variable 'GO_FROM_REVISION_REPO' to value '31c2a71a579e2cc84b8b7b45a1799d5d7f1ce7c7'
+pr|14:53:17.522 
+##|14:53:17.542 [go] Start to build workshop_pipeline/1/Tests/1/unit_tests on 7d78b502909c [/go]
+!!|14:53:17.548 [go] Task: sh -c "./gradlew clean test"
+&1|14:53:17.777 Downloading https://services.gradle.org/distributions/gradle-4.1-all.zip
+&1|14:53:42.707 .......................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+&1|14:53:42.708 Unzipping /home/go/.gradle/wrapper/dists/gradle-4.1-all/bzyivzo6n839fup2jbap0tjew/gradle-4.1-all.zip to /home/go/.gradle/wrapper/dists/gradle-4.1-all/bzyivzo6n839fup2jbap0tjew
+&1|14:53:44.652 Set executable permissions for: /home/go/.gradle/wrapper/dists/gradle-4.1-all/bzyivzo6n839fup2jbap0tjew/gradle-4.1/bin/gradle
+&1|14:53:45.256 Starting a Gradle Daemon (subsequent builds will be faster)
+&1|14:53:52.034 Download https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-gradle-plugin/2.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+&1|14:53:52.406 Download https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-gradle-plugin/2.0.0.BUILD-SNAPSHOT/spring-boot-gradle-plugin-2.0.0.BUILD-20170825.082941-897.pom
+&1|14:53:52.959 Download https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-tools/2.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+&1|14:53:53.264 Download https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-tools/2.0.0.BUILD-SNAPSHOT/spring-boot-tools-2.0.0.BUILD-20170825.082941-896.pom
+&1|14:53:53.763 Download https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-parent/2.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+&1|14:53:53.917 Download https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-parent/2.0.0.BUILD-SNAPSHOT/spring-boot-parent-2.0.0.BUILD-20170825.082941-897.pom
+&1|14:53:54.339 Download https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-dependencies/2.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+&1|14:53:54.548 Download https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-dependencies/2.0.0.BUILD-SNAPSHOT/spring-boot-dependencies-2.0.0.BUILD-20170825.082941-897.pom
+&1|14:53:54.736 Download https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-bom/2.9.0/jackson-bom-2.9.0.pom
+&1|14:53:54.858 Download https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-parent/2.9.0/jackson-parent-2.9.0.pom
+&1|14:53:55.036 Download https://repo1.maven.org/maven2/com/fasterxml/oss-parent/28/oss-parent-28.pom
+&1|14:53:55.201 Download https://repo1.maven.org/maven2/io/netty/netty-bom/4.1.13.Final/netty-bom-4.1.13.Final.pom
+&1|14:53:55.354 Download https://repo1.maven.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+&1|14:53:56.180 Download https://repo.spring.io/milestone/io/projectreactor/reactor-bom/Bismuth-M3/reactor-bom-Bismuth-M3.pom
+&1|14:53:56.287 Download https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-bom/2.8.2/log4j-bom-2.8.2.pom
+&1|14:53:56.400 Download https://repo1.maven.org/maven2/org/apache/logging/logging-parent/1/logging-parent-1.pom
+&1|14:53:56.577 Download https://repo1.maven.org/maven2/org/apache/apache/18/apache-18.pom
+&1|14:53:57.186 Download https://repo.spring.io/milestone/org/springframework/spring-framework-bom/5.0.0.RC3/spring-framework-bom-5.0.0.RC3.pom
+&1|14:53:57.737 Download https://repo.spring.io/milestone/org/springframework/data/spring-data-releasetrain/Kay-RC2/spring-data-releasetrain-Kay-RC2.pom
+&1|14:53:58.346 Download https://repo.spring.io/milestone/org/springframework/data/build/spring-data-build/2.0.0.RC2/spring-data-build-2.0.0.RC2.pom
+&1|14:53:58.971 Download https://repo.spring.io/milestone/org/springframework/integration/spring-integration-bom/5.0.0.M6/spring-integration-bom-5.0.0.M6.pom
+&1|14:53:59.532 Download https://repo.spring.io/milestone/org/springframework/security/spring-security-bom/5.0.0.M3/spring-security-bom-5.0.0.M3.pom
+&1|14:54:00.140 Download https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.14/commons-compress-1.14.pom
+&1|14:54:00.140 Download https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-loader-tools/2.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+&1|14:54:00.141 Download https://repo1.maven.org/maven2/io/spring/gradle/dependency-management-plugin/1.0.3.RELEASE/dependency-management-plugin-1.0.3.RELEASE.pom
+&1|14:54:00.284 Download https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-loader-tools/2.0.0.BUILD-SNAPSHOT/spring-boot-loader-tools-2.0.0.BUILD-20170825.082941-895.pom
+&1|14:54:00.446 Download https://repo1.maven.org/maven2/org/apache/commons/commons-parent/42/commons-parent-42.pom
+&1|14:54:01.004 Download https://repo.spring.io/milestone/org/springframework/spring-core/5.0.0.RC3/spring-core-5.0.0.RC3.pom
+&1|14:54:01.606 Download https://repo.spring.io/milestone/org/springframework/spring-jcl/5.0.0.RC3/spring-jcl-5.0.0.RC3.pom
+&1|14:54:01.985 Download https://repo1.maven.org/maven2/io/spring/gradle/dependency-management-plugin/1.0.3.RELEASE/dependency-management-plugin-1.0.3.RELEASE.jar
+&1|14:54:01.995 Download https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-gradle-plugin/2.0.0.BUILD-SNAPSHOT/spring-boot-gradle-plugin-2.0.0.BUILD-20170825.082941-897.jar
+&1|14:54:02.127 Download https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.14/commons-compress-1.14.jar
+&1|14:54:02.275 Download https://repo.spring.io/milestone/org/springframework/spring-core/5.0.0.RC3/spring-core-5.0.0.RC3.jar
+&1|14:54:02.463 Download https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-loader-tools/2.0.0.BUILD-SNAPSHOT/spring-boot-loader-tools-2.0.0.BUILD-20170825.082941-895.jar
+&1|14:54:02.743 Download https://repo.spring.io/milestone/org/springframework/spring-jcl/5.0.0.RC3/spring-jcl-5.0.0.RC3.jar
+&1|14:54:04.427 :clean UP-TO-DATE
+&1|14:54:04.932 :compileJava
+&1|14:54:04.932 Download https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-data-jpa/1.5.6.RELEASE/spring-boot-starter-data-jpa-1.5.6.RELEASE.pom
+&1|14:54:04.985 Download https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-jdbc/1.5.6.RELEASE/spring-boot-starter-jdbc-1.5.6.RELEASE.pom
+&1|14:54:04.985 Download https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-web/1.5.6.RELEASE/spring-boot-starter-web-1.5.6.RELEASE.pom
+&1|14:54:04.996 Download https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter/1.5.6.RELEASE/spring-boot-starter-1.5.6.RELEASE.pom
+&1|14:54:05.040 Download https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starters/1.5.6.RELEASE/spring-boot-starters-1.5.6.RELEASE.pom
+&1|14:54:05.267 Download https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-parent/1.5.6.RELEASE/spring-boot-parent-1.5.6.RELEASE.pom
+&1|14:54:05.506 Download https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-dependencies/1.5.6.RELEASE/spring-boot-dependencies-1.5.6.RELEASE.pom
+&1|14:54:05.618 Download https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-bom/2.8.9/jackson-bom-2.8.9.pom
+&1|14:54:05.731 Download https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-parent/2.8/jackson-parent-2.8.pom
+&1|14:54:05.842 Download https://repo1.maven.org/maven2/com/fasterxml/oss-parent/27/oss-parent-27.pom
+&1|14:54:05.984 Download https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-bom/2.7/log4j-bom-2.7.pom
+&1|14:54:06.085 Download https://repo1.maven.org/maven2/org/apache/apache/9/apache-9.pom
+&1|14:54:06.249 Download https://repo1.maven.org/maven2/org/springframework/spring-framework-bom/4.3.10.RELEASE/spring-framework-bom-4.3.10.RELEASE.pom
+&1|14:54:06.368 Download https://repo1.maven.org/maven2/org/springframework/data/spring-data-releasetrain/Ingalls-SR6/spring-data-releasetrain-Ingalls-SR6.pom
+&1|14:54:06.472 Download https://repo1.maven.org/maven2/org/springframework/data/build/spring-data-build/1.9.6.RELEASE/spring-data-build-1.9.6.RELEASE.pom
+&1|14:54:06.603 Download https://repo1.maven.org/maven2/org/springframework/integration/spring-integration-bom/4.3.11.RELEASE/spring-integration-bom-4.3.11.RELEASE.pom
+&1|14:54:06.712 Download https://repo1.maven.org/maven2/org/springframework/security/spring-security-bom/4.2.3.RELEASE/spring-security-bom-4.2.3.RELEASE.pom
+&1|14:54:06.956 Download https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-data-rest/1.5.6.RELEASE/spring-boot-starter-data-rest-1.5.6.RELEASE.pom
+&1|14:54:07.089 Download https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-autoconfigure/1.5.6.RELEASE/spring-boot-autoconfigure-1.5.6.RELEASE.pom
+&1|14:54:07.089 Download https://repo1.maven.org/maven2/org/springframework/boot/spring-boot/1.5.6.RELEASE/spring-boot-1.5.6.RELEASE.pom
+&1|14:54:07.089 Download https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-logging/1.5.6.RELEASE/spring-boot-starter-logging-1.5.6.RELEASE.pom
+&1|14:54:07.089 Download https://repo1.maven.org/maven2/org/springframework/spring-core/4.3.10.RELEASE/spring-core-4.3.10.RELEASE.pom
+&1|14:54:07.314 Download https://repo1.maven.org/maven2/org/yaml/snakeyaml/1.17/snakeyaml-1.17.pom
+&1|14:54:07.440 Download https://repo1.maven.org/maven2/org/hibernate/hibernate-entitymanager/5.0.12.Final/hibernate-entitymanager-5.0.12.Final.pom
+&1|14:54:07.440 Download https://repo1.maven.org/maven2/org/hibernate/hibernate-core/5.0.12.Final/hibernate-core-5.0.12.Final.pom
+&1|14:54:07.483 Download https://repo1.maven.org/maven2/javax/transaction/javax.transaction-api/1.2/javax.transaction-api-1.2.pom
+&1|14:54:07.483 Download https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-aop/1.5.6.RELEASE/spring-boot-starter-aop-1.5.6.RELEASE.pom
+&1|14:54:07.546 Download https://repo1.maven.org/maven2/org/springframework/data/spring-data-jpa/1.11.6.RELEASE/spring-data-jpa-1.11.6.RELEASE.pom
+&1|14:54:07.546 Download https://repo1.maven.org/maven2/org/springframework/spring-aspects/4.3.10.RELEASE/spring-aspects-4.3.10.RELEASE.pom
+&1|14:54:07.590 Download https://repo1.maven.org/maven2/net/java/jvnet-parent/3/jvnet-parent-3.pom
+&1|14:54:07.747 Download https://repo1.maven.org/maven2/org/springframework/data/build/spring-data-parent/1.9.6.RELEASE/spring-data-parent-1.9.6.RELEASE.pom
+&1|14:54:07.870 Download https://repo1.maven.org/maven2/org/apache/tomcat/tomcat-jdbc/8.5.16/tomcat-jdbc-8.5.16.pom
+&1|14:54:07.870 Download https://repo1.maven.org/maven2/org/springframework/spring-jdbc/4.3.10.RELEASE/spring-jdbc-4.3.10.RELEASE.pom
+&1|14:54:07.979 Download https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/1.5.6.RELEASE/spring-boot-starter-tomcat-1.5.6.RELEASE.pom
+&1|14:54:07.979 Download https://repo1.maven.org/maven2/org/springframework/spring-web/4.3.10.RELEASE/spring-web-4.3.10.RELEASE.pom
+&1|14:54:07.980 Download https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.9/jackson-databind-2.8.9.pom
+&1|14:54:08.001 Download https://repo1.maven.org/maven2/org/hibernate/hibernate-validator/5.3.5.Final/hibernate-validator-5.3.5.Final.pom
+&1|14:54:08.116 Download https://repo1.maven.org/maven2/org/springframework/spring-webmvc/4.3.10.RELEASE/spring-webmvc-4.3.10.RELEASE.pom
+&1|14:54:08.213 Download https://repo1.maven.org/maven2/org/hibernate/hibernate-validator-parent/5.3.5.Final/hibernate-validator-parent-5.3.5.Final.pom
+&1|14:54:08.376 Download https://repo1.maven.org/maven2/org/jboss/arquillian/arquillian-bom/1.1.11.Final/arquillian-bom-1.1.11.Final.pom
+&1|14:54:08.478 Download https://repo1.maven.org/maven2/org/jboss/shrinkwrap/shrinkwrap-bom/1.2.3/shrinkwrap-bom-1.2.3.pom
+&1|14:54:08.586 Download https://repo1.maven.org/maven2/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-bom/2.2.0/shrinkwrap-resolver-bom-2.2.0.pom
+&1|14:54:08.694 Download https://repo1.maven.org/maven2/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-bom/2.0.0-alpha-8/shrinkwrap-descriptors-bom-2.0.0-alpha-8.pom
+&1|14:54:08.816 Download https://repo1.maven.org/maven2/org/springframework/data/spring-data-rest-webmvc/2.6.6.RELEASE/spring-data-rest-webmvc-2.6.6.RELEASE.pom
+&1|14:54:08.872 Download https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.pom
+&1|14:54:08.926 Download https://repo1.maven.org/maven2/org/springframework/data/spring-data-rest-parent/2.6.6.RELEASE/spring-data-rest-parent-2.6.6.RELEASE.pom
+&1|14:54:09.045 Download https://repo1.maven.org/maven2/org/springframework/spring-context/4.3.10.RELEASE/spring-context-4.3.10.RELEASE.pom
+&1|14:54:09.156 Download https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.1.11/logback-classic-1.1.11.pom
+&1|14:54:09.156 Download https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25.pom
+&1|14:54:09.157 Download https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25.pom
+&1|14:54:09.201 Download https://repo1.maven.org/maven2/org/slf4j/log4j-over-slf4j/1.7.25/log4j-over-slf4j-1.7.25.pom
+&1|14:54:09.266 Download https://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.1.11/logback-parent-1.1.11.pom
+&1|14:54:09.266 Download https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.25/slf4j-parent-1.7.25.pom
+&1|14:54:09.442 Download https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.pom
+&1|14:54:09.616 Download https://repo1.maven.org/maven2/org/apache/commons/commons-parent/34/commons-parent-34.pom
+&1|14:54:09.783 Download https://repo1.maven.org/maven2/org/apache/apache/13/apache-13.pom
+&1|14:54:09.892 Download https://repo1.maven.org/maven2/org/springframework/spring-aop/4.3.10.RELEASE/spring-aop-4.3.10.RELEASE.pom
+&1|14:54:09.892 Download https://repo1.maven.org/maven2/org/aspectj/aspectjweaver/1.8.10/aspectjweaver-1.8.10.pom
+&1|14:54:10.012 Download https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging/3.3.0.Final/jboss-logging-3.3.0.Final.pom
+&1|14:54:10.012 Download https://repo1.maven.org/maven2/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.pom
+&1|14:54:10.012 Download https://repo1.maven.org/maven2/antlr/antlr/2.7.7/antlr-2.7.7.pom
+&1|14:54:10.055 Download https://repo1.maven.org/maven2/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.pom
+&1|14:54:10.120 Download https://repo1.maven.org/maven2/org/jboss/jboss-parent/15/jboss-parent-15.pom
+&1|14:54:10.120 Download https://repo1.maven.org/maven2/dom4j/dom4j/1.6.1/dom4j-1.6.1.pom
+&1|14:54:10.121 Download https://repo1.maven.org/maven2/org/jboss/jandex/2.0.0.Final/jandex-2.0.0.Final.pom
+&1|14:54:10.214 Download https://repo1.maven.org/maven2/org/hibernate/common/hibernate-commons-annotations/5.0.1.Final/hibernate-commons-annotations-5.0.1.Final.pom
+&1|14:54:10.257 Download https://repo1.maven.org/maven2/org/jboss/jboss-parent/12/jboss-parent-12.pom
+&1|14:54:10.367 Download https://repo1.maven.org/maven2/org/springframework/spring-orm/4.3.10.RELEASE/spring-orm-4.3.10.RELEASE.pom
+&1|14:54:10.368 Download https://repo1.maven.org/maven2/org/springframework/spring-beans/4.3.10.RELEASE/spring-beans-4.3.10.RELEASE.pom
+&1|14:54:10.368 Download https://repo1.maven.org/maven2/org/springframework/data/spring-data-commons/1.13.6.RELEASE/spring-data-commons-1.13.6.RELEASE.pom
+&1|14:54:10.378 Download https://repo1.maven.org/maven2/org/springframework/spring-tx/4.3.10.RELEASE/spring-tx-4.3.10.RELEASE.pom
+&1|14:54:10.479 Download https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom
+&1|14:54:10.643 Download https://repo1.maven.org/maven2/org/apache/tomcat/tomcat-juli/8.5.16/tomcat-juli-8.5.16.pom
+&1|14:54:10.751 Download https://repo1.maven.org/maven2/org/apache/tomcat/embed/tomcat-embed-el/8.5.16/tomcat-embed-el-8.5.16.pom
+&1|14:54:10.762 Download https://repo1.maven.org/maven2/org/apache/tomcat/embed/tomcat-embed-websocket/8.5.16/tomcat-embed-websocket-8.5.16.pom
+&1|14:54:10.796 Download https://repo1.maven.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/8.5.16/tomcat-embed-core-8.5.16.pom
+&1|14:54:10.895 Download https://repo1.maven.org/maven2/com/fasterxml/classmate/1.3.1/classmate-1.3.1.pom
+&1|14:54:10.905 Download https://repo1.maven.org/maven2/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.pom
+&1|14:54:11.017 Download https://repo1.maven.org/maven2/com/fasterxml/oss-parent/24/oss-parent-24.pom
+&1|14:54:11.133 Download https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.9/jackson-core-2.8.9.pom
+&1|14:54:11.278 Download https://repo1.maven.org/maven2/org/springframework/spring-expression/4.3.10.RELEASE/spring-expression-4.3.10.RELEASE.pom
+&1|14:54:11.438 Download https://repo1.maven.org/maven2/org/springframework/data/spring-data-rest-core/2.6.6.RELEASE/spring-data-rest-core-2.6.6.RELEASE.pom
+&1|14:54:11.559 Download https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.1.11/logback-core-1.1.11.pom
+&1|14:54:11.674 Download https://repo1.maven.org/maven2/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.pom
+&1|14:54:11.783 Download https://repo1.maven.org/maven2/org/atteo/evo-inflector/1.2.2/evo-inflector-1.2.2.pom
+&1|14:54:11.793 Download https://repo1.maven.org/maven2/org/springframework/hateoas/spring-hateoas/0.23.0.RELEASE/spring-hateoas-0.23.0.RELEASE.pom
+&1|14:54:11.826 Download https://repo1.maven.org/maven2/org/springframework/plugin/spring-plugin-core/1.2.0.RELEASE/spring-plugin-core-1.2.0.RELEASE.pom
+&1|14:54:11.925 Download https://repo1.maven.org/maven2/org/atteo/parent/1.14/parent-1.14.pom
+&1|14:54:11.935 Download https://repo1.maven.org/maven2/org/springframework/plugin/spring-plugin/1.2.0.RELEASE/spring-plugin-1.2.0.RELEASE.pom
+&1|14:54:12.092 Download https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.9/jackson-annotations-2.8.9.pom
+&1|14:54:12.242 Download https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-data-rest/1.5.6.RELEASE/spring-boot-starter-data-rest-1.5.6.RELEASE.jar
+&1|14:54:12.243 Download https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-jdbc/1.5.6.RELEASE/spring-boot-starter-jdbc-1.5.6.RELEASE.jar
+&1|14:54:12.252 Download https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-data-jpa/1.5.6.RELEASE/spring-boot-starter-data-jpa-1.5.6.RELEASE.jar
+&1|14:54:12.340 Download https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-web/1.5.6.RELEASE/spring-boot-starter-web-1.5.6.RELEASE.jar
+&1|14:54:12.350 Download https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-aop/1.5.6.RELEASE/spring-boot-starter-aop-1.5.6.RELEASE.jar
+&1|14:54:12.350 Download https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter/1.5.6.RELEASE/spring-boot-starter-1.5.6.RELEASE.jar
+&1|14:54:12.449 Download https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-autoconfigure/1.5.6.RELEASE/spring-boot-autoconfigure-1.5.6.RELEASE.jar
+&1|14:54:12.459 Download https://repo1.maven.org/maven2/org/springframework/boot/spring-boot/1.5.6.RELEASE/spring-boot-1.5.6.RELEASE.jar
+&1|14:54:12.459 Download https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-logging/1.5.6.RELEASE/spring-boot-starter-logging-1.5.6.RELEASE.jar
+&1|14:54:12.568 Download https://repo1.maven.org/maven2/org/springframework/data/spring-data-jpa/1.11.6.RELEASE/spring-data-jpa-1.11.6.RELEASE.jar
+&1|14:54:12.795 Download https://repo1.maven.org/maven2/org/springframework/spring-orm/4.3.10.RELEASE/spring-orm-4.3.10.RELEASE.jar
+&1|14:54:12.937 Download https://repo1.maven.org/maven2/org/springframework/spring-jdbc/4.3.10.RELEASE/spring-jdbc-4.3.10.RELEASE.jar
+&1|14:54:13.038 Download https://repo1.maven.org/maven2/org/springframework/data/spring-data-rest-webmvc/2.6.6.RELEASE/spring-data-rest-webmvc-2.6.6.RELEASE.jar
+&1|14:54:13.065 Download https://repo1.maven.org/maven2/org/springframework/data/spring-data-rest-core/2.6.6.RELEASE/spring-data-rest-core-2.6.6.RELEASE.jar
+&1|14:54:13.109 Download https://repo1.maven.org/maven2/org/springframework/spring-tx/4.3.10.RELEASE/spring-tx-4.3.10.RELEASE.jar
+&1|14:54:13.164 Download https://repo1.maven.org/maven2/org/springframework/hateoas/spring-hateoas/0.23.0.RELEASE/spring-hateoas-0.23.0.RELEASE.jar
+&1|14:54:13.216 Download https://repo1.maven.org/maven2/org/springframework/data/spring-data-commons/1.13.6.RELEASE/spring-data-commons-1.13.6.RELEASE.jar
+&1|14:54:13.216 Download https://repo1.maven.org/maven2/org/springframework/plugin/spring-plugin-core/1.2.0.RELEASE/spring-plugin-core-1.2.0.RELEASE.jar
+&1|14:54:13.352 Download https://repo1.maven.org/maven2/org/springframework/spring-webmvc/4.3.10.RELEASE/spring-webmvc-4.3.10.RELEASE.jar
+&1|14:54:13.405 Download https://repo1.maven.org/maven2/org/springframework/spring-web/4.3.10.RELEASE/spring-web-4.3.10.RELEASE.jar
+&1|14:54:13.446 Download https://repo1.maven.org/maven2/org/springframework/spring-context/4.3.10.RELEASE/spring-context-4.3.10.RELEASE.jar
+&1|14:54:13.573 Download https://repo1.maven.org/maven2/org/springframework/spring-aop/4.3.10.RELEASE/spring-aop-4.3.10.RELEASE.jar
+&1|14:54:13.927 Download https://repo1.maven.org/maven2/org/springframework/spring-beans/4.3.10.RELEASE/spring-beans-4.3.10.RELEASE.jar
+&1|14:54:14.089 Download https://repo1.maven.org/maven2/org/springframework/spring-expression/4.3.10.RELEASE/spring-expression-4.3.10.RELEASE.jar
+&1|14:54:14.101 Download https://repo1.maven.org/maven2/org/springframework/spring-core/4.3.10.RELEASE/spring-core-4.3.10.RELEASE.jar
+&1|14:54:14.227 Download https://repo1.maven.org/maven2/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar
+&1|14:54:14.455 Download https://repo1.maven.org/maven2/org/hibernate/hibernate-entitymanager/5.0.12.Final/hibernate-entitymanager-5.0.12.Final.jar
+&1|14:54:14.650 Download https://repo1.maven.org/maven2/org/hibernate/hibernate-core/5.0.12.Final/hibernate-core-5.0.12.Final.jar
+&1|14:54:14.673 Download https://repo1.maven.org/maven2/javax/transaction/javax.transaction-api/1.2/javax.transaction-api-1.2.jar
+&1|14:54:14.811 Download https://repo1.maven.org/maven2/org/springframework/spring-aspects/4.3.10.RELEASE/spring-aspects-4.3.10.RELEASE.jar
+&1|14:54:14.884 Download https://repo1.maven.org/maven2/org/apache/tomcat/tomcat-jdbc/8.5.16/tomcat-jdbc-8.5.16.jar
+&1|14:54:14.937 Download https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/1.5.6.RELEASE/spring-boot-starter-tomcat-1.5.6.RELEASE.jar
+&1|14:54:15.075 Download https://repo1.maven.org/maven2/org/hibernate/hibernate-validator/5.3.5.Final/hibernate-validator-5.3.5.Final.jar
+&1|14:54:15.789 Download https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.9/jackson-databind-2.8.9.jar
+&1|14:54:15.799 Download https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.9/jackson-annotations-2.8.9.jar
+&1|14:54:16.080 Download https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.1.11/logback-classic-1.1.11.jar
+&1|14:54:16.080 Download https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25.jar
+&1|14:54:16.080 Download https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25.jar
+&1|14:54:16.208 Download https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+&1|14:54:16.219 Download https://repo1.maven.org/maven2/org/slf4j/log4j-over-slf4j/1.7.25/log4j-over-slf4j-1.7.25.jar
+&1|14:54:16.252 Download https://repo1.maven.org/maven2/org/hibernate/common/hibernate-commons-annotations/5.0.1.Final/hibernate-commons-annotations-5.0.1.Final.jar
+&1|14:54:16.325 Download https://repo1.maven.org/maven2/org/aspectj/aspectjweaver/1.8.10/aspectjweaver-1.8.10.jar
+&1|14:54:16.346 Download https://repo1.maven.org/maven2/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar
+&1|14:54:16.409 Download https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging/3.3.0.Final/jboss-logging-3.3.0.Final.jar
+&1|14:54:16.462 Download https://repo1.maven.org/maven2/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar
+&1|14:54:16.568 Download https://repo1.maven.org/maven2/antlr/antlr/2.7.7/antlr-2.7.7.jar
+&1|14:54:16.699 Download https://repo1.maven.org/maven2/org/jboss/jandex/2.0.0.Final/jandex-2.0.0.Final.jar
+&1|14:54:16.761 Download https://repo1.maven.org/maven2/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar
+&1|14:54:16.771 Download https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar
+&1|14:54:16.889 Download https://repo1.maven.org/maven2/org/apache/tomcat/embed/tomcat-embed-websocket/8.5.16/tomcat-embed-websocket-8.5.16.jar
+&1|14:54:16.909 Download https://repo1.maven.org/maven2/org/apache/tomcat/tomcat-juli/8.5.16/tomcat-juli-8.5.16.jar
+&1|14:54:17.014 Download https://repo1.maven.org/maven2/org/apache/tomcat/embed/tomcat-embed-el/8.5.16/tomcat-embed-el-8.5.16.jar
+&1|14:54:17.056 Download https://repo1.maven.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/8.5.16/tomcat-embed-core-8.5.16.jar
+&1|14:54:17.076 Download https://repo1.maven.org/maven2/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar
+&1|14:54:17.195 Download https://repo1.maven.org/maven2/com/fasterxml/classmate/1.3.1/classmate-1.3.1.jar
+&1|14:54:17.289 Download https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.9/jackson-core-2.8.9.jar
+&1|14:54:17.300 Download https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.1.11/logback-core-1.1.11.jar
+&1|14:54:17.364 Download https://repo1.maven.org/maven2/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar
+&1|14:54:17.448 Download https://repo1.maven.org/maven2/org/atteo/evo-inflector/1.2.2/evo-inflector-1.2.2.jar
+&1|14:54:24.470 :processResources
+&1|14:54:24.470 :classes
+&1|14:54:25.041 :compileTestJava
+&1|14:54:25.041 Download https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-test/1.5.6.RELEASE/spring-boot-starter-test-1.5.6.RELEASE.pom
+&1|14:54:25.194 Download https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-test/1.5.6.RELEASE/spring-boot-test-1.5.6.RELEASE.pom
+&1|14:54:25.376 Download https://repo1.maven.org/maven2/org/assertj/assertj-core/2.6.0/assertj-core-2.6.0.pom
+&1|14:54:25.543 Download https://repo1.maven.org/maven2/org/assertj/assertj-parent-pom/2.1.4/assertj-parent-pom-2.1.4.pom
+&1|14:54:25.543 Download https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.pom
+&1|14:54:25.543 Download https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-test-autoconfigure/1.5.6.RELEASE/spring-boot-test-autoconfigure-1.5.6.RELEASE.pom
+&1|14:54:25.543 Download https://repo1.maven.org/maven2/com/jayway/jsonpath/json-path/2.2.0/json-path-2.2.0.pom
+&1|14:54:25.694 Download https://repo1.maven.org/maven2/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.pom
+&1|14:54:25.705 Download https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom
+&1|14:54:25.705 Download https://repo1.maven.org/maven2/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.pom
+&1|14:54:25.805 Download https://repo1.maven.org/maven2/org/springframework/spring-test/4.3.10.RELEASE/spring-test-4.3.10.RELEASE.pom
+&1|14:54:25.805 Download https://repo1.maven.org/maven2/org/skyscreamer/jsonassert/1.4.0/jsonassert-1.4.0.pom
+&1|14:54:25.848 Download https://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.pom
+&1|14:54:26.087 Download https://repo1.maven.org/maven2/net/minidev/json-smart/2.2.1/json-smart-2.2.1.pom
+&1|14:54:26.192 Download https://repo1.maven.org/maven2/org/objenesis/objenesis/2.1/objenesis-2.1.pom
+&1|14:54:26.322 Download https://repo1.maven.org/maven2/org/objenesis/objenesis-parent/2.1/objenesis-parent-2.1.pom
+&1|14:54:26.423 Download https://repo1.maven.org/maven2/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.pom
+&1|14:54:26.586 Download https://repo1.maven.org/maven2/net/minidev/accessors-smart/1.1/accessors-smart-1.1.pom
+&1|14:54:26.695 Download https://repo1.maven.org/maven2/net/minidev/minidev-parent/2.2/minidev-parent-2.2.pom
+&1|14:54:26.838 Download https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.3/asm-5.0.3.pom
+&1|14:54:26.947 Download https://repo1.maven.org/maven2/org/ow2/asm/asm-parent/5.0.3/asm-parent-5.0.3.pom
+&1|14:54:27.049 Download https://repo1.maven.org/maven2/org/ow2/ow2/1.3/ow2-1.3.pom
+&1|14:54:27.175 Download https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-test/1.5.6.RELEASE/spring-boot-starter-test-1.5.6.RELEASE.jar
+&1|14:54:27.175 Download https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-test-autoconfigure/1.5.6.RELEASE/spring-boot-test-autoconfigure-1.5.6.RELEASE.jar
+&1|14:54:27.175 Download https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-test/1.5.6.RELEASE/spring-boot-test-1.5.6.RELEASE.jar
+&1|14:54:27.281 Download https://repo1.maven.org/maven2/org/springframework/spring-test/4.3.10.RELEASE/spring-test-4.3.10.RELEASE.jar
+&1|14:54:27.523 Download https://repo1.maven.org/maven2/com/jayway/jsonpath/json-path/2.2.0/json-path-2.2.0.jar
+&1|14:54:27.565 Download https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.jar
+&1|14:54:27.639 Download https://repo1.maven.org/maven2/org/assertj/assertj-core/2.6.0/assertj-core-2.6.0.jar
+&1|14:54:27.826 Download https://repo1.maven.org/maven2/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar
+&1|14:54:27.836 Download https://repo1.maven.org/maven2/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar
+&1|14:54:27.857 Download https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+&1|14:54:27.975 Download https://repo1.maven.org/maven2/org/skyscreamer/jsonassert/1.4.0/jsonassert-1.4.0.jar
+&1|14:54:27.976 Download https://repo1.maven.org/maven2/net/minidev/json-smart/2.2.1/json-smart-2.2.1.jar
+&1|14:54:28.091 Download https://repo1.maven.org/maven2/org/objenesis/objenesis/2.1/objenesis-2.1.jar
+&1|14:54:28.101 Download https://repo1.maven.org/maven2/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar
+&1|14:54:28.113 Download https://repo1.maven.org/maven2/net/minidev/accessors-smart/1.1/accessors-smart-1.1.jar
+&1|14:54:28.223 Download https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar
+&1|14:54:28.720 :processTestResources NO-SOURCE
+&1|14:54:28.720 :testClasses
+&1|14:54:29.243 :test
+&1|14:54:29.243 Download https://repo1.maven.org/maven2/com/h2database/h2/1.3.148/h2-1.3.148.pom
+&1|14:54:31.182 Download https://repo1.maven.org/maven2/com/h2database/h2/1.3.148/h2-1.3.148.jar
+&1|14:54:33.454 
+&1|14:54:33.455 org.test.tvseries.repository.ActorRepositoryTest > shouldExtendFromPagingAndSortingRepositoryInterface STARTED
+&1|14:54:33.497 
+&1|14:54:33.497 org.test.tvseries.repository.ActorRepositoryTest > shouldExtendFromPagingAndSortingRepositoryInterface PASSED
+&1|14:54:33.497 
+&1|14:54:33.497 org.test.tvseries.repository.TvSeriesRepositoryTest > shouldExtendFromCrudRepository STARTED
+&1|14:54:33.497 
+&1|14:54:33.506 org.test.tvseries.repository.TvSeriesRepositoryTest > shouldExtendFromCrudRepository PASSED
+&1|14:54:33.725 
+&1|14:54:33.725 org.test.tvseries.controller.TvSeriesControllerTest STANDARD_OUT
+&1|14:54:33.725     14:54:33.705 [Test worker] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class org.test.tvseries.controller.TvSeriesControllerTest]
+&1|14:54:33.725     14:54:33.717 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+&1|14:54:33.778     14:54:33.766 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+&1|14:54:33.788     14:54:33.786 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [org.test.tvseries.controller.TvSeriesControllerTest] from class [org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper]
+&1|14:54:33.819     14:54:33.814 [Test worker] INFO org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [org.test.tvseries.controller.TvSeriesControllerTest], using SpringBootContextLoader
+&1|14:54:33.830     14:54:33.821 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [org.test.tvseries.controller.TvSeriesControllerTest]: class path resource [org/test/tvseries/controller/TvSeriesControllerTest-context.xml] does not exist
+&1|14:54:33.830     14:54:33.822 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [org.test.tvseries.controller.TvSeriesControllerTest]: class path resource [org/test/tvseries/controller/TvSeriesControllerTestContext.groovy] does not exist
+&1|14:54:33.830     14:54:33.823 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [org.test.tvseries.controller.TvSeriesControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+&1|14:54:33.830     14:54:33.824 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.test.tvseries.controller.TvSeriesControllerTest]: TvSeriesControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+&1|14:54:33.936     14:54:33.927 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [org.test.tvseries.controller.TvSeriesControllerTest]
+&1|14:54:33.947     14:54:33.938 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+&1|14:54:33.947     14:54:33.940 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+&1|14:54:33.947     14:54:33.940 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+&1|14:54:33.958     14:54:33.953 [Test worker] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [org/test/tvseries/controller/] to resources [URL [file:/godata/pipelines/workshop_pipeline/build/classes/java/test/org/test/tvseries/controller/], URL [file:/godata/pipelines/workshop_pipeline/build/classes/java/main/org/test/tvseries/controller/]]
+&1|14:54:33.958     14:54:33.953 [Test worker] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/godata/pipelines/workshop_pipeline/build/classes/java/test/org/test/tvseries/controller]
+&1|14:54:33.958     14:54:33.954 [Test worker] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/godata/pipelines/workshop_pipeline/build/classes/java/test/org/test/tvseries/controller] for files matching pattern [/godata/pipelines/workshop_pipeline/build/classes/java/test/org/test/tvseries/controller/*.class]
+&1|14:54:33.969     14:54:33.959 [Test worker] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/godata/pipelines/workshop_pipeline/build/classes/java/main/org/test/tvseries/controller]
+&1|14:54:33.969     14:54:33.959 [Test worker] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/godata/pipelines/workshop_pipeline/build/classes/java/main/org/test/tvseries/controller] for files matching pattern [/godata/pipelines/workshop_pipeline/build/classes/java/main/org/test/tvseries/controller/*.class]
+&1|14:54:33.969     14:54:33.960 [Test worker] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:org/test/tvseries/controller/*.class] to resources [file [/godata/pipelines/workshop_pipeline/build/classes/java/test/org/test/tvseries/controller/TvSeriesControllerTest.class], file [/godata/pipelines/workshop_pipeline/build/classes/java/main/org/test/tvseries/controller/TvSeriesController.class]]
+&1|14:54:33.989     14:54:33.986 [Test worker] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [org/test/tvseries/] to resources [URL [file:/godata/pipelines/workshop_pipeline/build/classes/java/test/org/test/tvseries/], URL [file:/godata/pipelines/workshop_pipeline/build/classes/java/main/org/test/tvseries/]]
+&1|14:54:33.989     14:54:33.986 [Test worker] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/godata/pipelines/workshop_pipeline/build/classes/java/test/org/test/tvseries]
+&1|14:54:33.989     14:54:33.987 [Test worker] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/godata/pipelines/workshop_pipeline/build/classes/java/test/org/test/tvseries] for files matching pattern [/godata/pipelines/workshop_pipeline/build/classes/java/test/org/test/tvseries/*.class]
+&1|14:54:33.989     14:54:33.987 [Test worker] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/godata/pipelines/workshop_pipeline/build/classes/java/main/org/test/tvseries]
+&1|14:54:33.990     14:54:33.987 [Test worker] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/godata/pipelines/workshop_pipeline/build/classes/java/main/org/test/tvseries] for files matching pattern [/godata/pipelines/workshop_pipeline/build/classes/java/main/org/test/tvseries/*.class]
+&1|14:54:34.000     14:54:33.988 [Test worker] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:org/test/tvseries/*.class] to resources [file [/godata/pipelines/workshop_pipeline/build/classes/java/main/org/test/tvseries/TvSeriesApplication.class]]
+&1|14:54:34.037     14:54:34.022 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/godata/pipelines/workshop_pipeline/build/classes/java/main/org/test/tvseries/TvSeriesApplication.class]
+&1|14:54:34.037     14:54:34.023 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.test.tvseries.TvSeriesApplication for test class org.test.tvseries.controller.TvSeriesControllerTest
+&1|14:54:34.037     14:54:34.028 [Test worker] DEBUG org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper - @TestExecutionListeners is not present for class [org.test.tvseries.controller.TvSeriesControllerTest]: using defaults.
+&1|14:54:34.048     14:54:34.044 [Test worker] INFO org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+&1|14:54:34.081     14:54:34.078 [Test worker] INFO org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@30292217, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@15a0769c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@40205e6a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1289ff02, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6b494ede, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7d4bc1bd, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3fda1370, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@62768a66, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@43681748, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@600d60b1, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@fa3ae53, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@59d0307b]
+&1|14:54:34.093     14:54:34.082 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [org.test.tvseries.controller.TvSeriesControllerTest]
+&1|14:54:34.093     14:54:34.083 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [org.test.tvseries.controller.TvSeriesControllerTest]
+&1|14:54:34.094     14:54:34.084 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [org.test.tvseries.controller.TvSeriesControllerTest]
+&1|14:54:34.094     14:54:34.084 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [org.test.tvseries.controller.TvSeriesControllerTest]
+&1|14:54:34.094     14:54:34.088 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@4c275e3c testClass = TvSeriesControllerTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@723c5548 testClass = TvSeriesControllerTest, locations = '{}', classes = '{class org.test.tvseries.TvSeriesApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@1ec8294a, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@fd47abfe, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@931d0f63, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3c18ec4d, [ImportsContextCustomizer@3e271a71 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration, org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration, org.springframework.boot.autoconfigure.groovy.template.GroovyTemplateAutoConfiguration, org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration, org.springframework.boot.autoconfigure.hateoas.HypermediaAutoConfiguration, org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration, org.springframework.boot.autoconfigure.mustache.MustacheAutoConfiguration, org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration, org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration, org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration, org.springframework.boot.autoconfigure.web.HttpMessageConvertersAutoConfiguration, org.springframework.boot.autoconfigure.web.ServerPropertiesAutoConfiguration, org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@1f3823da, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@bcb1198, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@2bb8f1b4], resourceBasePath = '', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+&1|14:54:34.102     14:54:34.095 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [org.test.tvseries.controller.TvSeriesControllerTest]
+&1|14:54:34.102     14:54:34.096 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [org.test.tvseries.controller.TvSeriesControllerTest]
+&1|14:54:34.102     14:54:34.098 [Test worker] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@4c275e3c testClass = TvSeriesControllerTest, testInstance = org.test.tvseries.controller.TvSeriesControllerTest@5754a159, testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@723c5548 testClass = TvSeriesControllerTest, locations = '{}', classes = '{class org.test.tvseries.TvSeriesApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@1ec8294a, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@fd47abfe, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@931d0f63, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3c18ec4d, [ImportsContextCustomizer@3e271a71 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration, org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration, org.springframework.boot.autoconfigure.groovy.template.GroovyTemplateAutoConfiguration, org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration, org.springframework.boot.autoconfigure.hateoas.HypermediaAutoConfiguration, org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration, org.springframework.boot.autoconfigure.mustache.MustacheAutoConfiguration, org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration, org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration, org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration, org.springframework.boot.autoconfigure.web.HttpMessageConvertersAutoConfiguration, org.springframework.boot.autoconfigure.web.ServerPropertiesAutoConfiguration, org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@1f3823da, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@bcb1198, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@2bb8f1b4], resourceBasePath = '', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]]].
+&1|14:54:34.198     14:54:34.196 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+&1|14:54:34.211     14:54:34.197 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+&1|14:54:34.211     14:54:34.199 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+&1|14:54:34.211     14:54:34.202 [Test worker] DEBUG org.springframework.core.env.MutablePropertySources - Adding [inline] PropertySource with highest search precedence
+&1|14:54:34.220     14:54:34.215 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper=true, server.port=-1}
+&1|14:54:34.220     14:54:34.216 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [Inlined Test Properties] PropertySource with highest search precedence
+&1|14:54:34.512 
+&1|14:54:34.512       .   ____          _            __ _ _
+&1|14:54:34.512      /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+&1|14:54:34.512     ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+&1|14:54:34.512      \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+&1|14:54:34.512       '  |____| .__|_| |_|_| |_\__, | / / / /
+&1|14:54:34.512      =========|_|==============|___/=/_/_/_/
+&1|14:54:34.512      :: Spring Boot ::        (v1.5.6.RELEASE)
+&1|14:54:34.512 
+&1|14:54:34.670     2017-08-25 14:54:34.653  INFO 221 --- [    Test worker] o.t.t.controller.TvSeriesControllerTest  : Starting TvSeriesControllerTest on 7d78b502909c with PID 221 (started by go in /godata/pipelines/workshop_pipeline)
+&1|14:54:34.670     2017-08-25 14:54:34.655  INFO 221 --- [    Test worker] o.t.t.controller.TvSeriesControllerTest  : No active profile set, falling back to default profiles: default
+&1|14:54:34.694     2017-08-25 14:54:34.683  INFO 221 --- [    Test worker] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@65ea6bf7: startup date [Fri Aug 25 14:54:34 UTC 2017]; root of context hierarchy
+&1|14:54:36.775     2017-08-25 14:54:36.765  INFO 221 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@65ea6bf7: startup date [Fri Aug 25 14:54:34 UTC 2017]; root of context hierarchy
+&1|14:54:36.862     2017-08-25 14:54:36.858  INFO 221 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test/tvseries],methods=[GET]}" onto public java.lang.Iterable<org.test.tvseries.entity.TvSerie> org.test.tvseries.controller.TvSeriesController.getAllTvSeries()
+&1|14:54:36.862     2017-08-25 14:54:36.860  INFO 221 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test/tvseries/name/{name}],methods=[GET]}" onto public org.test.tvseries.entity.TvSerie org.test.tvseries.controller.TvSeriesController.getByName(java.lang.String)
+&1|14:54:36.873     2017-08-25 14:54:36.861  INFO 221 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+&1|14:54:36.883     2017-08-25 14:54:36.861  INFO 221 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+&1|14:54:36.913     2017-08-25 14:54:36.906  INFO 221 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+&1|14:54:36.914     2017-08-25 14:54:36.907  INFO 221 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+&1|14:54:36.976     2017-08-25 14:54:36.971  INFO 221 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+&1|14:54:37.172     2017-08-25 14:54:37.169  INFO 221 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring FrameworkServlet ''
+&1|14:54:37.172     2017-08-25 14:54:37.169  INFO 221 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+&1|14:54:37.194     2017-08-25 14:54:37.188  INFO 221 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 18 ms
+&1|14:54:37.278     2017-08-25 14:54:37.268  INFO 221 --- [    Test worker] org.test.tvseries.runner.StartupRunner   : Number of tvseries: 0
+&1|14:54:37.279     2017-08-25 14:54:37.270  INFO 221 --- [    Test worker] o.t.t.controller.TvSeriesControllerTest  : Started TvSeriesControllerTest in 3.04 seconds (JVM running for 4.863)
+&1|14:54:37.279 
+&1|14:54:37.279 org.test.tvseries.controller.TvSeriesControllerTest > shouldReturnTvSeriesGivenGetAllTvSeriesRequest STARTED
+&1|14:54:37.535 
+&1|14:54:37.535 org.test.tvseries.controller.TvSeriesControllerTest > shouldReturnTvSeriesGivenGetAllTvSeriesRequest PASSED
+&1|14:54:37.535 
+&1|14:54:37.537 org.test.tvseries.controller.TvSeriesControllerTest > shouldReturnAtvSerieGivenGetByNameRequest STARTED
+&1|14:54:37.556 
+&1|14:54:37.556 org.test.tvseries.controller.TvSeriesControllerTest > shouldReturnAtvSerieGivenGetByNameRequest PASSED
+&1|14:54:37.598 
+&1|14:54:37.598 org.test.tvseries.runner.StartupRunnerTest > shouldInsertAtvSerieData STARTED
+&1|14:54:37.610 
+&1|14:54:37.610 org.test.tvseries.runner.StartupRunnerTest > shouldInsertAtvSerieData PASSED
+&1|14:54:37.610 
+&1|14:54:37.610 org.test.tvseries.runner.StartupRunnerTest > shouldCallInsertDataAtRunMethod STARTED
+&1|14:54:37.630 
+&1|14:54:37.631 org.test.tvseries.runner.StartupRunnerTest > shouldCallInsertDataAtRunMethod STANDARD_OUT
+&1|14:54:37.631     2017-08-25 14:54:37.627  INFO 221 --- [    Test worker] org.test.tvseries.runner.StartupRunner   : Number of tvseries: 0
+&1|14:54:37.631 
+&1|14:54:37.631 org.test.tvseries.runner.StartupRunnerTest > shouldCallInsertDataAtRunMethod PASSED
+&1|14:54:37.631 
+&1|14:54:37.631 org.test.tvseries.runner.StartupRunnerTest > shouldImplementsCommandLineRunner STARTED
+&1|14:54:37.631 
+&1|14:54:37.631 org.test.tvseries.runner.StartupRunnerTest > shouldImplementsCommandLineRunner PASSED
+&1|14:54:37.631 
+&1|14:54:37.631 org.test.tvseries.runner.StartupRunnerTest > shouldLogNumberOfRecordsOfTvSeries STARTED
+&1|14:54:37.631 
+&1|14:54:37.632 org.test.tvseries.runner.StartupRunnerTest > shouldLogNumberOfRecordsOfTvSeries STANDARD_OUT
+&1|14:54:37.632     2017-08-25 14:54:37.628  INFO 221 --- [    Test worker] org.test.tvseries.runner.StartupRunner   : Number of tvseries: 1
+&1|14:54:37.642 
+&1|14:54:37.642 org.test.tvseries.runner.StartupRunnerTest > shouldLogNumberOfRecordsOfTvSeries PASSED
+&1|14:54:37.653 2017-08-25 14:54:37.640  INFO 221 --- [       Thread-5] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@65ea6bf7: startup date [Fri Aug 25 14:54:34 UTC 2017]; root of context hierarchy
+&1|14:54:37.803 
+&1|14:54:37.804 BUILD SUCCESSFUL in 1m 20s
+&1|14:54:37.804 5 actionable tasks: 4 executed, 1 up-to-date
+?0|14:54:38.345 [go] Task status: passed (80788 ms)
+j0|14:54:38.394 [go] Current job status: passed
+##|14:54:38.404 [go] Start to create properties workshop_pipeline/1/Tests/1/unit_tests on 7d78b502909c [/go]
+ar|14:54:38.404 [go] Start to upload workshop_pipeline/1/Tests/1/unit_tests on 7d78b502909c [/go]
+ex|14:54:38.529 [go] Job completed workshop_pipeline/1/Tests/1/unit_tests on 7d78b502909c [/go]

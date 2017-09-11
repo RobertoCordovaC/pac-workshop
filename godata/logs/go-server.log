@@ -1,0 +1,1544 @@
+2017-08-24 23:02:29,488  INFO [main] GoSslSocketConnector:76 - Included ciphers: null
+2017-08-24 23:02:29,489  INFO [main] GoSslSocketConnector:77 - Excluded ciphers: null
+2017-08-24 23:02:29,490  INFO [main] GoSslSocketConnector:78 - Included protocols: null
+2017-08-24 23:02:29,491  INFO [main] GoSslSocketConnector:79 - Excluded protocols: null
+2017-08-24 23:02:29,492  INFO [main] GoSslSocketConnector:80 - Renegotiation Allowed: true
+2017-08-24 23:02:29,607  INFO [main] Jetty9Server:177 - Configuring Jetty using /go-working-dir/config/jetty.xml
+2017-08-24 23:02:29,660  INFO [main] GoServer:97 - Including addons: 
+2017-08-24 23:02:33,819  INFO [main] H2Database:128 - [db] Using connection configuration jdbc:h2:db/h2db/cruise;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;MVCC=FALSE;CACHE_SIZE=131072;TRACE_LEVEL_FILE=1;TRACE_MAX_FILE_SIZE=16;DATABASE_EVENT_LISTENER='com.thoughtworks.go.server.util.H2EventListener' [User: sa]
+2017-08-24 23:02:33,822  INFO [main] H2Database:118 - Creating data source with url=jdbc:h2:db/h2db/cruise;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;MVCC=FALSE;CACHE_SIZE=131072;TRACE_LEVEL_FILE=1;TRACE_MAX_FILE_SIZE=16;DATABASE_EVENT_LISTENER='com.thoughtworks.go.server.util.H2EventListener'
+2017-08-24 23:02:33,826  INFO [main] DbDeployMigration:48 - Upgrading database at org.apache.commons.dbcp.BasicDataSource@58b71ceb. This might take a while depending on the size of the database.
+2017-08-24 23:02:33,909  INFO [main] H2EventListener:30 - Initializing database: jdbc:h2:db/h2db/cruise
+2017-08-24 23:02:34,183  INFO [main] H2EventListener:82 - Creating index SYS:SYS_ID 0%
+2017-08-24 23:02:34,185  INFO [main] H2EventListener:82 - Creating index SYS:SYS_ID 0%
+2017-08-24 23:02:34,285  INFO [main] H2EventListener:34 - Database is opened
+2017-08-24 23:02:34,308  INFO [main] H2EventListener:30 - Initializing database: jdbc:h2:db/h2db/cruise
+2017-08-24 23:02:34,463  INFO [main] H2EventListener:30 - Initializing database: jdbc:h2:db/h2db/cruise
+2017-08-24 23:02:34,506  INFO [main] Migration_86:93 - migrating 0 rows
+2017-08-24 23:02:35,022  INFO [main] DbDeployMigration:63 - Database upgraded
+2017-08-24 23:02:35,023  INFO [main] H2EventListener:77 - Closing database
+2017-08-24 23:02:35,195  INFO [main] H2Database:128 - [db] Using connection configuration jdbc:h2:db/h2db/cruise;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;MVCC=TRUE;CACHE_SIZE=131072;TRACE_LEVEL_FILE=1;TRACE_MAX_FILE_SIZE=16;DATABASE_EVENT_LISTENER='com.thoughtworks.go.server.util.H2EventListener' [User: sa]
+2017-08-24 23:02:35,196  INFO [main] H2Database:118 - Creating data source with url=jdbc:h2:db/h2db/cruise;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;MVCC=TRUE;CACHE_SIZE=131072;TRACE_LEVEL_FILE=1;TRACE_MAX_FILE_SIZE=16;DATABASE_EVENT_LISTENER='com.thoughtworks.go.server.util.H2EventListener'
+2017-08-24 23:02:36,022  INFO [main] H2EventListener:30 - Initializing database: jdbc:h2:db/h2db/cruise
+2017-08-24 23:02:36,110  INFO [main] H2EventListener:82 - Creating index SYS:SYS_ID 0%
+2017-08-24 23:02:36,111  INFO [main] H2EventListener:82 - Creating index SYS:SYS_ID 0%
+2017-08-24 23:02:36,166  INFO [main] H2EventListener:34 - Database is opened
+2017-08-24 23:02:36,248  INFO [main] H2EventListener:30 - Initializing database: jdbc:h2:db/h2db/cruise
+2017-08-24 23:02:36,372  WARN [main] ConfigurationFactory:134 - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/go-working-dir/work/jetty-0.0.0.0-8153-cruise.war-_go-any-/webapp/WEB-INF/lib/ehcache-core-2.0.0.jar!/ehcache-failsafe.xml
+2017-08-24 23:02:36,401  WARN [main] CacheManager:566 - Creating a new instance of CacheManager using the diskStorePath "/tmp" which is already used by an existing CacheManager.
+The source of the configuration was net.sf.ehcache.config.generator.ConfigurationSource$DefaultConfigurationSource@48e8c32a.
+The diskStore path for this CacheManager will be set to /tmp/ehcache_auto_created_1503615756401.
+To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.
+2017-08-24 23:02:36,420  WARN [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.config.EnvironmentVariableConfig]; using defaults.
+2017-08-24 23:02:36,446  INFO [main] CipherProvider:64 - Cipher not found. Creating a new cipher file
+2017-08-24 23:02:36,472  WARN [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.domain.NotificationFilter]; using defaults.
+2017-08-24 23:02:36,540  WARN [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.domain.User]; using defaults.
+2017-08-24 23:02:36,557  WARN [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.domain.Plugin]; using defaults.
+2017-08-24 23:02:36,574  WARN [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.domain.User.notificationFilters]; using defaults.
+2017-08-24 23:02:36,627  WARN [main] EhCacheProvider:93 - Could not find configuration [org.hibernate.cache.UpdateTimestampsCache]; using defaults.
+2017-08-24 23:02:36,629  WARN [main] EhCacheProvider:93 - Could not find configuration [org.hibernate.cache.StandardQueryCache]; using defaults.
+2017-08-24 23:02:36,955  INFO [main] ServerVersion:38 - [Startup] Go Version: 17.8.0 (5277-32ff863cce99f97b76abb1b88469a793e3b1adc5)
+2017-08-24 23:02:36,962  INFO [main] ServerVersion:39 - [Startup] PID: 32
+2017-08-24 23:02:36,963  INFO [main] ServerVersion:40 - [Startup] JVM properties: {jruby.rack.request.size.threshold.bytes=30000000, java.runtime.name=OpenJDK Runtime Environment, java.protocol.handler.pkgs=com.simontuffs, sun.boot.library.path=/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64, java.vm.version=25.131-b11, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=:, java.vm.name=OpenJDK 64-Bit Server VM, file.encoding.pkg=sun.io, sun.java.launcher=SUN_STANDARD, user.country=US, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/go-working-dir, jetty.xml.file.name=jetty.xml, java.runtime.version=1.8.0_131-b11, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, java.endorsed.dirs=/usr/lib/jvm/java-1.8-openjdk/jre/lib/endorsed, os.arch=amd64, java.io.tmpdir=/tmp, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, jruby.ji.objectProxyCache=false, os.name=Linux, cruise.config.dir=/go-working-dir/config, sun.jnu.encoding=UTF-8, java.library.path=/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server:/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64:/usr/lib/jvm/java-1.8-openjdk/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib, java.specification.name=Java Platform API Specification, java.class.version=52.0, jetty.home=/go-working-dir, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=4.9.41-moby, cruise.server.port=8153, user.home=/home/go, user.timezone=GMT, java.awt.printerjob=sun.print.PSPrinterJob, file.encoding=UTF-8, java.specification.version=1.8, java.class.path=/go-server/go.jar, user.name=go, jetty.base=/go-working-dir, cruise.config.file=/go-working-dir/config/cruise-config.xml, jruby.compile.invokedynamic=false, java.vm.specification.version=1.8, sun.java.command=/go-server/go.jar, java.home=/usr/lib/jvm/java-1.8-openjdk/jre, sun.arch.data.model=64, user.language=en, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.awt.X11.XToolkit, java.vm.info=mixed mode, java.version=1.8.0_131, java.ext.dirs=/usr/lib/jvm/java-1.8-openjdk/jre/lib/ext:/usr/java/packages/lib/ext, sun.boot.class.path=/usr/lib/jvm/java-1.8-openjdk/jre/lib/resources.jar:/usr/lib/jvm/java-1.8-openjdk/jre/lib/rt.jar:/usr/lib/jvm/java-1.8-openjdk/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-1.8-openjdk/jre/lib/jsse.jar:/usr/lib/jvm/java-1.8-openjdk/jre/lib/jce.jar:/usr/lib/jvm/java-1.8-openjdk/jre/lib/charsets.jar:/usr/lib/jvm/java-1.8-openjdk/jre/lib/jfr.jar:/usr/lib/jvm/java-1.8-openjdk/jre/classes, java.awt.headless=true, java.vendor=Oracle Corporation, net.sf.ehcache.skipUpdateCheck=true, java.security.egd=file:/dev/./urandom, file.separator=/, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, cruise.server.ssl.port=8154, rails.use.compressed.js=true, sun.cpu.isalist=}
+2017-08-24 23:02:36,964  INFO [main] ServerVersion:41 - [Startup] Environment Variables: {PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin, no_proxy=*.local, 169.254/16, STDOUT_LOG_FILE=/go-working-dir/logs/go-server.out.log, OLDPWD=/, XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt, LANG=en_US.utf8, GO_CONFIG_DIR=/go-working-dir/config, HOSTNAME=349fae42f806, LD_LIBRARY_PATH=/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server:/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64:/usr/lib/jvm/java-1.8-openjdk/jre/../lib/amd64, SERVER_WORK_DIR=/go-working-dir, NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat, PWD=/go-working-dir, HOME=/home/go, SHLVL=0}
+2017-08-24 23:02:43,701  INFO [main] ConfigRepository:225 - Upgrading config file from version 81 to version 94
+2017-08-24 23:02:44,024  WARN [Thread-75] PluginInfoBuilder:55 - Plugin settings configuration and view could not be retrieved. May be because the plugin doesn't have any plugin settings
+java.lang.RuntimeException: Interaction with plugin with id 'cd.go.authentication.ldap' implementing 'authorization' extension failed while requesting for 'go.plugin-settings.get-view'. Reason: [The plugin sent a response that could not be understood by Go. Plugin returned with code '500' and the following response: 'Request go.plugin-settings.get-view is not supported by plugin.']
+	at com.thoughtworks.go.plugin.access.PluginRequestHelper.submitRequest(PluginRequestHelper.java:41)
+	at com.thoughtworks.go.plugin.access.common.AbstractExtension.getPluginSettingsView(AbstractExtension.java:60)
+	at com.thoughtworks.go.plugin.access.common.PluginInfoBuilder.getPluginSettingsAndView(PluginInfoBuilder.java:48)
+	at com.thoughtworks.go.plugin.access.authorization.AuthorizationPluginInfoBuilder.pluginInfoFor(AuthorizationPluginInfoBuilder.java:44)
+	at com.thoughtworks.go.plugin.access.authorization.AuthorizationPluginInfoBuilder.pluginInfoFor(AuthorizationPluginInfoBuilder.java:29)
+	at com.thoughtworks.go.plugin.access.common.MetadataLoader.pluginLoaded(MetadataLoader.java:41)
+	at com.thoughtworks.go.plugin.infra.DefaultPluginManager$FilterChangeListener.pluginLoaded(DefaultPluginManager.java:253)
+	at com.thoughtworks.go.plugin.infra.FelixGoPluginOSGiFramework$2.execute(FelixGoPluginOSGiFramework.java:353)
+	at org.apache.commons.collections.CollectionUtils.forAllDo(CollectionUtils.java:389)
+	at com.thoughtworks.go.plugin.infra.FelixGoPluginOSGiFramework.getBundle(FelixGoPluginOSGiFramework.java:111)
+	at com.thoughtworks.go.plugin.infra.FelixGoPluginOSGiFramework.loadPlugin(FelixGoPluginOSGiFramework.java:97)
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.refreshBundle(DefaultPluginJarChangeListener.java:151)
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.addPlugin(DefaultPluginJarChangeListener.java:108)
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.pluginJarAdded(DefaultPluginJarChangeListener.java:71)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners$1.execute(DefaultPluginJarLocationMonitor.java:275)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners.doOnAllPluginJarChangeListener(DefaultPluginJarLocationMonitor.java:306)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners.pluginJarAdded(DefaultPluginJarLocationMonitor.java:273)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.notifyListenersOfAddedPlugins(DefaultPluginJarLocationMonitor.java:204)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.loadAndNotifyPluginsFrom(DefaultPluginJarLocationMonitor.java:195)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.oneShot(DefaultPluginJarLocationMonitor.java:187)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.run(DefaultPluginJarLocationMonitor.java:176)
+Caused by: java.lang.RuntimeException: The plugin sent a response that could not be understood by Go. Plugin returned with code '500' and the following response: 'Request go.plugin-settings.get-view is not supported by plugin.'
+	at com.thoughtworks.go.plugin.access.PluginRequestHelper.submitRequest(PluginRequestHelper.java:39)
+	... 20 more
+2017-08-24 23:02:44,046 ERROR [Thread-75] PluginSettingsMetadataLoader:77 - Failed to fetch Plugin Settings metadata for plugin : cd.go.authentication.ldap
+java.lang.RuntimeException: Interaction with plugin with id 'cd.go.authentication.ldap' implementing 'authorization' extension failed while requesting for 'go.plugin-settings.get-configuration'. Reason: [The plugin sent a response that could not be understood by Go. Plugin returned with code '500' and the following response: 'Request go.plugin-settings.get-configuration is not supported by plugin.']
+	at com.thoughtworks.go.plugin.access.PluginRequestHelper.submitRequest(PluginRequestHelper.java:41)
+	at com.thoughtworks.go.plugin.access.common.AbstractExtension.getPluginSettingsConfiguration(AbstractExtension.java:51)
+	at com.thoughtworks.go.plugin.access.common.settings.PluginSettingsMetadataLoader.fetchPluginSettingsMetaData(PluginSettingsMetadataLoader.java:67)
+	at com.thoughtworks.go.plugin.access.common.settings.PluginSettingsMetadataLoader.pluginLoaded(PluginSettingsMetadataLoader.java:47)
+	at com.thoughtworks.go.plugin.infra.DefaultPluginManager$FilterChangeListener.pluginLoaded(DefaultPluginManager.java:253)
+	at com.thoughtworks.go.plugin.infra.FelixGoPluginOSGiFramework$2.execute(FelixGoPluginOSGiFramework.java:353)
+	at org.apache.commons.collections.CollectionUtils.forAllDo(CollectionUtils.java:389)
+	at com.thoughtworks.go.plugin.infra.FelixGoPluginOSGiFramework.getBundle(FelixGoPluginOSGiFramework.java:111)
+	at com.thoughtworks.go.plugin.infra.FelixGoPluginOSGiFramework.loadPlugin(FelixGoPluginOSGiFramework.java:97)
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.refreshBundle(DefaultPluginJarChangeListener.java:151)
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.addPlugin(DefaultPluginJarChangeListener.java:108)
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.pluginJarAdded(DefaultPluginJarChangeListener.java:71)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners$1.execute(DefaultPluginJarLocationMonitor.java:275)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners.doOnAllPluginJarChangeListener(DefaultPluginJarLocationMonitor.java:306)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners.pluginJarAdded(DefaultPluginJarLocationMonitor.java:273)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.notifyListenersOfAddedPlugins(DefaultPluginJarLocationMonitor.java:204)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.loadAndNotifyPluginsFrom(DefaultPluginJarLocationMonitor.java:195)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.oneShot(DefaultPluginJarLocationMonitor.java:187)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.run(DefaultPluginJarLocationMonitor.java:176)
+Caused by: java.lang.RuntimeException: The plugin sent a response that could not be understood by Go. Plugin returned with code '500' and the following response: 'Request go.plugin-settings.get-configuration is not supported by plugin.'
+	at com.thoughtworks.go.plugin.access.PluginRequestHelper.submitRequest(PluginRequestHelper.java:39)
+	... 18 more
+2017-08-24 23:02:44,670  INFO [main] ConfigRepository:234 - Finished upgrading config file
+2017-08-24 23:02:44,671  INFO [main] GoConfigMigrator:105 - [Config Save] Starting Config Save post upgrade using FullConfigSaveNormalFlow
+2017-08-24 23:02:44,988 ERROR [main] ConfigRepository:191 - [CONFIG REPOSITORY] Could not fetch latest commit id
+org.eclipse.jgit.api.errors.NoHeadException: No HEAD exists and no explicit starting revision was specified
+	at org.eclipse.jgit.api.LogCommand.call(LogCommand.java:153)
+	at com.thoughtworks.go.service.ConfigRepository.revisions(ConfigRepository.java:137)
+	at com.thoughtworks.go.service.ConfigRepository.getCurrentRevCommit(ConfigRepository.java:189)
+	at com.thoughtworks.go.service.ConfigRepository$3.call(ConfigRepository.java:176)
+	at com.thoughtworks.go.service.ConfigRepository$3.call(ConfigRepository.java:172)
+	at com.thoughtworks.go.service.ConfigRepository.doLocked(ConfigRepository.java:127)
+	at com.thoughtworks.go.service.ConfigRepository.getCurrentRevision(ConfigRepository.java:172)
+	at com.thoughtworks.go.service.ConfigRepository.checkin(ConfigRepository.java:107)
+	at com.thoughtworks.go.config.FullConfigSaveFlow.checkinToConfigRepo(FullConfigSaveFlow.java:92)
+	at com.thoughtworks.go.config.FullConfigSaveNormalFlow.execute(FullConfigSaveNormalFlow.java:66)
+	at com.thoughtworks.go.config.GoConfigMigrator.upgradeConfigFile(GoConfigMigrator.java:109)
+	at com.thoughtworks.go.config.GoConfigMigrator.upgrade(GoConfigMigrator.java:95)
+	at com.thoughtworks.go.config.GoConfigMigrator.migrate(GoConfigMigrator.java:74)
+	at com.thoughtworks.go.config.CachedGoConfig.upgradeConfig(CachedGoConfig.java:143)
+	at com.thoughtworks.go.server.initializers.ApplicationInitializer.onApplicationEvent(ApplicationInitializer.java:106)
+	at com.thoughtworks.go.server.initializers.ApplicationInitializer.onApplicationEvent(ApplicationInitializer.java:49)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:97)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:327)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:941)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:475)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:383)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:283)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:111)
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:800)
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:444)
+	at org.eclipse.jetty.server.handler.ContextHandler.startContext(ContextHandler.java:791)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:294)
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1349)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1342)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:741)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:505)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:132)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:114)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:61)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:132)
+	at org.eclipse.jetty.server.Server.start(Server.java:387)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:114)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:61)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:354)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.thoughtworks.go.server.Jetty9Server.start(Jetty9Server.java:93)
+	at com.thoughtworks.go.server.GoServer.startServer(GoServer.java:71)
+	at com.thoughtworks.go.server.GoServer.go(GoServer.java:63)
+	at com.thoughtworks.go.server.util.GoLauncher.main(GoLauncher.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.simontuffs.onejar.Boot.run(Boot.java:306)
+	at com.simontuffs.onejar.Boot.main(Boot.java:159)
+2017-08-24 23:02:44,990  INFO [main] ConfigRepository:178 - [CONFIG REPOSITORY] Unable retrieve current cruise config revision
+org.eclipse.jgit.api.errors.NoHeadException: No HEAD exists and no explicit starting revision was specified
+	at org.eclipse.jgit.api.LogCommand.call(LogCommand.java:153)
+	at com.thoughtworks.go.service.ConfigRepository.revisions(ConfigRepository.java:137)
+	at com.thoughtworks.go.service.ConfigRepository.getCurrentRevCommit(ConfigRepository.java:189)
+	at com.thoughtworks.go.service.ConfigRepository$3.call(ConfigRepository.java:176)
+	at com.thoughtworks.go.service.ConfigRepository$3.call(ConfigRepository.java:172)
+	at com.thoughtworks.go.service.ConfigRepository.doLocked(ConfigRepository.java:127)
+	at com.thoughtworks.go.service.ConfigRepository.getCurrentRevision(ConfigRepository.java:172)
+	at com.thoughtworks.go.service.ConfigRepository.checkin(ConfigRepository.java:107)
+	at com.thoughtworks.go.config.FullConfigSaveFlow.checkinToConfigRepo(FullConfigSaveFlow.java:92)
+	at com.thoughtworks.go.config.FullConfigSaveNormalFlow.execute(FullConfigSaveNormalFlow.java:66)
+	at com.thoughtworks.go.config.GoConfigMigrator.upgradeConfigFile(GoConfigMigrator.java:109)
+	at com.thoughtworks.go.config.GoConfigMigrator.upgrade(GoConfigMigrator.java:95)
+	at com.thoughtworks.go.config.GoConfigMigrator.migrate(GoConfigMigrator.java:74)
+	at com.thoughtworks.go.config.CachedGoConfig.upgradeConfig(CachedGoConfig.java:143)
+	at com.thoughtworks.go.server.initializers.ApplicationInitializer.onApplicationEvent(ApplicationInitializer.java:106)
+	at com.thoughtworks.go.server.initializers.ApplicationInitializer.onApplicationEvent(ApplicationInitializer.java:49)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:97)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:327)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:941)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:475)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:383)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:283)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:111)
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:800)
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:444)
+	at org.eclipse.jetty.server.handler.ContextHandler.startContext(ContextHandler.java:791)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:294)
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1349)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1342)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:741)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:505)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:132)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:114)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:61)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:132)
+	at org.eclipse.jetty.server.Server.start(Server.java:387)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:114)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:61)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:354)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.thoughtworks.go.server.Jetty9Server.start(Jetty9Server.java:93)
+	at com.thoughtworks.go.server.GoServer.startServer(GoServer.java:71)
+	at com.thoughtworks.go.server.GoServer.go(GoServer.java:63)
+	at com.thoughtworks.go.server.util.GoLauncher.main(GoLauncher.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.simontuffs.onejar.Boot.run(Boot.java:306)
+	at com.simontuffs.onejar.Boot.main(Boot.java:159)
+2017-08-24 23:02:45,206  INFO [main] CachedGoConfig:226 - About to notify config listeners
+2017-08-24 23:02:45,208  INFO [main] CachedGoConfig:234 - Finished notifying all listeners
+2017-08-24 23:02:45,311  INFO [main] BuildAssignmentService:255 - [Configuration Changed] Removing jobs for pipelines that no longer exist in configuration.
+2017-08-24 23:02:45,351  INFO [main] PipelineRepository:85 - Start updating pipeline timeline
+2017-08-24 23:02:45,387  INFO [main] PipelineRepository:91 - Pipeline timeline updated
+2017-08-24 23:02:45,388  INFO [main] PipelineSqlMapDao:98 - Loading active pipelines into memory.
+2017-08-24 23:02:45,388  INFO [main] PipelineSqlMapDao:394 - Retriving Active Pipelines from Database...
+2017-08-24 23:02:45,405  INFO [main] PipelineSqlMapDao:100 - Done loading active pipelines into memory.
+2017-08-24 23:02:45,442 ERROR [Thread-75] PluginSettingsMetadataLoader:77 - Failed to fetch Plugin Settings metadata for plugin : yum
+java.lang.RuntimeException: Interaction with plugin with id 'yum' implementing 'package-repository' extension failed while requesting for 'go.plugin-settings.get-configuration'. Reason: [The plugin sent a response that could not be understood by Go. Plugin returned with code '400' and the following response: 'Invalid request name go.plugin-settings.get-configuration']
+	at com.thoughtworks.go.plugin.access.PluginRequestHelper.submitRequest(PluginRequestHelper.java:41)
+	at com.thoughtworks.go.plugin.access.common.AbstractExtension.getPluginSettingsConfiguration(AbstractExtension.java:51)
+	at com.thoughtworks.go.plugin.access.common.settings.PluginSettingsMetadataLoader.fetchPluginSettingsMetaData(PluginSettingsMetadataLoader.java:67)
+	at com.thoughtworks.go.plugin.access.common.settings.PluginSettingsMetadataLoader.pluginLoaded(PluginSettingsMetadataLoader.java:47)
+	at com.thoughtworks.go.plugin.infra.DefaultPluginManager$FilterChangeListener.pluginLoaded(DefaultPluginManager.java:253)
+	at com.thoughtworks.go.plugin.infra.FelixGoPluginOSGiFramework$2.execute(FelixGoPluginOSGiFramework.java:353)
+	at org.apache.commons.collections.CollectionUtils.forAllDo(CollectionUtils.java:389)
+	at com.thoughtworks.go.plugin.infra.FelixGoPluginOSGiFramework.getBundle(FelixGoPluginOSGiFramework.java:111)
+	at com.thoughtworks.go.plugin.infra.FelixGoPluginOSGiFramework.loadPlugin(FelixGoPluginOSGiFramework.java:97)
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.refreshBundle(DefaultPluginJarChangeListener.java:151)
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.addPlugin(DefaultPluginJarChangeListener.java:108)
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.pluginJarAdded(DefaultPluginJarChangeListener.java:71)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners$1.execute(DefaultPluginJarLocationMonitor.java:275)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners.doOnAllPluginJarChangeListener(DefaultPluginJarLocationMonitor.java:306)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners.pluginJarAdded(DefaultPluginJarLocationMonitor.java:273)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.notifyListenersOfAddedPlugins(DefaultPluginJarLocationMonitor.java:204)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.loadAndNotifyPluginsFrom(DefaultPluginJarLocationMonitor.java:195)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.oneShot(DefaultPluginJarLocationMonitor.java:187)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.run(DefaultPluginJarLocationMonitor.java:176)
+Caused by: java.lang.RuntimeException: The plugin sent a response that could not be understood by Go. Plugin returned with code '400' and the following response: 'Invalid request name go.plugin-settings.get-configuration'
+	at com.thoughtworks.go.plugin.access.PluginRequestHelper.submitRequest(PluginRequestHelper.java:39)
+	... 18 more
+2017-08-24 23:02:45,518  WARN [Thread-75] PluginInfoBuilder:55 - Plugin settings configuration and view could not be retrieved. May be because the plugin doesn't have any plugin settings
+java.lang.RuntimeException: Interaction with plugin with id 'yum' implementing 'package-repository' extension failed while requesting for 'go.plugin-settings.get-view'. Reason: [The plugin sent a response that could not be understood by Go. Plugin returned with code '400' and the following response: 'Invalid request name go.plugin-settings.get-view']
+	at com.thoughtworks.go.plugin.access.PluginRequestHelper.submitRequest(PluginRequestHelper.java:41)
+	at com.thoughtworks.go.plugin.access.common.AbstractExtension.getPluginSettingsView(AbstractExtension.java:60)
+	at com.thoughtworks.go.plugin.access.common.PluginInfoBuilder.getPluginSettingsAndView(PluginInfoBuilder.java:48)
+	at com.thoughtworks.go.plugin.access.packagematerial.PackageMaterialPluginInfoBuilder.pluginInfoFor(PackageMaterialPluginInfoBuilder.java:58)
+	at com.thoughtworks.go.plugin.access.packagematerial.PackageMaterialPluginInfoBuilder.pluginInfoFor(PackageMaterialPluginInfoBuilder.java:38)
+	at com.thoughtworks.go.plugin.access.common.MetadataLoader.pluginLoaded(MetadataLoader.java:41)
+	at com.thoughtworks.go.plugin.infra.DefaultPluginManager$FilterChangeListener.pluginLoaded(DefaultPluginManager.java:253)
+	at com.thoughtworks.go.plugin.infra.FelixGoPluginOSGiFramework$2.execute(FelixGoPluginOSGiFramework.java:353)
+	at org.apache.commons.collections.CollectionUtils.forAllDo(CollectionUtils.java:389)
+	at com.thoughtworks.go.plugin.infra.FelixGoPluginOSGiFramework.getBundle(FelixGoPluginOSGiFramework.java:111)
+	at com.thoughtworks.go.plugin.infra.FelixGoPluginOSGiFramework.loadPlugin(FelixGoPluginOSGiFramework.java:97)
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.refreshBundle(DefaultPluginJarChangeListener.java:151)
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.addPlugin(DefaultPluginJarChangeListener.java:108)
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.pluginJarAdded(DefaultPluginJarChangeListener.java:71)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners$1.execute(DefaultPluginJarLocationMonitor.java:275)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners.doOnAllPluginJarChangeListener(DefaultPluginJarLocationMonitor.java:306)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners.pluginJarAdded(DefaultPluginJarLocationMonitor.java:273)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.notifyListenersOfAddedPlugins(DefaultPluginJarLocationMonitor.java:204)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.loadAndNotifyPluginsFrom(DefaultPluginJarLocationMonitor.java:195)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.oneShot(DefaultPluginJarLocationMonitor.java:187)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.run(DefaultPluginJarLocationMonitor.java:176)
+Caused by: java.lang.RuntimeException: The plugin sent a response that could not be understood by Go. Plugin returned with code '400' and the following response: 'Invalid request name go.plugin-settings.get-view'
+	at com.thoughtworks.go.plugin.access.PluginRequestHelper.submitRequest(PluginRequestHelper.java:39)
+	... 20 more
+2017-08-24 23:02:45,684  WARN [Thread-75] PluginInfoBuilder:55 - Plugin settings configuration and view could not be retrieved. May be because the plugin doesn't have any plugin settings
+java.lang.RuntimeException: Interaction with plugin with id 'cd.go.authentication.passwordfile' implementing 'authorization' extension failed while requesting for 'go.plugin-settings.get-view'. Reason: [The plugin sent a response that could not be understood by Go. Plugin returned with code '500' and the following response: 'Request go.plugin-settings.get-view is not supported by plugin.']
+	at com.thoughtworks.go.plugin.access.PluginRequestHelper.submitRequest(PluginRequestHelper.java:41)
+	at com.thoughtworks.go.plugin.access.common.AbstractExtension.getPluginSettingsView(AbstractExtension.java:60)
+	at com.thoughtworks.go.plugin.access.common.PluginInfoBuilder.getPluginSettingsAndView(PluginInfoBuilder.java:48)
+	at com.thoughtworks.go.plugin.access.authorization.AuthorizationPluginInfoBuilder.pluginInfoFor(AuthorizationPluginInfoBuilder.java:44)
+	at com.thoughtworks.go.plugin.access.authorization.AuthorizationPluginInfoBuilder.pluginInfoFor(AuthorizationPluginInfoBuilder.java:29)
+	at com.thoughtworks.go.plugin.access.common.MetadataLoader.pluginLoaded(MetadataLoader.java:41)
+	at com.thoughtworks.go.plugin.infra.DefaultPluginManager$FilterChangeListener.pluginLoaded(DefaultPluginManager.java:253)
+	at com.thoughtworks.go.plugin.infra.FelixGoPluginOSGiFramework$2.execute(FelixGoPluginOSGiFramework.java:353)
+	at org.apache.commons.collections.CollectionUtils.forAllDo(CollectionUtils.java:389)
+	at com.thoughtworks.go.plugin.infra.FelixGoPluginOSGiFramework.getBundle(FelixGoPluginOSGiFramework.java:111)
+	at com.thoughtworks.go.plugin.infra.FelixGoPluginOSGiFramework.loadPlugin(FelixGoPluginOSGiFramework.java:97)
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.refreshBundle(DefaultPluginJarChangeListener.java:151)
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.addPlugin(DefaultPluginJarChangeListener.java:108)
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.pluginJarAdded(DefaultPluginJarChangeListener.java:71)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners$1.execute(DefaultPluginJarLocationMonitor.java:275)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners.doOnAllPluginJarChangeListener(DefaultPluginJarLocationMonitor.java:306)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners.pluginJarAdded(DefaultPluginJarLocationMonitor.java:273)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.notifyListenersOfAddedPlugins(DefaultPluginJarLocationMonitor.java:204)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.loadAndNotifyPluginsFrom(DefaultPluginJarLocationMonitor.java:195)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.oneShot(DefaultPluginJarLocationMonitor.java:187)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.run(DefaultPluginJarLocationMonitor.java:176)
+Caused by: java.lang.RuntimeException: The plugin sent a response that could not be understood by Go. Plugin returned with code '500' and the following response: 'Request go.plugin-settings.get-view is not supported by plugin.'
+	at com.thoughtworks.go.plugin.access.PluginRequestHelper.submitRequest(PluginRequestHelper.java:39)
+	... 20 more
+2017-08-24 23:02:45,689 ERROR [Thread-75] PluginSettingsMetadataLoader:77 - Failed to fetch Plugin Settings metadata for plugin : cd.go.authentication.passwordfile
+java.lang.RuntimeException: Interaction with plugin with id 'cd.go.authentication.passwordfile' implementing 'authorization' extension failed while requesting for 'go.plugin-settings.get-configuration'. Reason: [The plugin sent a response that could not be understood by Go. Plugin returned with code '500' and the following response: 'Request go.plugin-settings.get-configuration is not supported by plugin.']
+	at com.thoughtworks.go.plugin.access.PluginRequestHelper.submitRequest(PluginRequestHelper.java:41)
+	at com.thoughtworks.go.plugin.access.common.AbstractExtension.getPluginSettingsConfiguration(AbstractExtension.java:51)
+	at com.thoughtworks.go.plugin.access.common.settings.PluginSettingsMetadataLoader.fetchPluginSettingsMetaData(PluginSettingsMetadataLoader.java:67)
+	at com.thoughtworks.go.plugin.access.common.settings.PluginSettingsMetadataLoader.pluginLoaded(PluginSettingsMetadataLoader.java:47)
+	at com.thoughtworks.go.plugin.infra.DefaultPluginManager$FilterChangeListener.pluginLoaded(DefaultPluginManager.java:253)
+	at com.thoughtworks.go.plugin.infra.FelixGoPluginOSGiFramework$2.execute(FelixGoPluginOSGiFramework.java:353)
+	at org.apache.commons.collections.CollectionUtils.forAllDo(CollectionUtils.java:389)
+	at com.thoughtworks.go.plugin.infra.FelixGoPluginOSGiFramework.getBundle(FelixGoPluginOSGiFramework.java:111)
+	at com.thoughtworks.go.plugin.infra.FelixGoPluginOSGiFramework.loadPlugin(FelixGoPluginOSGiFramework.java:97)
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.refreshBundle(DefaultPluginJarChangeListener.java:151)
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.addPlugin(DefaultPluginJarChangeListener.java:108)
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.pluginJarAdded(DefaultPluginJarChangeListener.java:71)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners$1.execute(DefaultPluginJarLocationMonitor.java:275)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners.doOnAllPluginJarChangeListener(DefaultPluginJarLocationMonitor.java:306)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners.pluginJarAdded(DefaultPluginJarLocationMonitor.java:273)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.notifyListenersOfAddedPlugins(DefaultPluginJarLocationMonitor.java:204)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.loadAndNotifyPluginsFrom(DefaultPluginJarLocationMonitor.java:195)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.oneShot(DefaultPluginJarLocationMonitor.java:187)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.run(DefaultPluginJarLocationMonitor.java:176)
+Caused by: java.lang.RuntimeException: The plugin sent a response that could not be understood by Go. Plugin returned with code '500' and the following response: 'Request go.plugin-settings.get-configuration is not supported by plugin.'
+	at com.thoughtworks.go.plugin.access.PluginRequestHelper.submitRequest(PluginRequestHelper.java:39)
+	... 18 more
+2017-08-24 23:02:45,874  WARN [Thread-75] DefaultPluginJarLocationMonitor:308 - Plugin listener failed
+java.lang.RuntimeException: Found bundled plugin with ID: [yaml.config.plugin], external plugin could not be loaded
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.validateIfExternalPluginRemovingBundledPlugin(DefaultPluginJarChangeListener.java:128)
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.pluginJarAdded(DefaultPluginJarChangeListener.java:69)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners$1.execute(DefaultPluginJarLocationMonitor.java:275)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners.doOnAllPluginJarChangeListener(DefaultPluginJarLocationMonitor.java:306)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners.pluginJarAdded(DefaultPluginJarLocationMonitor.java:273)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.notifyListenersOfAddedPlugins(DefaultPluginJarLocationMonitor.java:204)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.loadAndNotifyPluginsFrom(DefaultPluginJarLocationMonitor.java:195)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.oneShot(DefaultPluginJarLocationMonitor.java:188)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.run(DefaultPluginJarLocationMonitor.java:176)
+2017-08-24 23:02:46,215  INFO [main] ConsoleActivityMonitor:67 - Found '0' building jobs. Added them with '2017-08-24T23:02:46.119Z' as the last heard time
+2017-08-24 23:02:46,299  INFO [main] RailsAssetsService:66 - Found rails assets manifest file named .sprockets-manifest-80abb21c3a56f6dab0bbccbedd119684.json 
+2017-08-24 23:02:46,306  INFO [main] RailsAssetsService:70 - Successfully read rails assets manifest file located at /go-working-dir/work/jetty-0.0.0.0-8153-cruise.war-_go-any-/webapp/WEB-INF/rails.new/public/assets/.sprockets-manifest-80abb21c3a56f6dab0bbccbedd119684.json
+2017-08-24 23:03:09,217  INFO [cachedGoConfigRefreshExecutorThread] GoFileConfigDataSource:146 - Config file changed at 1503615762000
+2017-08-24 23:03:09,218  INFO [cachedGoConfigRefreshExecutorThread] GoFileConfigDataSource:147 - Reloading config file: /go-working-dir/config/cruise-config.xml
+2017-08-24 23:03:09,292  INFO [cachedGoConfigRefreshExecutorThread] CachedGoConfig:226 - About to notify config listeners
+2017-08-24 23:03:09,298  INFO [cachedGoConfigRefreshExecutorThread] BuildAssignmentService:255 - [Configuration Changed] Removing jobs for pipelines that no longer exist in configuration.
+2017-08-24 23:03:09,299  INFO [cachedGoConfigRefreshExecutorThread] CachedGoConfig:234 - Finished notifying all listeners
+2017-08-24 23:03:35,070  INFO [qtp277630005-24] ServerVersionInfoManager:71 - [Go Update Check] Starting update check at: Thu Aug 24 23:03:35 GMT 2017
+2017-08-24 23:03:35,762  INFO [qtp277630005-33] ServerVersionInfoManager:86 - [Go Update Check] Update check done at: Thu Aug 24 23:03:35 GMT 2017, latest available version: 17.8.0-5277
+2017-08-24 23:08:14,287  INFO [cachedGoConfigRefreshExecutorThread] GoFileConfigDataSource:146 - Config file changed at 1503616086000
+2017-08-24 23:08:14,287  INFO [cachedGoConfigRefreshExecutorThread] GoFileConfigDataSource:147 - Reloading config file: /go-working-dir/config/cruise-config.xml
+2017-08-24 23:08:14,409  INFO [cachedGoConfigRefreshExecutorThread] CachedGoConfig:226 - About to notify config listeners
+2017-08-24 23:08:14,411  INFO [cachedGoConfigRefreshExecutorThread] BuildAssignmentService:255 - [Configuration Changed] Removing jobs for pipelines that no longer exist in configuration.
+2017-08-24 23:08:14,413  INFO [cachedGoConfigRefreshExecutorThread] CachedGoConfig:234 - Finished notifying all listeners
+2017-08-24 23:08:44,294  INFO [buildAssignmentServiceRefreshExecutorThread] H2EventListener:30 - Initializing database: jdbc:h2:db/h2db/cruise
+2017-08-24 23:08:44,591  WARN [99@MessageListener for MaterialUpdateListener] MaterialDatabaseUpdater:115 - [Material Update] Modification check failed for material: URL: [your-git-repository-url], Branch: master
+java.lang.RuntimeException: Failed to run git clone command STDERR: fatal: repository '[your-git-repository-url]' does not exist
+	at com.thoughtworks.go.util.ExceptionUtils.bomb(ExceptionUtils.java:40)
+	at com.thoughtworks.go.config.materials.git.GitMaterial.getGit(GitMaterial.java:212)
+	at com.thoughtworks.go.config.materials.git.GitMaterial.latestModification(GitMaterial.java:116)
+	at com.thoughtworks.go.server.service.materials.GitPoller.latestModification(GitPoller.java:32)
+	at com.thoughtworks.go.server.service.materials.GitPoller.latestModification(GitPoller.java:28)
+	at com.thoughtworks.go.server.service.MaterialService.latestModification(MaterialService.java:105)
+	at com.thoughtworks.go.server.materials.LegacyMaterialChecker.findLatestModification(LegacyMaterialChecker.java:49)
+	at com.thoughtworks.go.server.materials.ScmMaterialUpdater.insertLatestOrNewModifications(ScmMaterialUpdater.java:54)
+	at com.thoughtworks.go.server.materials.ScmMaterialUpdater.addNewMaterialWithModifications(ScmMaterialUpdater.java:73)
+	at com.thoughtworks.go.server.materials.MaterialDatabaseUpdater.addNewMaterialWithModifications(MaterialDatabaseUpdater.java:166)
+	at com.thoughtworks.go.server.materials.MaterialDatabaseUpdater.initializeMaterialWithLatestRevision(MaterialDatabaseUpdater.java:124)
+	at com.thoughtworks.go.server.materials.MaterialDatabaseUpdater.access$000(MaterialDatabaseUpdater.java:46)
+	at com.thoughtworks.go.server.materials.MaterialDatabaseUpdater$1.doInTransaction(MaterialDatabaseUpdater.java:89)
+	at com.thoughtworks.go.server.transaction.TransactionCallback.doWithExceptionHandling(TransactionCallback.java:24)
+	at com.thoughtworks.go.server.transaction.TransactionTemplate$3.doInTransaction(TransactionTemplate.java:53)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:130)
+	at com.thoughtworks.go.server.transaction.TransactionTemplate.executeWithExceptionHandling(TransactionTemplate.java:49)
+	at com.thoughtworks.go.server.materials.MaterialDatabaseUpdater.updateMaterial(MaterialDatabaseUpdater.java:86)
+	at com.thoughtworks.go.server.materials.MaterialUpdateListener.onMessage(MaterialUpdateListener.java:50)
+	at com.thoughtworks.go.server.materials.MaterialUpdateListener.onMessage(MaterialUpdateListener.java:30)
+	at com.thoughtworks.go.server.messaging.activemq.JMSMessageListenerAdapter.runImpl(JMSMessageListenerAdapter.java:73)
+	at com.thoughtworks.go.server.messaging.activemq.JMSMessageListenerAdapter.run(JMSMessageListenerAdapter.java:53)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.Exception: Failed to run git clone command
+	at com.thoughtworks.go.util.ExceptionUtils.bombIfFailedToRunCommandLine(ExceptionUtils.java:50)
+	at com.thoughtworks.go.config.materials.git.GitMaterial.git(GitMaterial.java:249)
+	at com.thoughtworks.go.config.materials.git.GitMaterial.getGit(GitMaterial.java:210)
+	... 21 more
+2017-08-24 23:08:44,604  WARN [105@MessageListener for ConfigMaterialUpdater] ConfigMaterialUpdater:84 - [Config Material Update] Cannot update configuration part because material update has failed. Reason: Failed to run git clone command STDERR: fatal: repository '[your-git-repository-url]' does not exist. Cause: Failed to run git clone command
+2017-08-24 23:10:14,349  WARN [100@MessageListener for MaterialUpdateListener] MaterialDatabaseUpdater:115 - [Material Update] Modification check failed for material: URL: [your-git-repository-url], Branch: master
+java.lang.RuntimeException: Failed to run git clone command STDERR: fatal: repository '[your-git-repository-url]' does not exist
+	at com.thoughtworks.go.util.ExceptionUtils.bomb(ExceptionUtils.java:40)
+	at com.thoughtworks.go.config.materials.git.GitMaterial.getGit(GitMaterial.java:212)
+	at com.thoughtworks.go.config.materials.git.GitMaterial.latestModification(GitMaterial.java:116)
+	at com.thoughtworks.go.server.service.materials.GitPoller.latestModification(GitPoller.java:32)
+	at com.thoughtworks.go.server.service.materials.GitPoller.latestModification(GitPoller.java:28)
+	at com.thoughtworks.go.server.service.MaterialService.latestModification(MaterialService.java:105)
+	at com.thoughtworks.go.server.materials.LegacyMaterialChecker.findLatestModification(LegacyMaterialChecker.java:49)
+	at com.thoughtworks.go.server.materials.ScmMaterialUpdater.insertLatestOrNewModifications(ScmMaterialUpdater.java:54)
+	at com.thoughtworks.go.server.materials.ScmMaterialUpdater.addNewMaterialWithModifications(ScmMaterialUpdater.java:73)
+	at com.thoughtworks.go.server.materials.MaterialDatabaseUpdater.addNewMaterialWithModifications(MaterialDatabaseUpdater.java:166)
+	at com.thoughtworks.go.server.materials.MaterialDatabaseUpdater.initializeMaterialWithLatestRevision(MaterialDatabaseUpdater.java:124)
+	at com.thoughtworks.go.server.materials.MaterialDatabaseUpdater.access$000(MaterialDatabaseUpdater.java:46)
+	at com.thoughtworks.go.server.materials.MaterialDatabaseUpdater$1.doInTransaction(MaterialDatabaseUpdater.java:89)
+	at com.thoughtworks.go.server.transaction.TransactionCallback.doWithExceptionHandling(TransactionCallback.java:24)
+	at com.thoughtworks.go.server.transaction.TransactionTemplate$3.doInTransaction(TransactionTemplate.java:53)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:130)
+	at com.thoughtworks.go.server.transaction.TransactionTemplate.executeWithExceptionHandling(TransactionTemplate.java:49)
+	at com.thoughtworks.go.server.materials.MaterialDatabaseUpdater.updateMaterial(MaterialDatabaseUpdater.java:86)
+	at com.thoughtworks.go.server.materials.MaterialUpdateListener.onMessage(MaterialUpdateListener.java:50)
+	at com.thoughtworks.go.server.materials.MaterialUpdateListener.onMessage(MaterialUpdateListener.java:30)
+	at com.thoughtworks.go.server.messaging.activemq.JMSMessageListenerAdapter.runImpl(JMSMessageListenerAdapter.java:73)
+	at com.thoughtworks.go.server.messaging.activemq.JMSMessageListenerAdapter.run(JMSMessageListenerAdapter.java:53)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.Exception: Failed to run git clone command
+	at com.thoughtworks.go.util.ExceptionUtils.bombIfFailedToRunCommandLine(ExceptionUtils.java:50)
+	at com.thoughtworks.go.config.materials.git.GitMaterial.git(GitMaterial.java:249)
+	at com.thoughtworks.go.config.materials.git.GitMaterial.getGit(GitMaterial.java:210)
+	... 21 more
+2017-08-24 23:10:14,358  WARN [105@MessageListener for ConfigMaterialUpdater] ConfigMaterialUpdater:84 - [Config Material Update] Cannot update configuration part because material update has failed. Reason: Failed to run git clone command STDERR: fatal: repository '[your-git-repository-url]' does not exist. Cause: Failed to run git clone command
+2017-08-24 23:11:44,339  WARN [99@MessageListener for MaterialUpdateListener] MaterialDatabaseUpdater:115 - [Material Update] Modification check failed for material: URL: [your-git-repository-url], Branch: master
+java.lang.RuntimeException: Failed to run git clone command STDERR: fatal: repository '[your-git-repository-url]' does not exist
+	at com.thoughtworks.go.util.ExceptionUtils.bomb(ExceptionUtils.java:40)
+	at com.thoughtworks.go.config.materials.git.GitMaterial.getGit(GitMaterial.java:212)
+	at com.thoughtworks.go.config.materials.git.GitMaterial.latestModification(GitMaterial.java:116)
+	at com.thoughtworks.go.server.service.materials.GitPoller.latestModification(GitPoller.java:32)
+	at com.thoughtworks.go.server.service.materials.GitPoller.latestModification(GitPoller.java:28)
+	at com.thoughtworks.go.server.service.MaterialService.latestModification(MaterialService.java:105)
+	at com.thoughtworks.go.server.materials.LegacyMaterialChecker.findLatestModification(LegacyMaterialChecker.java:49)
+	at com.thoughtworks.go.server.materials.ScmMaterialUpdater.insertLatestOrNewModifications(ScmMaterialUpdater.java:54)
+	at com.thoughtworks.go.server.materials.ScmMaterialUpdater.addNewMaterialWithModifications(ScmMaterialUpdater.java:73)
+	at com.thoughtworks.go.server.materials.MaterialDatabaseUpdater.addNewMaterialWithModifications(MaterialDatabaseUpdater.java:166)
+	at com.thoughtworks.go.server.materials.MaterialDatabaseUpdater.initializeMaterialWithLatestRevision(MaterialDatabaseUpdater.java:124)
+	at com.thoughtworks.go.server.materials.MaterialDatabaseUpdater.access$000(MaterialDatabaseUpdater.java:46)
+	at com.thoughtworks.go.server.materials.MaterialDatabaseUpdater$1.doInTransaction(MaterialDatabaseUpdater.java:89)
+	at com.thoughtworks.go.server.transaction.TransactionCallback.doWithExceptionHandling(TransactionCallback.java:24)
+	at com.thoughtworks.go.server.transaction.TransactionTemplate$3.doInTransaction(TransactionTemplate.java:53)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:130)
+	at com.thoughtworks.go.server.transaction.TransactionTemplate.executeWithExceptionHandling(TransactionTemplate.java:49)
+	at com.thoughtworks.go.server.materials.MaterialDatabaseUpdater.updateMaterial(MaterialDatabaseUpdater.java:86)
+	at com.thoughtworks.go.server.materials.MaterialUpdateListener.onMessage(MaterialUpdateListener.java:50)
+	at com.thoughtworks.go.server.materials.MaterialUpdateListener.onMessage(MaterialUpdateListener.java:30)
+	at com.thoughtworks.go.server.messaging.activemq.JMSMessageListenerAdapter.runImpl(JMSMessageListenerAdapter.java:73)
+	at com.thoughtworks.go.server.messaging.activemq.JMSMessageListenerAdapter.run(JMSMessageListenerAdapter.java:53)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.Exception: Failed to run git clone command
+	at com.thoughtworks.go.util.ExceptionUtils.bombIfFailedToRunCommandLine(ExceptionUtils.java:50)
+	at com.thoughtworks.go.config.materials.git.GitMaterial.git(GitMaterial.java:249)
+	at com.thoughtworks.go.config.materials.git.GitMaterial.getGit(GitMaterial.java:210)
+	... 21 more
+2017-08-24 23:11:44,345  WARN [105@MessageListener for ConfigMaterialUpdater] ConfigMaterialUpdater:84 - [Config Material Update] Cannot update configuration part because material update has failed. Reason: Failed to run git clone command STDERR: fatal: repository '[your-git-repository-url]' does not exist. Cause: Failed to run git clone command
+2017-08-24 23:13:14,347  WARN [100@MessageListener for MaterialUpdateListener] MaterialDatabaseUpdater:115 - [Material Update] Modification check failed for material: URL: [your-git-repository-url], Branch: master
+java.lang.RuntimeException: Failed to run git clone command STDERR: fatal: repository '[your-git-repository-url]' does not exist
+	at com.thoughtworks.go.util.ExceptionUtils.bomb(ExceptionUtils.java:40)
+	at com.thoughtworks.go.config.materials.git.GitMaterial.getGit(GitMaterial.java:212)
+	at com.thoughtworks.go.config.materials.git.GitMaterial.latestModification(GitMaterial.java:116)
+	at com.thoughtworks.go.server.service.materials.GitPoller.latestModification(GitPoller.java:32)
+	at com.thoughtworks.go.server.service.materials.GitPoller.latestModification(GitPoller.java:28)
+	at com.thoughtworks.go.server.service.MaterialService.latestModification(MaterialService.java:105)
+	at com.thoughtworks.go.server.materials.LegacyMaterialChecker.findLatestModification(LegacyMaterialChecker.java:49)
+	at com.thoughtworks.go.server.materials.ScmMaterialUpdater.insertLatestOrNewModifications(ScmMaterialUpdater.java:54)
+	at com.thoughtworks.go.server.materials.ScmMaterialUpdater.addNewMaterialWithModifications(ScmMaterialUpdater.java:73)
+	at com.thoughtworks.go.server.materials.MaterialDatabaseUpdater.addNewMaterialWithModifications(MaterialDatabaseUpdater.java:166)
+	at com.thoughtworks.go.server.materials.MaterialDatabaseUpdater.initializeMaterialWithLatestRevision(MaterialDatabaseUpdater.java:124)
+	at com.thoughtworks.go.server.materials.MaterialDatabaseUpdater.access$000(MaterialDatabaseUpdater.java:46)
+	at com.thoughtworks.go.server.materials.MaterialDatabaseUpdater$1.doInTransaction(MaterialDatabaseUpdater.java:89)
+	at com.thoughtworks.go.server.transaction.TransactionCallback.doWithExceptionHandling(TransactionCallback.java:24)
+	at com.thoughtworks.go.server.transaction.TransactionTemplate$3.doInTransaction(TransactionTemplate.java:53)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:130)
+	at com.thoughtworks.go.server.transaction.TransactionTemplate.executeWithExceptionHandling(TransactionTemplate.java:49)
+	at com.thoughtworks.go.server.materials.MaterialDatabaseUpdater.updateMaterial(MaterialDatabaseUpdater.java:86)
+	at com.thoughtworks.go.server.materials.MaterialUpdateListener.onMessage(MaterialUpdateListener.java:50)
+	at com.thoughtworks.go.server.materials.MaterialUpdateListener.onMessage(MaterialUpdateListener.java:30)
+	at com.thoughtworks.go.server.messaging.activemq.JMSMessageListenerAdapter.runImpl(JMSMessageListenerAdapter.java:73)
+	at com.thoughtworks.go.server.messaging.activemq.JMSMessageListenerAdapter.run(JMSMessageListenerAdapter.java:53)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.Exception: Failed to run git clone command
+	at com.thoughtworks.go.util.ExceptionUtils.bombIfFailedToRunCommandLine(ExceptionUtils.java:50)
+	at com.thoughtworks.go.config.materials.git.GitMaterial.git(GitMaterial.java:249)
+	at com.thoughtworks.go.config.materials.git.GitMaterial.getGit(GitMaterial.java:210)
+	... 21 more
+2017-08-24 23:13:14,352  WARN [105@MessageListener for ConfigMaterialUpdater] ConfigMaterialUpdater:84 - [Config Material Update] Cannot update configuration part because material update has failed. Reason: Failed to run git clone command STDERR: fatal: repository '[your-git-repository-url]' does not exist. Cause: Failed to run git clone command
+2017-08-24 23:14:44,357  WARN [99@MessageListener for MaterialUpdateListener] MaterialDatabaseUpdater:115 - [Material Update] Modification check failed for material: URL: [your-git-repository-url], Branch: master
+java.lang.RuntimeException: Failed to run git clone command STDERR: fatal: repository '[your-git-repository-url]' does not exist
+	at com.thoughtworks.go.util.ExceptionUtils.bomb(ExceptionUtils.java:40)
+	at com.thoughtworks.go.config.materials.git.GitMaterial.getGit(GitMaterial.java:212)
+	at com.thoughtworks.go.config.materials.git.GitMaterial.latestModification(GitMaterial.java:116)
+	at com.thoughtworks.go.server.service.materials.GitPoller.latestModification(GitPoller.java:32)
+	at com.thoughtworks.go.server.service.materials.GitPoller.latestModification(GitPoller.java:28)
+	at com.thoughtworks.go.server.service.MaterialService.latestModification(MaterialService.java:105)
+	at com.thoughtworks.go.server.materials.LegacyMaterialChecker.findLatestModification(LegacyMaterialChecker.java:49)
+	at com.thoughtworks.go.server.materials.ScmMaterialUpdater.insertLatestOrNewModifications(ScmMaterialUpdater.java:54)
+	at com.thoughtworks.go.server.materials.ScmMaterialUpdater.addNewMaterialWithModifications(ScmMaterialUpdater.java:73)
+	at com.thoughtworks.go.server.materials.MaterialDatabaseUpdater.addNewMaterialWithModifications(MaterialDatabaseUpdater.java:166)
+	at com.thoughtworks.go.server.materials.MaterialDatabaseUpdater.initializeMaterialWithLatestRevision(MaterialDatabaseUpdater.java:124)
+	at com.thoughtworks.go.server.materials.MaterialDatabaseUpdater.access$000(MaterialDatabaseUpdater.java:46)
+	at com.thoughtworks.go.server.materials.MaterialDatabaseUpdater$1.doInTransaction(MaterialDatabaseUpdater.java:89)
+	at com.thoughtworks.go.server.transaction.TransactionCallback.doWithExceptionHandling(TransactionCallback.java:24)
+	at com.thoughtworks.go.server.transaction.TransactionTemplate$3.doInTransaction(TransactionTemplate.java:53)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:130)
+	at com.thoughtworks.go.server.transaction.TransactionTemplate.executeWithExceptionHandling(TransactionTemplate.java:49)
+	at com.thoughtworks.go.server.materials.MaterialDatabaseUpdater.updateMaterial(MaterialDatabaseUpdater.java:86)
+	at com.thoughtworks.go.server.materials.MaterialUpdateListener.onMessage(MaterialUpdateListener.java:50)
+	at com.thoughtworks.go.server.materials.MaterialUpdateListener.onMessage(MaterialUpdateListener.java:30)
+	at com.thoughtworks.go.server.messaging.activemq.JMSMessageListenerAdapter.runImpl(JMSMessageListenerAdapter.java:73)
+	at com.thoughtworks.go.server.messaging.activemq.JMSMessageListenerAdapter.run(JMSMessageListenerAdapter.java:53)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.Exception: Failed to run git clone command
+	at com.thoughtworks.go.util.ExceptionUtils.bombIfFailedToRunCommandLine(ExceptionUtils.java:50)
+	at com.thoughtworks.go.config.materials.git.GitMaterial.git(GitMaterial.java:249)
+	at com.thoughtworks.go.config.materials.git.GitMaterial.getGit(GitMaterial.java:210)
+	... 21 more
+2017-08-24 23:14:44,361  WARN [105@MessageListener for ConfigMaterialUpdater] ConfigMaterialUpdater:84 - [Config Material Update] Cannot update configuration part because material update has failed. Reason: Failed to run git clone command STDERR: fatal: repository '[your-git-repository-url]' does not exist. Cause: Failed to run git clone command
+2017-08-24 23:16:14,358  WARN [100@MessageListener for MaterialUpdateListener] MaterialDatabaseUpdater:115 - [Material Update] Modification check failed for material: URL: [your-git-repository-url], Branch: master
+java.lang.RuntimeException: Failed to run git clone command STDERR: fatal: repository '[your-git-repository-url]' does not exist
+	at com.thoughtworks.go.util.ExceptionUtils.bomb(ExceptionUtils.java:40)
+	at com.thoughtworks.go.config.materials.git.GitMaterial.getGit(GitMaterial.java:212)
+	at com.thoughtworks.go.config.materials.git.GitMaterial.latestModification(GitMaterial.java:116)
+	at com.thoughtworks.go.server.service.materials.GitPoller.latestModification(GitPoller.java:32)
+	at com.thoughtworks.go.server.service.materials.GitPoller.latestModification(GitPoller.java:28)
+	at com.thoughtworks.go.server.service.MaterialService.latestModification(MaterialService.java:105)
+	at com.thoughtworks.go.server.materials.LegacyMaterialChecker.findLatestModification(LegacyMaterialChecker.java:49)
+	at com.thoughtworks.go.server.materials.ScmMaterialUpdater.insertLatestOrNewModifications(ScmMaterialUpdater.java:54)
+	at com.thoughtworks.go.server.materials.ScmMaterialUpdater.addNewMaterialWithModifications(ScmMaterialUpdater.java:73)
+	at com.thoughtworks.go.server.materials.MaterialDatabaseUpdater.addNewMaterialWithModifications(MaterialDatabaseUpdater.java:166)
+	at com.thoughtworks.go.server.materials.MaterialDatabaseUpdater.initializeMaterialWithLatestRevision(MaterialDatabaseUpdater.java:124)
+	at com.thoughtworks.go.server.materials.MaterialDatabaseUpdater.access$000(MaterialDatabaseUpdater.java:46)
+	at com.thoughtworks.go.server.materials.MaterialDatabaseUpdater$1.doInTransaction(MaterialDatabaseUpdater.java:89)
+	at com.thoughtworks.go.server.transaction.TransactionCallback.doWithExceptionHandling(TransactionCallback.java:24)
+	at com.thoughtworks.go.server.transaction.TransactionTemplate$3.doInTransaction(TransactionTemplate.java:53)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:130)
+	at com.thoughtworks.go.server.transaction.TransactionTemplate.executeWithExceptionHandling(TransactionTemplate.java:49)
+	at com.thoughtworks.go.server.materials.MaterialDatabaseUpdater.updateMaterial(MaterialDatabaseUpdater.java:86)
+	at com.thoughtworks.go.server.materials.MaterialUpdateListener.onMessage(MaterialUpdateListener.java:50)
+	at com.thoughtworks.go.server.materials.MaterialUpdateListener.onMessage(MaterialUpdateListener.java:30)
+	at com.thoughtworks.go.server.messaging.activemq.JMSMessageListenerAdapter.runImpl(JMSMessageListenerAdapter.java:73)
+	at com.thoughtworks.go.server.messaging.activemq.JMSMessageListenerAdapter.run(JMSMessageListenerAdapter.java:53)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.Exception: Failed to run git clone command
+	at com.thoughtworks.go.util.ExceptionUtils.bombIfFailedToRunCommandLine(ExceptionUtils.java:50)
+	at com.thoughtworks.go.config.materials.git.GitMaterial.git(GitMaterial.java:249)
+	at com.thoughtworks.go.config.materials.git.GitMaterial.getGit(GitMaterial.java:210)
+	... 21 more
+2017-08-24 23:16:14,363  WARN [105@MessageListener for ConfigMaterialUpdater] ConfigMaterialUpdater:84 - [Config Material Update] Cannot update configuration part because material update has failed. Reason: Failed to run git clone command STDERR: fatal: repository '[your-git-repository-url]' does not exist. Cause: Failed to run git clone command
+2017-08-24 23:17:44,366  WARN [99@MessageListener for MaterialUpdateListener] MaterialDatabaseUpdater:115 - [Material Update] Modification check failed for material: URL: [your-git-repository-url], Branch: master
+java.lang.RuntimeException: Failed to run git clone command STDERR: fatal: repository '[your-git-repository-url]' does not exist
+	at com.thoughtworks.go.util.ExceptionUtils.bomb(ExceptionUtils.java:40)
+	at com.thoughtworks.go.config.materials.git.GitMaterial.getGit(GitMaterial.java:212)
+	at com.thoughtworks.go.config.materials.git.GitMaterial.latestModification(GitMaterial.java:116)
+	at com.thoughtworks.go.server.service.materials.GitPoller.latestModification(GitPoller.java:32)
+	at com.thoughtworks.go.server.service.materials.GitPoller.latestModification(GitPoller.java:28)
+	at com.thoughtworks.go.server.service.MaterialService.latestModification(MaterialService.java:105)
+	at com.thoughtworks.go.server.materials.LegacyMaterialChecker.findLatestModification(LegacyMaterialChecker.java:49)
+	at com.thoughtworks.go.server.materials.ScmMaterialUpdater.insertLatestOrNewModifications(ScmMaterialUpdater.java:54)
+	at com.thoughtworks.go.server.materials.ScmMaterialUpdater.addNewMaterialWithModifications(ScmMaterialUpdater.java:73)
+	at com.thoughtworks.go.server.materials.MaterialDatabaseUpdater.addNewMaterialWithModifications(MaterialDatabaseUpdater.java:166)
+	at com.thoughtworks.go.server.materials.MaterialDatabaseUpdater.initializeMaterialWithLatestRevision(MaterialDatabaseUpdater.java:124)
+	at com.thoughtworks.go.server.materials.MaterialDatabaseUpdater.access$000(MaterialDatabaseUpdater.java:46)
+	at com.thoughtworks.go.server.materials.MaterialDatabaseUpdater$1.doInTransaction(MaterialDatabaseUpdater.java:89)
+	at com.thoughtworks.go.server.transaction.TransactionCallback.doWithExceptionHandling(TransactionCallback.java:24)
+	at com.thoughtworks.go.server.transaction.TransactionTemplate$3.doInTransaction(TransactionTemplate.java:53)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:130)
+	at com.thoughtworks.go.server.transaction.TransactionTemplate.executeWithExceptionHandling(TransactionTemplate.java:49)
+	at com.thoughtworks.go.server.materials.MaterialDatabaseUpdater.updateMaterial(MaterialDatabaseUpdater.java:86)
+	at com.thoughtworks.go.server.materials.MaterialUpdateListener.onMessage(MaterialUpdateListener.java:50)
+	at com.thoughtworks.go.server.materials.MaterialUpdateListener.onMessage(MaterialUpdateListener.java:30)
+	at com.thoughtworks.go.server.messaging.activemq.JMSMessageListenerAdapter.runImpl(JMSMessageListenerAdapter.java:73)
+	at com.thoughtworks.go.server.messaging.activemq.JMSMessageListenerAdapter.run(JMSMessageListenerAdapter.java:53)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.Exception: Failed to run git clone command
+	at com.thoughtworks.go.util.ExceptionUtils.bombIfFailedToRunCommandLine(ExceptionUtils.java:50)
+	at com.thoughtworks.go.config.materials.git.GitMaterial.git(GitMaterial.java:249)
+	at com.thoughtworks.go.config.materials.git.GitMaterial.getGit(GitMaterial.java:210)
+	... 21 more
+2017-08-24 23:17:44,371  WARN [105@MessageListener for ConfigMaterialUpdater] ConfigMaterialUpdater:84 - [Config Material Update] Cannot update configuration part because material update has failed. Reason: Failed to run git clone command STDERR: fatal: repository '[your-git-repository-url]' does not exist. Cause: Failed to run git clone command
+2017-08-24 23:19:14,376  WARN [100@MessageListener for MaterialUpdateListener] MaterialDatabaseUpdater:115 - [Material Update] Modification check failed for material: URL: [your-git-repository-url], Branch: master
+java.lang.RuntimeException: Failed to run git clone command STDERR: fatal: repository '[your-git-repository-url]' does not exist
+	at com.thoughtworks.go.util.ExceptionUtils.bomb(ExceptionUtils.java:40)
+	at com.thoughtworks.go.config.materials.git.GitMaterial.getGit(GitMaterial.java:212)
+	at com.thoughtworks.go.config.materials.git.GitMaterial.latestModification(GitMaterial.java:116)
+	at com.thoughtworks.go.server.service.materials.GitPoller.latestModification(GitPoller.java:32)
+	at com.thoughtworks.go.server.service.materials.GitPoller.latestModification(GitPoller.java:28)
+	at com.thoughtworks.go.server.service.MaterialService.latestModification(MaterialService.java:105)
+	at com.thoughtworks.go.server.materials.LegacyMaterialChecker.findLatestModification(LegacyMaterialChecker.java:49)
+	at com.thoughtworks.go.server.materials.ScmMaterialUpdater.insertLatestOrNewModifications(ScmMaterialUpdater.java:54)
+	at com.thoughtworks.go.server.materials.ScmMaterialUpdater.addNewMaterialWithModifications(ScmMaterialUpdater.java:73)
+	at com.thoughtworks.go.server.materials.MaterialDatabaseUpdater.addNewMaterialWithModifications(MaterialDatabaseUpdater.java:166)
+	at com.thoughtworks.go.server.materials.MaterialDatabaseUpdater.initializeMaterialWithLatestRevision(MaterialDatabaseUpdater.java:124)
+	at com.thoughtworks.go.server.materials.MaterialDatabaseUpdater.access$000(MaterialDatabaseUpdater.java:46)
+	at com.thoughtworks.go.server.materials.MaterialDatabaseUpdater$1.doInTransaction(MaterialDatabaseUpdater.java:89)
+	at com.thoughtworks.go.server.transaction.TransactionCallback.doWithExceptionHandling(TransactionCallback.java:24)
+	at com.thoughtworks.go.server.transaction.TransactionTemplate$3.doInTransaction(TransactionTemplate.java:53)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:130)
+	at com.thoughtworks.go.server.transaction.TransactionTemplate.executeWithExceptionHandling(TransactionTemplate.java:49)
+	at com.thoughtworks.go.server.materials.MaterialDatabaseUpdater.updateMaterial(MaterialDatabaseUpdater.java:86)
+	at com.thoughtworks.go.server.materials.MaterialUpdateListener.onMessage(MaterialUpdateListener.java:50)
+	at com.thoughtworks.go.server.materials.MaterialUpdateListener.onMessage(MaterialUpdateListener.java:30)
+	at com.thoughtworks.go.server.messaging.activemq.JMSMessageListenerAdapter.runImpl(JMSMessageListenerAdapter.java:73)
+	at com.thoughtworks.go.server.messaging.activemq.JMSMessageListenerAdapter.run(JMSMessageListenerAdapter.java:53)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.Exception: Failed to run git clone command
+	at com.thoughtworks.go.util.ExceptionUtils.bombIfFailedToRunCommandLine(ExceptionUtils.java:50)
+	at com.thoughtworks.go.config.materials.git.GitMaterial.git(GitMaterial.java:249)
+	at com.thoughtworks.go.config.materials.git.GitMaterial.getGit(GitMaterial.java:210)
+	... 21 more
+2017-08-24 23:19:14,379  WARN [105@MessageListener for ConfigMaterialUpdater] ConfigMaterialUpdater:84 - [Config Material Update] Cannot update configuration part because material update has failed. Reason: Failed to run git clone command STDERR: fatal: repository '[your-git-repository-url]' does not exist. Cause: Failed to run git clone command
+2017-08-24 23:20:34,513  INFO [cachedGoConfigRefreshExecutorThread] GoFileConfigDataSource:146 - Config file changed at 1503616828000
+2017-08-24 23:20:34,513  INFO [cachedGoConfigRefreshExecutorThread] GoFileConfigDataSource:147 - Reloading config file: /go-working-dir/config/cruise-config.xml
+2017-08-24 23:20:34,609  INFO [cachedGoConfigRefreshExecutorThread] CachedGoConfig:226 - About to notify config listeners
+2017-08-24 23:20:34,611  INFO [cachedGoConfigRefreshExecutorThread] BuildAssignmentService:255 - [Configuration Changed] Removing jobs for pipelines that no longer exist in configuration.
+2017-08-24 23:20:34,611  INFO [cachedGoConfigRefreshExecutorThread] CachedGoConfig:234 - Finished notifying all listeners
+2017-08-24 23:20:45,580  INFO [99@MessageListener for MaterialUpdateListener] ScmMaterialUpdater:63 - [Material Update] Found '1' modifications for material 'GitMaterial{url=https://github.com/RobertoCordovaC/pac-workshop.git, branch='master', submoduleFolder='null', shallowClone=false}' with flyweight '284bea11768fc3e54233ef34f7765d37d640de31dbb2d7ea5fa084bb29ed7bab' using working directory '/go-working-dir/pipelines/flyweight/84652b0a-cd41-47c0-8651-04fec36e28a9'
+2017-08-24 23:20:46,518 ERROR [105@MessageListener for ConfigMaterialUpdater] GoRepoConfigDataSource:158 - Failed to parse configuration material https://github.com/RobertoCordovaC/pac-workshop.git by Plugin yaml.config.plugin
+java.lang.RuntimeException: Interaction with plugin with id 'yaml.config.plugin' implementing 'configrepo' extension failed while requesting for 'parse-directory'. Reason: [The plugin sent a response that could not be understood by Go. Plugin returned with code '500' and the following response: '{"target_version":1,"environments":[],"pipelines":[],"errors":[{"location":"YAML config plugin","message":"java.lang.NullPointerException"}]}']
+	at com.thoughtworks.go.plugin.access.PluginRequestHelper.submitRequest(PluginRequestHelper.java:41)
+	at com.thoughtworks.go.plugin.access.configrepo.ConfigRepoExtension.parseDirectory(ConfigRepoExtension.java:55)
+	at com.thoughtworks.go.config.ConfigRepoPlugin.parseDirectory(ConfigRepoPlugin.java:56)
+	at com.thoughtworks.go.config.ConfigRepoPlugin.load(ConfigRepoPlugin.java:46)
+	at com.thoughtworks.go.config.GoRepoConfigDataSource.onCheckoutComplete(GoRepoConfigDataSource.java:142)
+	at com.thoughtworks.go.server.materials.ConfigMaterialUpdater.updateConfigurationFromCheckout(ConfigMaterialUpdater.java:115)
+	at com.thoughtworks.go.server.materials.ConfigMaterialUpdater.onMessage(ConfigMaterialUpdater.java:95)
+	at com.thoughtworks.go.server.materials.ConfigMaterialUpdater.onMessage(ConfigMaterialUpdater.java:39)
+	at com.thoughtworks.go.server.messaging.activemq.JMSMessageListenerAdapter.runImpl(JMSMessageListenerAdapter.java:73)
+	at com.thoughtworks.go.server.messaging.activemq.JMSMessageListenerAdapter.run(JMSMessageListenerAdapter.java:53)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.RuntimeException: The plugin sent a response that could not be understood by Go. Plugin returned with code '500' and the following response: '{"target_version":1,"environments":[],"pipelines":[],"errors":[{"location":"YAML config plugin","message":"java.lang.NullPointerException"}]}'
+	at com.thoughtworks.go.plugin.access.PluginRequestHelper.submitRequest(PluginRequestHelper.java:39)
+	... 10 more
+2017-08-24 23:21:29,700  WARN [qtp277630005-29] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:21:40,112  WARN [qtp277630005-31] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:21:51,076  WARN [qtp277630005-22] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:22:01,177  WARN [qtp277630005-29] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:22:17,725  WARN [qtp277630005-27] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:22:24,638  WARN [qtp277630005-21] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:22:32,998  WARN [qtp277630005-24] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:22:43,072  WARN [qtp277630005-21] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:23:00,801  WARN [qtp277630005-29] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:23:09,311  WARN [qtp277630005-25] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:23:19,580  WARN [qtp277630005-25] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:23:29,582  WARN [qtp277630005-22] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:23:39,589  WARN [qtp277630005-25] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:23:49,597  WARN [qtp277630005-22] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:23:59,605  WARN [qtp277630005-25] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:24:09,615  WARN [qtp277630005-32] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:24:24,905  WARN [qtp277630005-30] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:24:34,982  WARN [qtp277630005-33] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:24:49,881  WARN [qtp277630005-20] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:24:59,973  WARN [qtp277630005-27] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:25:10,047  WARN [qtp277630005-21] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:25:20,131  WARN [qtp277630005-22] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:25:30,199  WARN [qtp277630005-31] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:25:40,272  WARN [qtp277630005-28] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:25:59,933  WARN [qtp277630005-29] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:26:10,045  WARN [qtp277630005-31] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:26:20,130  WARN [qtp277630005-32] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:26:30,960  WARN [qtp277630005-26] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:26:41,035  WARN [qtp277630005-21] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:26:51,113  WARN [qtp277630005-27] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:27:01,182  WARN [qtp277630005-20] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:27:11,254  WARN [qtp277630005-24] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:27:21,327  WARN [qtp277630005-20] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:27:31,401  WARN [qtp277630005-27] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:27:41,471  WARN [qtp277630005-33] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:27:50,010  WARN [qtp277630005-22] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:28:00,082  WARN [qtp277630005-33] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:28:12,105  WARN [qtp277630005-20] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:28:22,177  WARN [qtp277630005-30] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:28:30,039  WARN [qtp277630005-32] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:28:40,047  WARN [qtp277630005-24] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:28:50,120  WARN [qtp277630005-23] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:29:01,061  WARN [qtp277630005-30] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:29:10,068  WARN [qtp277630005-25] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:29:20,076  WARN [qtp277630005-30] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:29:30,082  WARN [qtp277630005-31] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:29:43,866  WARN [qtp277630005-23] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:29:50,594  WARN [qtp277630005-29] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:29:59,961  WARN [qtp277630005-25] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:30:19,369  WARN [qtp277630005-23] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:30:22,352  WARN [qtp277630005-25] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:30:29,973  WARN [qtp277630005-30] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:30:40,119  WARN [qtp277630005-31] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:30:50,392  WARN [qtp277630005-21] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:31:28,087  WARN [qtp277630005-24] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:31:32,486  WARN [qtp277630005-28] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:32:02,224  WARN [qtp277630005-21] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:32:10,232  WARN [qtp277630005-27] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:32:35,157  WARN [99@MessageListener for MaterialUpdateListener] MaterialDatabaseUpdater:115 - [Material Update] Modification check failed for material: URL: https://github.com/RobertoCordovaC/pac-workshop.git, Branch: master
+java.lang.RuntimeException: Working directory: pipelines/flyweight/84652b0a-cd41-47c0-8651-04fec36e28a9
+STDERR: fatal: unable to access 'https://github.com/RobertoCordovaC/pac-workshop.git/': Couldn't resolve host 'github.com'
+	at com.thoughtworks.go.domain.materials.git.GitCommand.gitLog(GitCommand.java:114)
+	at com.thoughtworks.go.domain.materials.git.GitCommand.modificationsSince(GitCommand.java:102)
+	at com.thoughtworks.go.config.materials.git.GitMaterial.modificationsSince(GitMaterial.java:125)
+	at com.thoughtworks.go.server.service.materials.GitPoller.modificationsSince(GitPoller.java:37)
+	at com.thoughtworks.go.server.service.materials.GitPoller.modificationsSince(GitPoller.java:28)
+	at com.thoughtworks.go.server.service.MaterialService.modificationsSince(MaterialService.java:109)
+	at com.thoughtworks.go.server.materials.ScmMaterialUpdater.insertLatestOrNewModifications(ScmMaterialUpdater.java:55)
+	at com.thoughtworks.go.server.materials.MaterialDatabaseUpdater.insertLatestOrNewModifications(MaterialDatabaseUpdater.java:145)
+	at com.thoughtworks.go.server.materials.MaterialDatabaseUpdater.updateMaterialWithNewRevisions(MaterialDatabaseUpdater.java:137)
+	at com.thoughtworks.go.server.materials.MaterialDatabaseUpdater$2.doInTransaction(MaterialDatabaseUpdater.java:104)
+	at com.thoughtworks.go.server.transaction.TransactionCallback.doWithExceptionHandling(TransactionCallback.java:24)
+	at com.thoughtworks.go.server.transaction.TransactionTemplate$3.doInTransaction(TransactionTemplate.java:53)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:130)
+	at com.thoughtworks.go.server.transaction.TransactionTemplate.executeWithExceptionHandling(TransactionTemplate.java:49)
+	at com.thoughtworks.go.server.materials.MaterialDatabaseUpdater.updateMaterial(MaterialDatabaseUpdater.java:101)
+	at com.thoughtworks.go.server.materials.MaterialUpdateListener.onMessage(MaterialUpdateListener.java:50)
+	at com.thoughtworks.go.server.materials.MaterialUpdateListener.onMessage(MaterialUpdateListener.java:30)
+	at com.thoughtworks.go.server.messaging.activemq.JMSMessageListenerAdapter.runImpl(JMSMessageListenerAdapter.java:73)
+	at com.thoughtworks.go.server.messaging.activemq.JMSMessageListenerAdapter.run(JMSMessageListenerAdapter.java:53)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.RuntimeException: git fetch failed for [https://github.com/RobertoCordovaC/pac-workshop.git]
+	at com.thoughtworks.go.domain.materials.git.GitCommand.fetch(GitCommand.java:317)
+	at com.thoughtworks.go.domain.materials.git.GitCommand.gitLog(GitCommand.java:111)
+	... 19 more
+2017-08-24 23:32:35,198  WARN [105@MessageListener for ConfigMaterialUpdater] ConfigMaterialUpdater:84 - [Config Material Update] Cannot update configuration part because material update has failed. Reason: Working directory: pipelines/flyweight/84652b0a-cd41-47c0-8651-04fec36e28a9
+STDERR: fatal: unable to access 'https://github.com/RobertoCordovaC/pac-workshop.git/': Couldn't resolve host 'github.com'. Cause: git fetch failed for [https://github.com/RobertoCordovaC/pac-workshop.git]
+2017-08-24 23:32:35,593  WARN [qtp277630005-22] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:32:40,156  WARN [qtp277630005-23] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:32:59,039  WARN [qtp277630005-33] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:33:05,884  WARN [qtp277630005-24] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:33:12,568  WARN [qtp277630005-30] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:33:20,179  WARN [qtp277630005-29] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:33:37,274  WARN [qtp277630005-21] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:33:42,655  WARN [qtp277630005-23] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:33:59,949  WARN [qtp277630005-20] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:34:09,553  WARN [qtp277630005-26] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:34:10,347  WARN [qtp277630005-29] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-24 23:34:31,275  WARN [qtp277630005-22] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:27:57,229  WARN [materialUpdateThread] MaterialUpdateService:188 - [Material Update] Skipping update of material GitMaterial{url=https://github.com/RobertoCordovaC/pac-workshop.git, branch='master', submoduleFolder='null', shallowClone=false} which has been in-progress since Thu Aug 24 23:34:40 GMT 2017
+2017-08-25 14:27:58,512  WARN [99@MessageListener for MaterialUpdateListener] MaterialDatabaseUpdater:115 - [Material Update] Modification check failed for material: URL: https://github.com/RobertoCordovaC/pac-workshop.git, Branch: master
+java.lang.RuntimeException: Working directory: pipelines/flyweight/84652b0a-cd41-47c0-8651-04fec36e28a9
+STDERR: fatal: unable to access 'https://github.com/RobertoCordovaC/pac-workshop.git/': Couldn't resolve host 'github.com'
+	at com.thoughtworks.go.domain.materials.git.GitCommand.gitLog(GitCommand.java:114)
+	at com.thoughtworks.go.domain.materials.git.GitCommand.modificationsSince(GitCommand.java:102)
+	at com.thoughtworks.go.config.materials.git.GitMaterial.modificationsSince(GitMaterial.java:125)
+	at com.thoughtworks.go.server.service.materials.GitPoller.modificationsSince(GitPoller.java:37)
+	at com.thoughtworks.go.server.service.materials.GitPoller.modificationsSince(GitPoller.java:28)
+	at com.thoughtworks.go.server.service.MaterialService.modificationsSince(MaterialService.java:109)
+	at com.thoughtworks.go.server.materials.ScmMaterialUpdater.insertLatestOrNewModifications(ScmMaterialUpdater.java:55)
+	at com.thoughtworks.go.server.materials.MaterialDatabaseUpdater.insertLatestOrNewModifications(MaterialDatabaseUpdater.java:145)
+	at com.thoughtworks.go.server.materials.MaterialDatabaseUpdater.updateMaterialWithNewRevisions(MaterialDatabaseUpdater.java:137)
+	at com.thoughtworks.go.server.materials.MaterialDatabaseUpdater$2.doInTransaction(MaterialDatabaseUpdater.java:104)
+	at com.thoughtworks.go.server.transaction.TransactionCallback.doWithExceptionHandling(TransactionCallback.java:24)
+	at com.thoughtworks.go.server.transaction.TransactionTemplate$3.doInTransaction(TransactionTemplate.java:53)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:130)
+	at com.thoughtworks.go.server.transaction.TransactionTemplate.executeWithExceptionHandling(TransactionTemplate.java:49)
+	at com.thoughtworks.go.server.materials.MaterialDatabaseUpdater.updateMaterial(MaterialDatabaseUpdater.java:101)
+	at com.thoughtworks.go.server.materials.MaterialUpdateListener.onMessage(MaterialUpdateListener.java:50)
+	at com.thoughtworks.go.server.materials.MaterialUpdateListener.onMessage(MaterialUpdateListener.java:30)
+	at com.thoughtworks.go.server.messaging.activemq.JMSMessageListenerAdapter.runImpl(JMSMessageListenerAdapter.java:73)
+	at com.thoughtworks.go.server.messaging.activemq.JMSMessageListenerAdapter.run(JMSMessageListenerAdapter.java:53)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.RuntimeException: git fetch failed for [https://github.com/RobertoCordovaC/pac-workshop.git]
+	at com.thoughtworks.go.domain.materials.git.GitCommand.fetch(GitCommand.java:317)
+	at com.thoughtworks.go.domain.materials.git.GitCommand.gitLog(GitCommand.java:111)
+	... 19 more
+2017-08-25 14:27:58,517  WARN [105@MessageListener for ConfigMaterialUpdater] ConfigMaterialUpdater:84 - [Config Material Update] Cannot update configuration part because material update has failed. Reason: Working directory: pipelines/flyweight/84652b0a-cd41-47c0-8651-04fec36e28a9
+STDERR: fatal: unable to access 'https://github.com/RobertoCordovaC/pac-workshop.git/': Couldn't resolve host 'github.com'. Cause: git fetch failed for [https://github.com/RobertoCordovaC/pac-workshop.git]
+2017-08-25 14:27:59,815  WARN [qtp277630005-26] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:28:06,455  WARN [qtp277630005-21] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:28:16,483  WARN [qtp277630005-26] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:28:26,476  WARN [qtp277630005-30] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:28:36,491  WARN [qtp277630005-27] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:28:46,571  WARN [qtp277630005-23] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:28:56,653  WARN [qtp277630005-32] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:29:06,736  WARN [qtp277630005-31] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:29:16,551  WARN [qtp277630005-28] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:29:26,625  WARN [qtp277630005-25] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:29:46,590  WARN [qtp277630005-29] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:29:56,662  WARN [qtp277630005-20] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:30:06,773  WARN [qtp277630005-24] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:30:16,890  WARN [qtp277630005-33] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:30:27,000  WARN [qtp277630005-32] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:30:37,112  WARN [qtp277630005-25] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:30:56,683  WARN [qtp277630005-25] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:31:06,796  WARN [qtp277630005-28] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:31:26,686  WARN [qtp277630005-21] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:31:36,823  WARN [qtp277630005-29] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:33:42,572  WARN [qtp277630005-20] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:33:52,340  WARN [qtp277630005-32] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:34:06,594  WARN [qtp277630005-24] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:34:16,666  WARN [qtp277630005-20] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:34:24,346  WARN [qtp277630005-29] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:34:33,935  WARN [qtp277630005-23] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:34:46,025  WARN [qtp277630005-28] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:34:56,104  WARN [qtp277630005-29] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:35:06,664  WARN [qtp277630005-21] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:35:16,749  WARN [qtp277630005-24] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:35:26,832  WARN [qtp277630005-23] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:35:36,734  WARN [qtp277630005-22] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:35:42,464  WARN [qtp277630005-23] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:35:52,772  WARN [qtp277630005-24] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:36:03,733  WARN [qtp277630005-23] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:36:22,753  WARN [qtp277630005-30] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:36:32,767  WARN [qtp277630005-27] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:36:44,799  WARN [qtp277630005-23] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:36:52,787  WARN [qtp277630005-22] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:37:02,840  WARN [qtp277630005-33] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:37:12,912  WARN [qtp277630005-28] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:37:22,992  WARN [qtp277630005-27] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:37:33,072  WARN [qtp277630005-30] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:37:43,156  WARN [qtp277630005-26] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:37:53,232  WARN [qtp277630005-20] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:38:03,320  WARN [qtp277630005-26] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:38:13,389  WARN [qtp277630005-31] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:38:23,468  WARN [qtp277630005-32] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:38:40,837  WARN [qtp277630005-21] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:38:43,007  WARN [qtp277630005-28] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:38:53,086  WARN [qtp277630005-22] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:39:03,160  WARN [qtp277630005-23] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:39:13,046  WARN [qtp277630005-22] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:39:22,959  WARN [qtp277630005-23] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:39:32,970  WARN [qtp277630005-24] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:39:43,045  WARN [qtp277630005-31] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:39:57,938  WARN [qtp277630005-33] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:40:09,969  WARN [qtp277630005-22] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:40:20,025  WARN [qtp277630005-23] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:40:32,054  WARN [qtp277630005-28] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:40:42,129  WARN [qtp277630005-32] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:40:52,212  WARN [qtp277630005-25] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:41:02,289  WARN [qtp277630005-24] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:41:12,368  WARN [qtp277630005-23] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:41:22,449  WARN [qtp277630005-30] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:41:23,625  WARN [qtp277630005-20] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:41:33,699  WARN [qtp277630005-26] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:41:44,123  WARN [qtp277630005-33] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:41:58,735  WARN [qtp277630005-28] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:42:03,265  WARN [qtp277630005-31] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:42:23,168  WARN [qtp277630005-31] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:42:33,245  WARN [qtp277630005-21] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:42:43,322  WARN [qtp277630005-31] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:42:52,964  WARN [qtp277630005-22] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:42:58,047  WARN [qtp277630005-28] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:42:58,295  INFO [qtp277630005-20] ServerVersionInfoManager:71 - [Go Update Check] Starting update check at: Fri Aug 25 14:42:58 GMT 2017
+2017-08-25 14:42:59,214  INFO [qtp277630005-23] ServerVersionInfoManager:86 - [Go Update Check] Update check done at: Fri Aug 25 14:42:59 GMT 2017, latest available version: 17.8.0-5277
+2017-08-25 14:43:08,326  WARN [qtp277630005-30] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:43:18,338  WARN [qtp277630005-27] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:43:28,347  WARN [qtp277630005-24] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:43:39,464  WARN [qtp277630005-32] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:43:50,268  WARN [qtp277630005-24] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:44:00,993  WARN [qtp277630005-22] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:44:09,461  WARN [qtp277630005-33] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:44:22,409  WARN [qtp277630005-24] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:44:28,417  WARN [qtp277630005-20] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:44:38,430  WARN [qtp277630005-28] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:44:48,441  WARN [qtp277630005-31] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:44:58,459  WARN [qtp277630005-24] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:45:08,463  WARN [qtp277630005-32] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:45:22,777  WARN [qtp277630005-23] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:45:33,647  WARN [qtp277630005-28] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:45:43,730  WARN [qtp277630005-29] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:45:53,799  WARN [qtp277630005-30] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:46:01,774  WARN [qtp277630005-31] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:46:08,533  WARN [qtp277630005-24] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:46:18,546  WARN [qtp277630005-27] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:46:38,236  WARN [qtp277630005-20] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:46:38,567  WARN [qtp277630005-27] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:46:59,488  WARN [qtp277630005-29] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:47:09,564  WARN [qtp277630005-25] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:47:19,644  WARN [qtp277630005-27] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:47:29,718  WARN [qtp277630005-30] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:47:39,802  WARN [qtp277630005-29] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:47:49,878  WARN [qtp277630005-25] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:48:09,574  WARN [qtp277630005-30] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:48:19,580  WARN [qtp277630005-32] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:48:30,594  WARN [qtp277630005-25] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:48:40,673  WARN [qtp277630005-22] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:48:49,620  WARN [qtp277630005-20] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:48:59,689  WARN [qtp277630005-28] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:49:09,766  WARN [qtp277630005-27] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:49:19,841  WARN [qtp277630005-30] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:49:29,920  WARN [qtp277630005-26] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:49:39,993  WARN [qtp277630005-25] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:49:50,070  WARN [qtp277630005-26] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:49:59,034  WARN [qtp277630005-31] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:50:11,852  WARN [qtp277630005-24] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:50:20,424  WARN [qtp277630005-20] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:50:38,103  WARN [qtp277630005-29] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:50:48,180  WARN [qtp277630005-24] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:50:58,258  WARN [qtp277630005-29] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:51:08,336  WARN [qtp277630005-33] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:51:11,671  WARN [qtp277630005-25] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:51:25,041  WARN [qtp277630005-30] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:51:35,118  WARN [qtp277630005-32] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:51:45,192  WARN [qtp277630005-23] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:51:48,927  WARN [qtp277630005-27] PipelineSqlMapDao:488 - No pipelines found in Config, Skipping PIM loading.
+2017-08-25 14:51:54,167  INFO [100@MessageListener for MaterialUpdateListener] ScmMaterialUpdater:63 - [Material Update] Found '2' modifications for material 'GitMaterial{url=https://github.com/RobertoCordovaC/pac-workshop.git, branch='master', submoduleFolder='null', shallowClone=false}' with flyweight '284bea11768fc3e54233ef34f7765d37d640de31dbb2d7ea5fa084bb29ed7bab' using working directory '/go-working-dir/pipelines/flyweight/84652b0a-cd41-47c0-8651-04fec36e28a9'
+2017-08-25 14:51:54,917  INFO [105@MessageListener for ConfigMaterialUpdater] GoConfigDao:111 - Config update request by anonymous is in queue - com.thoughtworks.go.config.GoPartialConfig$GoPartialUpdateCommand@75b026cc
+2017-08-25 14:51:54,918  INFO [105@MessageListener for ConfigMaterialUpdater] GoConfigDao:114 - Config update request com.thoughtworks.go.config.GoPartialConfig$GoPartialUpdateCommand@75b026cc by anonymous is being processed
+2017-08-25 14:51:55,013  INFO [105@MessageListener for ConfigMaterialUpdater] MagicalGoConfigXmlWriter:83 - [Serializing Config] Generating config partial.
+2017-08-25 14:51:55,059  INFO [105@MessageListener for ConfigMaterialUpdater] GoFileConfigDataSource:497 - [Configuration Changed] Saving updated configuration.
+2017-08-25 14:51:55,073  INFO [105@MessageListener for ConfigMaterialUpdater] CachedGoConfig:226 - About to notify config listeners
+2017-08-25 14:51:55,075  INFO [105@MessageListener for ConfigMaterialUpdater] BuildAssignmentService:255 - [Configuration Changed] Removing jobs for pipelines that no longer exist in configuration.
+2017-08-25 14:51:55,078  INFO [105@MessageListener for ConfigMaterialUpdater] CachedGoConfig:234 - Finished notifying all listeners
+2017-08-25 14:51:55,078  INFO [105@MessageListener for ConfigMaterialUpdater] GoConfigDao:129 - Config update request by anonymous is completed
+2017-08-25 14:52:24,708  INFO [86@MessageListener for MaterialUpdateListener] ScmMaterialUpdater:63 - [Material Update] Found '1' modifications for material 'GitMaterial{url=https://github.com/faustocv/springboot-workshop-i.git, branch='master', submoduleFolder='null', shallowClone=false}' with flyweight '04fe8ace5bc025a081ffd117c256533957a21ea5d7714bda780f21a7c854e000' using working directory '/go-working-dir/pipelines/flyweight/e47c31e4-7d85-4368-9418-fccf40d6c410'
+2017-08-25 14:52:33,478  INFO [consumeBuildCausesThread] ScheduleService:161 - [Pipeline Schedule] Scheduling pipeline workshop_pipeline with build cause [ModificationBuildCause: modified by faustocv <fausto.castaneda.v@gmail.com>]
+2017-08-25 14:52:33,557  INFO [consumeBuildCausesThread] PipelineRepository:85 - Start updating pipeline timeline
+2017-08-25 14:52:33,570  INFO [consumeBuildCausesThread] PipelineRepository:91 - Pipeline timeline updated
+2017-08-25 14:53:01,796  INFO [qtp277630005-25] GoConfigDao:91 - Config update for entity request by com.thoughtworks.go.server.domain.Username@48604551[displayName=anonymous,username=anonymous] is in queue - com.thoughtworks.go.config.update.AgentsEntityConfigUpdateCommand@2cff2a43
+2017-08-25 14:53:01,798  INFO [qtp277630005-25] GoConfigDao:94 - Config update for entity request by com.thoughtworks.go.server.domain.Username@48604551[displayName=anonymous,username=anonymous] is being processed
+2017-08-25 14:53:01,822  INFO [qtp277630005-25] GoFileConfigDataSource:308 - [Configuration Changed] Saving updated configuration.
+2017-08-25 14:53:01,839  INFO [qtp277630005-25] MagicalGoConfigXmlWriter:83 - [Serializing Config] Generating config partial.
+2017-08-25 14:53:01,926  INFO [qtp277630005-25] CachedGoConfig:164 - About to notify com.thoughtworks.go.config.Agents config listeners
+2017-08-25 14:53:01,937  INFO [qtp277630005-25] CachedGoConfig:179 - Finished notifying com.thoughtworks.go.config.Agents config listeners
+2017-08-25 14:53:01,939  INFO [qtp277630005-25] GoConfigDao:104 - Entity update for request by com.thoughtworks.go.server.domain.Username@48604551[displayName=anonymous,username=anonymous] is completed
+2017-08-25 14:53:03,673  INFO [qtp277630005-32] GoConfigDao:91 - Config update for entity request by com.thoughtworks.go.server.domain.Username@61fc24ee[displayName=agent_7f4566c4-f8ee-4efa-b3d4-bc78a694d6c2_172.18.0.3_7d78b502909c,username=agent_7f4566c4-f8ee-4efa-b3d4-bc78a694d6c2_172.18.0.3_7d78b502909c] is in queue - com.thoughtworks.go.config.update.AgentsUpdateCommand@28bdd6a9
+2017-08-25 14:53:03,674  INFO [qtp277630005-32] GoConfigDao:94 - Config update for entity request by com.thoughtworks.go.server.domain.Username@61fc24ee[displayName=agent_7f4566c4-f8ee-4efa-b3d4-bc78a694d6c2_172.18.0.3_7d78b502909c,username=agent_7f4566c4-f8ee-4efa-b3d4-bc78a694d6c2_172.18.0.3_7d78b502909c] is being processed
+2017-08-25 14:53:03,683  INFO [qtp277630005-32] GoFileConfigDataSource:308 - [Configuration Changed] Saving updated configuration.
+2017-08-25 14:53:03,703  INFO [qtp277630005-32] MagicalGoConfigXmlWriter:83 - [Serializing Config] Generating config partial.
+2017-08-25 14:53:03,726  INFO [qtp277630005-32] CachedGoConfig:164 - About to notify com.thoughtworks.go.config.Agents config listeners
+2017-08-25 14:53:03,727  INFO [qtp277630005-32] CachedGoConfig:179 - Finished notifying com.thoughtworks.go.config.Agents config listeners
+2017-08-25 14:53:03,728  INFO [qtp277630005-32] GoConfigDao:104 - Entity update for request by com.thoughtworks.go.server.domain.Username@61fc24ee[displayName=agent_7f4566c4-f8ee-4efa-b3d4-bc78a694d6c2_172.18.0.3_7d78b502909c,username=agent_7f4566c4-f8ee-4efa-b3d4-bc78a694d6c2_172.18.0.3_7d78b502909c] is completed
+2017-08-25 14:53:03,988  INFO [qtp277630005-22] BuildRepositoryRemoteImpl:133 - [Agent Cookie] Agent [Agent [7d78b502909c, 172.18.0.3, 7f4566c4-f8ee-4efa-b3d4-bc78a694d6c2]] at location [/go] asked for a new cookie, assigned [3bd9b73a-a628-4ede-b937-d92ede0ea0e2]
+2017-08-25 14:53:04,083  INFO [67@MessageListener for WorkFinder] BuildAssignmentService:156 - [Agent Assignment] Assigned job [JobIdentifier[workshop_pipeline, 1, 1, Tests, 1, unit_tests, 1]] to agent [Agent [7d78b502909c, 172.18.0.3, 7f4566c4-f8ee-4efa-b3d4-bc78a694d6c2]]
+2017-08-25 14:53:14,207  INFO [qtp277630005-31] BuildRepositoryRemoteImpl:106 - [Agent [7d78b502909c, 172.18.0.3, 7f4566c4-f8ee-4efa-b3d4-bc78a694d6c2, 3bd9b73a-a628-4ede-b937-d92ede0ea0e2]] is reporting status [Preparing] for [Build [workshop_pipeline/1/Tests/1/unit_tests/1]]
+2017-08-25 14:53:17,533  INFO [qtp277630005-27] BuildRepositoryRemoteImpl:106 - [Agent [7d78b502909c, 172.18.0.3, 7f4566c4-f8ee-4efa-b3d4-bc78a694d6c2, 3bd9b73a-a628-4ede-b937-d92ede0ea0e2]] is reporting status [Building] for [Build [workshop_pipeline/1/Tests/1/unit_tests/1]]
+2017-08-25 14:53:49,799  WARN [qtp277630005-23] FeatureToggleRepository:68 - Toggles file, /go-working-dir/config/go.feature.toggles does not exist. Saying there are no toggles.
+2017-08-25 14:53:50,342 ERROR [qtp277630005-23] BasicAuthenticationFilter:62 - java.nio.file.NoSuchFileException: data/console/2f94bd7a723163e99e2ce6a4ef2f3d3e.log
+2017-08-25 14:53:50,354 ERROR [qtp277630005-25] BasicAuthenticationFilter:62 - java.nio.file.NoSuchFileException: data/console/2f94bd7a723163e99e2ce6a4ef2f3d3e.log
+2017-08-25 14:53:50,346  WARN [qtp277630005-23] ServletHandler:628 - /go/files/workshop_pipeline/1/Tests/1/integration_tests/cruise-output/console.log
+java.lang.IllegalStateException: Committed
+	at org.eclipse.jetty.server.Response.resetBuffer(Response.java:1242)
+	at javax.servlet.ServletResponseWrapper.resetBuffer(ServletResponseWrapper.java:241)
+	at org.eclipse.jetty.servlets.gzip.CompressedResponseWrapper.resetBuffer(CompressedResponseWrapper.java:272)
+	at org.eclipse.jetty.servlets.gzip.CompressedResponseWrapper.sendError(CompressedResponseWrapper.java:286)
+	at javax.servlet.http.HttpServletResponseWrapper.sendError(HttpServletResponseWrapper.java:158)
+	at org.springframework.security.context.HttpSessionContextIntegrationFilter$OnRedirectUpdateSessionResponseWrapper.sendError(HttpSessionContextIntegrationFilter.java:498)
+	at com.thoughtworks.go.server.security.BasicAuthenticationFilter.handleException(BasicAuthenticationFilter.java:90)
+	at com.thoughtworks.go.server.security.BasicAuthenticationFilter.doFilterHttp(BasicAuthenticationFilter.java:64)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at com.thoughtworks.go.server.security.OauthAuthenticationFilter.doFilterHttp(OauthAuthenticationFilter.java:65)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at com.thoughtworks.go.server.security.RemoveAdminPermissionFilter.doFilterHttp(RemoveAdminPermissionFilter.java:72)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at org.springframework.security.ui.logout.LogoutFilter.doFilterHttp(LogoutFilter.java:89)
+	at com.thoughtworks.go.server.security.GoLogoutFilter.doFilterHttp(GoLogoutFilter.java:48)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at org.springframework.security.context.HttpSessionContextIntegrationFilter.doFilterHttp(HttpSessionContextIntegrationFilter.java:235)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at com.thoughtworks.go.server.web.i18n.LocaleResolver.doFilter(LocaleResolver.java:41)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at com.thoughtworks.go.server.security.ArtifactSizeEnforcementFilter.doFilter(ArtifactSizeEnforcementFilter.java:76)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at com.thoughtworks.go.server.security.ModeAwareFilter.doFilter(ModeAwareFilter.java:48)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at org.springframework.security.util.FilterChainProxy.doFilter(FilterChainProxy.java:174)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at com.thoughtworks.go.server.web.BackupFilter.doFilter(BackupFilter.java:84)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at com.thoughtworks.go.server.web.DefaultHeadersFilter.doFilter(DefaultHeadersFilter.java:34)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlets.UserAgentFilter.doFilter(UserAgentFilter.java:83)
+	at org.eclipse.jetty.servlets.GzipFilter.doFilter(GzipFilter.java:365)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-25 14:53:50,366  WARN [qtp277630005-23] HttpChannel:396 - /go/files/workshop_pipeline/1/Tests/1/integration_tests/cruise-output/console.log?startLineNumber=0
+java.lang.IllegalStateException: Committed
+	at org.eclipse.jetty.server.Response.resetBuffer(Response.java:1242)
+	at javax.servlet.ServletResponseWrapper.resetBuffer(ServletResponseWrapper.java:241)
+	at org.eclipse.jetty.servlets.gzip.CompressedResponseWrapper.resetBuffer(CompressedResponseWrapper.java:272)
+	at org.eclipse.jetty.servlets.gzip.CompressedResponseWrapper.sendError(CompressedResponseWrapper.java:286)
+	at javax.servlet.http.HttpServletResponseWrapper.sendError(HttpServletResponseWrapper.java:158)
+	at org.springframework.security.context.HttpSessionContextIntegrationFilter$OnRedirectUpdateSessionResponseWrapper.sendError(HttpSessionContextIntegrationFilter.java:498)
+	at com.thoughtworks.go.server.security.BasicAuthenticationFilter.handleException(BasicAuthenticationFilter.java:90)
+	at com.thoughtworks.go.server.security.BasicAuthenticationFilter.doFilterHttp(BasicAuthenticationFilter.java:64)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at com.thoughtworks.go.server.security.OauthAuthenticationFilter.doFilterHttp(OauthAuthenticationFilter.java:65)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at com.thoughtworks.go.server.security.RemoveAdminPermissionFilter.doFilterHttp(RemoveAdminPermissionFilter.java:72)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at org.springframework.security.ui.logout.LogoutFilter.doFilterHttp(LogoutFilter.java:89)
+	at com.thoughtworks.go.server.security.GoLogoutFilter.doFilterHttp(GoLogoutFilter.java:48)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at org.springframework.security.context.HttpSessionContextIntegrationFilter.doFilterHttp(HttpSessionContextIntegrationFilter.java:235)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at com.thoughtworks.go.server.web.i18n.LocaleResolver.doFilter(LocaleResolver.java:41)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at com.thoughtworks.go.server.security.ArtifactSizeEnforcementFilter.doFilter(ArtifactSizeEnforcementFilter.java:76)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at com.thoughtworks.go.server.security.ModeAwareFilter.doFilter(ModeAwareFilter.java:48)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at org.springframework.security.util.FilterChainProxy.doFilter(FilterChainProxy.java:174)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at com.thoughtworks.go.server.web.BackupFilter.doFilter(BackupFilter.java:84)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at com.thoughtworks.go.server.web.DefaultHeadersFilter.doFilter(DefaultHeadersFilter.java:34)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlets.UserAgentFilter.doFilter(UserAgentFilter.java:83)
+	at org.eclipse.jetty.servlets.GzipFilter.doFilter(GzipFilter.java:365)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-25 14:53:50,360  WARN [qtp277630005-25] ServletHandler:628 - /go/files/workshop_pipeline/1/Tests/1/integration_tests/cruise-output/console.log
+java.lang.IllegalStateException: Committed
+	at org.eclipse.jetty.server.Response.resetBuffer(Response.java:1242)
+	at javax.servlet.ServletResponseWrapper.resetBuffer(ServletResponseWrapper.java:241)
+	at org.eclipse.jetty.servlets.gzip.CompressedResponseWrapper.resetBuffer(CompressedResponseWrapper.java:272)
+	at org.eclipse.jetty.servlets.gzip.CompressedResponseWrapper.sendError(CompressedResponseWrapper.java:286)
+	at javax.servlet.http.HttpServletResponseWrapper.sendError(HttpServletResponseWrapper.java:158)
+	at org.springframework.security.context.HttpSessionContextIntegrationFilter$OnRedirectUpdateSessionResponseWrapper.sendError(HttpSessionContextIntegrationFilter.java:498)
+	at com.thoughtworks.go.server.security.BasicAuthenticationFilter.handleException(BasicAuthenticationFilter.java:90)
+	at com.thoughtworks.go.server.security.BasicAuthenticationFilter.doFilterHttp(BasicAuthenticationFilter.java:64)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at com.thoughtworks.go.server.security.OauthAuthenticationFilter.doFilterHttp(OauthAuthenticationFilter.java:65)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at com.thoughtworks.go.server.security.RemoveAdminPermissionFilter.doFilterHttp(RemoveAdminPermissionFilter.java:72)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at org.springframework.security.ui.logout.LogoutFilter.doFilterHttp(LogoutFilter.java:89)
+	at com.thoughtworks.go.server.security.GoLogoutFilter.doFilterHttp(GoLogoutFilter.java:48)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at org.springframework.security.context.HttpSessionContextIntegrationFilter.doFilterHttp(HttpSessionContextIntegrationFilter.java:235)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at com.thoughtworks.go.server.web.i18n.LocaleResolver.doFilter(LocaleResolver.java:41)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at com.thoughtworks.go.server.security.ArtifactSizeEnforcementFilter.doFilter(ArtifactSizeEnforcementFilter.java:76)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at com.thoughtworks.go.server.security.ModeAwareFilter.doFilter(ModeAwareFilter.java:48)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at org.springframework.security.util.FilterChainProxy.doFilter(FilterChainProxy.java:174)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at com.thoughtworks.go.server.web.BackupFilter.doFilter(BackupFilter.java:84)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at com.thoughtworks.go.server.web.DefaultHeadersFilter.doFilter(DefaultHeadersFilter.java:34)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlets.UserAgentFilter.doFilter(UserAgentFilter.java:83)
+	at org.eclipse.jetty.servlets.GzipFilter.doFilter(GzipFilter.java:365)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-25 14:53:50,369  WARN [qtp277630005-25] HttpChannel:396 - /go/files/workshop_pipeline/1/Tests/1/integration_tests/cruise-output/console.log?startLineNumber=0
+java.lang.IllegalStateException: Committed
+	at org.eclipse.jetty.server.Response.resetBuffer(Response.java:1242)
+	at javax.servlet.ServletResponseWrapper.resetBuffer(ServletResponseWrapper.java:241)
+	at org.eclipse.jetty.servlets.gzip.CompressedResponseWrapper.resetBuffer(CompressedResponseWrapper.java:272)
+	at org.eclipse.jetty.servlets.gzip.CompressedResponseWrapper.sendError(CompressedResponseWrapper.java:286)
+	at javax.servlet.http.HttpServletResponseWrapper.sendError(HttpServletResponseWrapper.java:158)
+	at org.springframework.security.context.HttpSessionContextIntegrationFilter$OnRedirectUpdateSessionResponseWrapper.sendError(HttpSessionContextIntegrationFilter.java:498)
+	at com.thoughtworks.go.server.security.BasicAuthenticationFilter.handleException(BasicAuthenticationFilter.java:90)
+	at com.thoughtworks.go.server.security.BasicAuthenticationFilter.doFilterHttp(BasicAuthenticationFilter.java:64)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at com.thoughtworks.go.server.security.OauthAuthenticationFilter.doFilterHttp(OauthAuthenticationFilter.java:65)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at com.thoughtworks.go.server.security.RemoveAdminPermissionFilter.doFilterHttp(RemoveAdminPermissionFilter.java:72)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at org.springframework.security.ui.logout.LogoutFilter.doFilterHttp(LogoutFilter.java:89)
+	at com.thoughtworks.go.server.security.GoLogoutFilter.doFilterHttp(GoLogoutFilter.java:48)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at org.springframework.security.context.HttpSessionContextIntegrationFilter.doFilterHttp(HttpSessionContextIntegrationFilter.java:235)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at com.thoughtworks.go.server.web.i18n.LocaleResolver.doFilter(LocaleResolver.java:41)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at com.thoughtworks.go.server.security.ArtifactSizeEnforcementFilter.doFilter(ArtifactSizeEnforcementFilter.java:76)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at com.thoughtworks.go.server.security.ModeAwareFilter.doFilter(ModeAwareFilter.java:48)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at org.springframework.security.util.FilterChainProxy.doFilter(FilterChainProxy.java:174)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at com.thoughtworks.go.server.web.BackupFilter.doFilter(BackupFilter.java:84)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at com.thoughtworks.go.server.web.DefaultHeadersFilter.doFilter(DefaultHeadersFilter.java:34)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlets.UserAgentFilter.doFilter(UserAgentFilter.java:83)
+	at org.eclipse.jetty.servlets.GzipFilter.doFilter(GzipFilter.java:365)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-25 14:53:50,370  WARN [qtp277630005-25] HttpChannel:482 - Could not send response error 500: java.lang.IllegalStateException: Committed
+2017-08-25 14:53:50,368  WARN [qtp277630005-23] HttpChannel:482 - Could not send response error 500: java.lang.IllegalStateException: Committed
+2017-08-25 14:53:55,381 ERROR [qtp277630005-20] BasicAuthenticationFilter:62 - java.nio.file.NoSuchFileException: data/console/2f94bd7a723163e99e2ce6a4ef2f3d3e.log
+2017-08-25 14:53:55,382  WARN [qtp277630005-20] ServletHandler:628 - /go/files/workshop_pipeline/1/Tests/1/integration_tests/cruise-output/console.log
+java.lang.IllegalStateException: Committed
+	at org.eclipse.jetty.server.Response.resetBuffer(Response.java:1242)
+	at javax.servlet.ServletResponseWrapper.resetBuffer(ServletResponseWrapper.java:241)
+	at org.eclipse.jetty.servlets.gzip.CompressedResponseWrapper.resetBuffer(CompressedResponseWrapper.java:272)
+	at org.eclipse.jetty.servlets.gzip.CompressedResponseWrapper.sendError(CompressedResponseWrapper.java:286)
+	at javax.servlet.http.HttpServletResponseWrapper.sendError(HttpServletResponseWrapper.java:158)
+	at org.springframework.security.context.HttpSessionContextIntegrationFilter$OnRedirectUpdateSessionResponseWrapper.sendError(HttpSessionContextIntegrationFilter.java:498)
+	at com.thoughtworks.go.server.security.BasicAuthenticationFilter.handleException(BasicAuthenticationFilter.java:90)
+	at com.thoughtworks.go.server.security.BasicAuthenticationFilter.doFilterHttp(BasicAuthenticationFilter.java:64)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at com.thoughtworks.go.server.security.OauthAuthenticationFilter.doFilterHttp(OauthAuthenticationFilter.java:65)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at com.thoughtworks.go.server.security.RemoveAdminPermissionFilter.doFilterHttp(RemoveAdminPermissionFilter.java:72)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at org.springframework.security.ui.logout.LogoutFilter.doFilterHttp(LogoutFilter.java:89)
+	at com.thoughtworks.go.server.security.GoLogoutFilter.doFilterHttp(GoLogoutFilter.java:48)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at org.springframework.security.context.HttpSessionContextIntegrationFilter.doFilterHttp(HttpSessionContextIntegrationFilter.java:235)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at com.thoughtworks.go.server.web.i18n.LocaleResolver.doFilter(LocaleResolver.java:41)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at com.thoughtworks.go.server.security.ArtifactSizeEnforcementFilter.doFilter(ArtifactSizeEnforcementFilter.java:76)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at com.thoughtworks.go.server.security.ModeAwareFilter.doFilter(ModeAwareFilter.java:48)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at org.springframework.security.util.FilterChainProxy.doFilter(FilterChainProxy.java:174)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at com.thoughtworks.go.server.web.BackupFilter.doFilter(BackupFilter.java:84)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at com.thoughtworks.go.server.web.DefaultHeadersFilter.doFilter(DefaultHeadersFilter.java:34)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlets.UserAgentFilter.doFilter(UserAgentFilter.java:83)
+	at org.eclipse.jetty.servlets.GzipFilter.doFilter(GzipFilter.java:365)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-25 14:53:55,383  WARN [qtp277630005-20] HttpChannel:396 - /go/files/workshop_pipeline/1/Tests/1/integration_tests/cruise-output/console.log?startLineNumber=0
+java.lang.IllegalStateException: Committed
+	at org.eclipse.jetty.server.Response.resetBuffer(Response.java:1242)
+	at javax.servlet.ServletResponseWrapper.resetBuffer(ServletResponseWrapper.java:241)
+	at org.eclipse.jetty.servlets.gzip.CompressedResponseWrapper.resetBuffer(CompressedResponseWrapper.java:272)
+	at org.eclipse.jetty.servlets.gzip.CompressedResponseWrapper.sendError(CompressedResponseWrapper.java:286)
+	at javax.servlet.http.HttpServletResponseWrapper.sendError(HttpServletResponseWrapper.java:158)
+	at org.springframework.security.context.HttpSessionContextIntegrationFilter$OnRedirectUpdateSessionResponseWrapper.sendError(HttpSessionContextIntegrationFilter.java:498)
+	at com.thoughtworks.go.server.security.BasicAuthenticationFilter.handleException(BasicAuthenticationFilter.java:90)
+	at com.thoughtworks.go.server.security.BasicAuthenticationFilter.doFilterHttp(BasicAuthenticationFilter.java:64)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at com.thoughtworks.go.server.security.OauthAuthenticationFilter.doFilterHttp(OauthAuthenticationFilter.java:65)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at com.thoughtworks.go.server.security.RemoveAdminPermissionFilter.doFilterHttp(RemoveAdminPermissionFilter.java:72)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at org.springframework.security.ui.logout.LogoutFilter.doFilterHttp(LogoutFilter.java:89)
+	at com.thoughtworks.go.server.security.GoLogoutFilter.doFilterHttp(GoLogoutFilter.java:48)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at org.springframework.security.context.HttpSessionContextIntegrationFilter.doFilterHttp(HttpSessionContextIntegrationFilter.java:235)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at com.thoughtworks.go.server.web.i18n.LocaleResolver.doFilter(LocaleResolver.java:41)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at com.thoughtworks.go.server.security.ArtifactSizeEnforcementFilter.doFilter(ArtifactSizeEnforcementFilter.java:76)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at com.thoughtworks.go.server.security.ModeAwareFilter.doFilter(ModeAwareFilter.java:48)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at org.springframework.security.util.FilterChainProxy.doFilter(FilterChainProxy.java:174)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at com.thoughtworks.go.server.web.BackupFilter.doFilter(BackupFilter.java:84)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at com.thoughtworks.go.server.web.DefaultHeadersFilter.doFilter(DefaultHeadersFilter.java:34)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlets.UserAgentFilter.doFilter(UserAgentFilter.java:83)
+	at org.eclipse.jetty.servlets.GzipFilter.doFilter(GzipFilter.java:365)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-25 14:53:55,384  WARN [qtp277630005-20] HttpChannel:482 - Could not send response error 500: java.lang.IllegalStateException: Committed
+2017-08-25 14:54:38,359  INFO [qtp277630005-30] BuildRepositoryRemoteImpl:106 - [Agent [7d78b502909c, 172.18.0.3, 7f4566c4-f8ee-4efa-b3d4-bc78a694d6c2, 3bd9b73a-a628-4ede-b937-d92ede0ea0e2]] is reporting result [Passed] for [Build [workshop_pipeline/1/Tests/1/unit_tests/1]]
+2017-08-25 14:54:38,397  INFO [qtp277630005-23] BuildRepositoryRemoteImpl:106 - [Agent [7d78b502909c, 172.18.0.3, 7f4566c4-f8ee-4efa-b3d4-bc78a694d6c2, 3bd9b73a-a628-4ede-b937-d92ede0ea0e2]] is reporting status [Completing] for [Build [workshop_pipeline/1/Tests/1/unit_tests/1]]
+2017-08-25 14:54:38,418  INFO [qtp277630005-27] BuildRepositoryRemoteImpl:106 - [Agent [7d78b502909c, 172.18.0.3, 7f4566c4-f8ee-4efa-b3d4-bc78a694d6c2, 3bd9b73a-a628-4ede-b937-d92ede0ea0e2]] is reporting status and result [Completed, Passed] for [Build [workshop_pipeline/1/Tests/1/unit_tests/1]]
+2017-08-25 14:54:38,584  INFO [67@MessageListener for WorkFinder] BuildAssignmentService:156 - [Agent Assignment] Assigned job [JobIdentifier[workshop_pipeline, 1, 1, Tests, 1, integration_tests, 2]] to agent [Agent [7d78b502909c, 172.18.0.3, 7f4566c4-f8ee-4efa-b3d4-bc78a694d6c2]]
+2017-08-25 14:54:48,593  INFO [qtp277630005-21] BuildRepositoryRemoteImpl:106 - [Agent [7d78b502909c, 172.18.0.3, 7f4566c4-f8ee-4efa-b3d4-bc78a694d6c2, 3bd9b73a-a628-4ede-b937-d92ede0ea0e2]] is reporting status [Preparing] for [Build [workshop_pipeline/1/Tests/1/integration_tests/2]]
+2017-08-25 14:54:50,434  INFO [qtp277630005-20] BuildRepositoryRemoteImpl:106 - [Agent [7d78b502909c, 172.18.0.3, 7f4566c4-f8ee-4efa-b3d4-bc78a694d6c2, 3bd9b73a-a628-4ede-b937-d92ede0ea0e2]] is reporting status [Building] for [Build [workshop_pipeline/1/Tests/1/integration_tests/2]]
+2017-08-25 14:55:02,757  INFO [qtp277630005-33] BuildRepositoryRemoteImpl:106 - [Agent [7d78b502909c, 172.18.0.3, 7f4566c4-f8ee-4efa-b3d4-bc78a694d6c2, 3bd9b73a-a628-4ede-b937-d92ede0ea0e2]] is reporting result [Passed] for [Build [workshop_pipeline/1/Tests/1/integration_tests/2]]
+2017-08-25 14:55:02,778  INFO [qtp277630005-32] BuildRepositoryRemoteImpl:106 - [Agent [7d78b502909c, 172.18.0.3, 7f4566c4-f8ee-4efa-b3d4-bc78a694d6c2, 3bd9b73a-a628-4ede-b937-d92ede0ea0e2]] is reporting status [Completing] for [Build [workshop_pipeline/1/Tests/1/integration_tests/2]]
+2017-08-25 14:55:02,791  INFO [qtp277630005-29] BuildRepositoryRemoteImpl:106 - [Agent [7d78b502909c, 172.18.0.3, 7f4566c4-f8ee-4efa-b3d4-bc78a694d6c2, 3bd9b73a-a628-4ede-b937-d92ede0ea0e2]] is reporting status and result [Completed, Passed] for [Build [workshop_pipeline/1/Tests/1/integration_tests/2]]
+2017-08-25 14:55:02,815  INFO [qtp277630005-29] Stage:219 - Stage is being completed by transition id: 12
+2017-09-11 22:46:24,492  INFO [main] GoSslSocketConnector:76 - Included ciphers: null
+2017-09-11 22:46:24,495  INFO [main] GoSslSocketConnector:77 - Excluded ciphers: null
+2017-09-11 22:46:24,496  INFO [main] GoSslSocketConnector:78 - Included protocols: null
+2017-09-11 22:46:24,497  INFO [main] GoSslSocketConnector:79 - Excluded protocols: null
+2017-09-11 22:46:24,497  INFO [main] GoSslSocketConnector:80 - Renegotiation Allowed: true
+2017-09-11 22:46:24,695  INFO [main] Jetty9Server:177 - Configuring Jetty using /go-working-dir/config/jetty.xml
+2017-09-11 22:46:24,771  INFO [main] GoServer:97 - Including addons: 
+2017-09-11 22:46:29,720  INFO [main] H2Database:128 - [db] Using connection configuration jdbc:h2:db/h2db/cruise;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;MVCC=FALSE;CACHE_SIZE=131072;TRACE_LEVEL_FILE=1;TRACE_MAX_FILE_SIZE=16;DATABASE_EVENT_LISTENER='com.thoughtworks.go.server.util.H2EventListener' [User: sa]
+2017-09-11 22:46:29,722  INFO [main] H2Database:118 - Creating data source with url=jdbc:h2:db/h2db/cruise;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;MVCC=FALSE;CACHE_SIZE=131072;TRACE_LEVEL_FILE=1;TRACE_MAX_FILE_SIZE=16;DATABASE_EVENT_LISTENER='com.thoughtworks.go.server.util.H2EventListener'
+2017-09-11 22:46:29,726  INFO [main] DbDeployMigration:48 - Upgrading database at org.apache.commons.dbcp.BasicDataSource@4a34e9f. This might take a while depending on the size of the database.
+2017-09-11 22:46:29,810  INFO [main] H2EventListener:30 - Initializing database: jdbc:h2:db/h2db/cruise
+2017-09-11 22:46:30,030  INFO [main] H2EventListener:82 - Creating index SYS:SYS_ID 0%
+2017-09-11 22:46:30,032  INFO [main] H2EventListener:82 - Creating index SYS:SYS_ID 0%
+2017-09-11 22:46:30,134  INFO [main] H2EventListener:34 - Database is opened
+2017-09-11 22:46:30,142  INFO [main] H2EventListener:30 - Initializing database: jdbc:h2:db/h2db/cruise
+2017-09-11 22:46:30,204  INFO [main] H2EventListener:30 - Initializing database: jdbc:h2:db/h2db/cruise
+2017-09-11 22:46:30,245  INFO [main] DbDeployMigration:63 - Database upgraded
+2017-09-11 22:46:30,246  INFO [main] H2EventListener:77 - Closing database
+2017-09-11 22:46:30,267  INFO [main] H2Database:128 - [db] Using connection configuration jdbc:h2:db/h2db/cruise;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;MVCC=TRUE;CACHE_SIZE=131072;TRACE_LEVEL_FILE=1;TRACE_MAX_FILE_SIZE=16;DATABASE_EVENT_LISTENER='com.thoughtworks.go.server.util.H2EventListener' [User: sa]
+2017-09-11 22:46:30,268  INFO [main] H2Database:118 - Creating data source with url=jdbc:h2:db/h2db/cruise;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;MVCC=TRUE;CACHE_SIZE=131072;TRACE_LEVEL_FILE=1;TRACE_MAX_FILE_SIZE=16;DATABASE_EVENT_LISTENER='com.thoughtworks.go.server.util.H2EventListener'
+2017-09-11 22:46:30,877  INFO [main] H2EventListener:30 - Initializing database: jdbc:h2:db/h2db/cruise
+2017-09-11 22:46:30,944  INFO [main] H2EventListener:82 - Creating index SYS:SYS_ID 0%
+2017-09-11 22:46:30,945  INFO [main] H2EventListener:82 - Creating index SYS:SYS_ID 0%
+2017-09-11 22:46:30,969  INFO [main] H2EventListener:34 - Database is opened
+2017-09-11 22:46:30,983  INFO [main] H2EventListener:30 - Initializing database: jdbc:h2:db/h2db/cruise
+2017-09-11 22:46:31,071  WARN [main] ConfigurationFactory:134 - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/go-working-dir/work/jetty-0.0.0.0-8153-cruise.war-_go-any-/webapp/WEB-INF/lib/ehcache-core-2.0.0.jar!/ehcache-failsafe.xml
+2017-09-11 22:46:31,102  WARN [main] CacheManager:566 - Creating a new instance of CacheManager using the diskStorePath "/tmp" which is already used by an existing CacheManager.
+The source of the configuration was net.sf.ehcache.config.generator.ConfigurationSource$DefaultConfigurationSource@8cc8cdb.
+The diskStore path for this CacheManager will be set to /tmp/ehcache_auto_created_1505169991102.
+To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.
+2017-09-11 22:46:31,228  WARN [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.config.EnvironmentVariableConfig]; using defaults.
+2017-09-11 22:46:31,272  WARN [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.domain.NotificationFilter]; using defaults.
+2017-09-11 22:46:31,333  WARN [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.domain.User]; using defaults.
+2017-09-11 22:46:31,368  WARN [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.domain.Plugin]; using defaults.
+2017-09-11 22:46:31,384  WARN [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.domain.User.notificationFilters]; using defaults.
+2017-09-11 22:46:31,433  WARN [main] EhCacheProvider:93 - Could not find configuration [org.hibernate.cache.UpdateTimestampsCache]; using defaults.
+2017-09-11 22:46:31,436  WARN [main] EhCacheProvider:93 - Could not find configuration [org.hibernate.cache.StandardQueryCache]; using defaults.
+2017-09-11 22:46:31,773  INFO [main] ServerVersion:38 - [Startup] Go Version: 17.8.0 (5277-32ff863cce99f97b76abb1b88469a793e3b1adc5)
+2017-09-11 22:46:31,779  INFO [main] ServerVersion:39 - [Startup] PID: 22
+2017-09-11 22:46:31,780  INFO [main] ServerVersion:40 - [Startup] JVM properties: {jruby.rack.request.size.threshold.bytes=30000000, java.runtime.name=OpenJDK Runtime Environment, java.protocol.handler.pkgs=com.simontuffs, sun.boot.library.path=/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64, java.vm.version=25.131-b11, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=:, java.vm.name=OpenJDK 64-Bit Server VM, file.encoding.pkg=sun.io, sun.java.launcher=SUN_STANDARD, user.country=US, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/go-working-dir, jetty.xml.file.name=jetty.xml, java.runtime.version=1.8.0_131-b11, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, java.endorsed.dirs=/usr/lib/jvm/java-1.8-openjdk/jre/lib/endorsed, os.arch=amd64, java.io.tmpdir=/tmp, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, jruby.ji.objectProxyCache=false, os.name=Linux, cruise.config.dir=/go-working-dir/config, sun.jnu.encoding=UTF-8, java.library.path=/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server:/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64:/usr/lib/jvm/java-1.8-openjdk/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib, java.specification.name=Java Platform API Specification, java.class.version=52.0, jetty.home=/go-working-dir, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=4.9.41-moby, cruise.server.port=8153, user.home=/home/go, user.timezone=GMT, java.awt.printerjob=sun.print.PSPrinterJob, file.encoding=UTF-8, java.specification.version=1.8, java.class.path=/go-server/go.jar, user.name=go, jetty.base=/go-working-dir, cruise.config.file=/go-working-dir/config/cruise-config.xml, jruby.compile.invokedynamic=false, java.vm.specification.version=1.8, sun.java.command=/go-server/go.jar, java.home=/usr/lib/jvm/java-1.8-openjdk/jre, sun.arch.data.model=64, user.language=en, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.awt.X11.XToolkit, java.vm.info=mixed mode, java.version=1.8.0_131, java.ext.dirs=/usr/lib/jvm/java-1.8-openjdk/jre/lib/ext:/usr/java/packages/lib/ext, sun.boot.class.path=/usr/lib/jvm/java-1.8-openjdk/jre/lib/resources.jar:/usr/lib/jvm/java-1.8-openjdk/jre/lib/rt.jar:/usr/lib/jvm/java-1.8-openjdk/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-1.8-openjdk/jre/lib/jsse.jar:/usr/lib/jvm/java-1.8-openjdk/jre/lib/jce.jar:/usr/lib/jvm/java-1.8-openjdk/jre/lib/charsets.jar:/usr/lib/jvm/java-1.8-openjdk/jre/lib/jfr.jar:/usr/lib/jvm/java-1.8-openjdk/jre/classes, java.awt.headless=true, java.vendor=Oracle Corporation, net.sf.ehcache.skipUpdateCheck=true, java.security.egd=file:/dev/./urandom, file.separator=/, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, cruise.server.ssl.port=8154, rails.use.compressed.js=true, sun.cpu.isalist=}
+2017-09-11 22:46:31,782  INFO [main] ServerVersion:41 - [Startup] Environment Variables: {PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin, no_proxy=*.local, 169.254/16, STDOUT_LOG_FILE=/go-working-dir/logs/go-server.out.log, OLDPWD=/, XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt, LANG=en_US.utf8, GO_CONFIG_DIR=/go-working-dir/config, HOSTNAME=33928a1c2e9f, LD_LIBRARY_PATH=/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server:/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64:/usr/lib/jvm/java-1.8-openjdk/jre/../lib/amd64, SERVER_WORK_DIR=/go-working-dir, NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat, PWD=/go-working-dir, HOME=/home/go, SHLVL=0}
+2017-09-11 22:46:36,525  INFO [main] ConfigRepository:225 - Upgrading config file from version 94 to version 94
+2017-09-11 22:46:36,601  INFO [main] ConfigRepository:234 - Finished upgrading config file
+2017-09-11 22:46:36,602  INFO [main] GoConfigMigrator:105 - [Config Save] Starting Config Save post upgrade using FullConfigSaveNormalFlow
+2017-09-11 22:46:36,711  WARN [Thread-75] PluginInfoBuilder:55 - Plugin settings configuration and view could not be retrieved. May be because the plugin doesn't have any plugin settings
+java.lang.RuntimeException: Interaction with plugin with id 'cd.go.authentication.ldap' implementing 'authorization' extension failed while requesting for 'go.plugin-settings.get-view'. Reason: [The plugin sent a response that could not be understood by Go. Plugin returned with code '500' and the following response: 'Request go.plugin-settings.get-view is not supported by plugin.']
+	at com.thoughtworks.go.plugin.access.PluginRequestHelper.submitRequest(PluginRequestHelper.java:41)
+	at com.thoughtworks.go.plugin.access.common.AbstractExtension.getPluginSettingsView(AbstractExtension.java:60)
+	at com.thoughtworks.go.plugin.access.common.PluginInfoBuilder.getPluginSettingsAndView(PluginInfoBuilder.java:48)
+	at com.thoughtworks.go.plugin.access.authorization.AuthorizationPluginInfoBuilder.pluginInfoFor(AuthorizationPluginInfoBuilder.java:44)
+	at com.thoughtworks.go.plugin.access.authorization.AuthorizationPluginInfoBuilder.pluginInfoFor(AuthorizationPluginInfoBuilder.java:29)
+	at com.thoughtworks.go.plugin.access.common.MetadataLoader.pluginLoaded(MetadataLoader.java:41)
+	at com.thoughtworks.go.plugin.infra.DefaultPluginManager$FilterChangeListener.pluginLoaded(DefaultPluginManager.java:253)
+	at com.thoughtworks.go.plugin.infra.FelixGoPluginOSGiFramework$2.execute(FelixGoPluginOSGiFramework.java:353)
+	at org.apache.commons.collections.CollectionUtils.forAllDo(CollectionUtils.java:389)
+	at com.thoughtworks.go.plugin.infra.FelixGoPluginOSGiFramework.getBundle(FelixGoPluginOSGiFramework.java:111)
+	at com.thoughtworks.go.plugin.infra.FelixGoPluginOSGiFramework.loadPlugin(FelixGoPluginOSGiFramework.java:97)
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.refreshBundle(DefaultPluginJarChangeListener.java:151)
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.addPlugin(DefaultPluginJarChangeListener.java:108)
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.pluginJarAdded(DefaultPluginJarChangeListener.java:71)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners$1.execute(DefaultPluginJarLocationMonitor.java:275)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners.doOnAllPluginJarChangeListener(DefaultPluginJarLocationMonitor.java:306)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners.pluginJarAdded(DefaultPluginJarLocationMonitor.java:273)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.notifyListenersOfAddedPlugins(DefaultPluginJarLocationMonitor.java:204)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.loadAndNotifyPluginsFrom(DefaultPluginJarLocationMonitor.java:195)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.oneShot(DefaultPluginJarLocationMonitor.java:187)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.run(DefaultPluginJarLocationMonitor.java:176)
+Caused by: java.lang.RuntimeException: The plugin sent a response that could not be understood by Go. Plugin returned with code '500' and the following response: 'Request go.plugin-settings.get-view is not supported by plugin.'
+	at com.thoughtworks.go.plugin.access.PluginRequestHelper.submitRequest(PluginRequestHelper.java:39)
+	... 20 more
+2017-09-11 22:46:36,732 ERROR [Thread-75] PluginSettingsMetadataLoader:77 - Failed to fetch Plugin Settings metadata for plugin : cd.go.authentication.ldap
+java.lang.RuntimeException: Interaction with plugin with id 'cd.go.authentication.ldap' implementing 'authorization' extension failed while requesting for 'go.plugin-settings.get-configuration'. Reason: [The plugin sent a response that could not be understood by Go. Plugin returned with code '500' and the following response: 'Request go.plugin-settings.get-configuration is not supported by plugin.']
+	at com.thoughtworks.go.plugin.access.PluginRequestHelper.submitRequest(PluginRequestHelper.java:41)
+	at com.thoughtworks.go.plugin.access.common.AbstractExtension.getPluginSettingsConfiguration(AbstractExtension.java:51)
+	at com.thoughtworks.go.plugin.access.common.settings.PluginSettingsMetadataLoader.fetchPluginSettingsMetaData(PluginSettingsMetadataLoader.java:67)
+	at com.thoughtworks.go.plugin.access.common.settings.PluginSettingsMetadataLoader.pluginLoaded(PluginSettingsMetadataLoader.java:47)
+	at com.thoughtworks.go.plugin.infra.DefaultPluginManager$FilterChangeListener.pluginLoaded(DefaultPluginManager.java:253)
+	at com.thoughtworks.go.plugin.infra.FelixGoPluginOSGiFramework$2.execute(FelixGoPluginOSGiFramework.java:353)
+	at org.apache.commons.collections.CollectionUtils.forAllDo(CollectionUtils.java:389)
+	at com.thoughtworks.go.plugin.infra.FelixGoPluginOSGiFramework.getBundle(FelixGoPluginOSGiFramework.java:111)
+	at com.thoughtworks.go.plugin.infra.FelixGoPluginOSGiFramework.loadPlugin(FelixGoPluginOSGiFramework.java:97)
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.refreshBundle(DefaultPluginJarChangeListener.java:151)
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.addPlugin(DefaultPluginJarChangeListener.java:108)
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.pluginJarAdded(DefaultPluginJarChangeListener.java:71)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners$1.execute(DefaultPluginJarLocationMonitor.java:275)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners.doOnAllPluginJarChangeListener(DefaultPluginJarLocationMonitor.java:306)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners.pluginJarAdded(DefaultPluginJarLocationMonitor.java:273)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.notifyListenersOfAddedPlugins(DefaultPluginJarLocationMonitor.java:204)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.loadAndNotifyPluginsFrom(DefaultPluginJarLocationMonitor.java:195)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.oneShot(DefaultPluginJarLocationMonitor.java:187)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.run(DefaultPluginJarLocationMonitor.java:176)
+Caused by: java.lang.RuntimeException: The plugin sent a response that could not be understood by Go. Plugin returned with code '500' and the following response: 'Request go.plugin-settings.get-configuration is not supported by plugin.'
+	at com.thoughtworks.go.plugin.access.PluginRequestHelper.submitRequest(PluginRequestHelper.java:39)
+	... 18 more
+2017-09-11 22:46:36,972  INFO [main] CachedGoConfig:226 - About to notify config listeners
+2017-09-11 22:46:36,974  INFO [main] CachedGoConfig:234 - Finished notifying all listeners
+2017-09-11 22:46:37,342  INFO [main] BuildAssignmentService:255 - [Configuration Changed] Removing jobs for pipelines that no longer exist in configuration.
+2017-09-11 22:46:37,388  INFO [main] PipelineRepository:85 - Start updating pipeline timeline
+2017-09-11 22:46:37,449  INFO [main] PipelineRepository:91 - Pipeline timeline updated
+2017-09-11 22:46:37,449  INFO [main] PipelineSqlMapDao:98 - Loading active pipelines into memory.
+2017-09-11 22:46:37,450  INFO [main] PipelineSqlMapDao:394 - Retriving Active Pipelines from Database...
+2017-09-11 22:46:37,478  WARN [main] PipelineSqlMapDao:466 - No pipelines found in Config, Skipping material revision caching.
+2017-09-11 22:46:37,485  INFO [Thread-77] PipelineSqlMapDao:426 - Loading Active Pipelines to cache...Started
+2017-09-11 22:46:37,478  INFO [Thread-78] PipelineSqlMapDao:435 - Loading pipeline history to cache...Started
+2017-09-11 22:46:37,493  INFO [Thread-78] PipelineSqlMapDao:439 - Loading pipeline history to cache...Done
+2017-09-11 22:46:37,494  INFO [Thread-77] PipelineSqlMapDao:429 - Loading Active Pipelines to cache...Done
+2017-09-11 22:46:37,495  INFO [main] PipelineSqlMapDao:100 - Done loading active pipelines into memory.
+2017-09-11 22:46:37,587  INFO [main] ConsoleActivityMonitor:67 - Found '0' building jobs. Added them with '2017-09-11T22:46:37.504Z' as the last heard time
+2017-09-11 22:46:37,696  INFO [main] RailsAssetsService:66 - Found rails assets manifest file named .sprockets-manifest-80abb21c3a56f6dab0bbccbedd119684.json 
+2017-09-11 22:46:37,707  INFO [main] RailsAssetsService:70 - Successfully read rails assets manifest file located at /go-working-dir/work/jetty-0.0.0.0-8153-cruise.war-_go-any-/webapp/WEB-INF/rails.new/public/assets/.sprockets-manifest-80abb21c3a56f6dab0bbccbedd119684.json
+2017-09-11 22:46:37,938 ERROR [Thread-75] PluginSettingsMetadataLoader:77 - Failed to fetch Plugin Settings metadata for plugin : yum
+java.lang.RuntimeException: Interaction with plugin with id 'yum' implementing 'package-repository' extension failed while requesting for 'go.plugin-settings.get-configuration'. Reason: [The plugin sent a response that could not be understood by Go. Plugin returned with code '400' and the following response: 'Invalid request name go.plugin-settings.get-configuration']
+	at com.thoughtworks.go.plugin.access.PluginRequestHelper.submitRequest(PluginRequestHelper.java:41)
+	at com.thoughtworks.go.plugin.access.common.AbstractExtension.getPluginSettingsConfiguration(AbstractExtension.java:51)
+	at com.thoughtworks.go.plugin.access.common.settings.PluginSettingsMetadataLoader.fetchPluginSettingsMetaData(PluginSettingsMetadataLoader.java:67)
+	at com.thoughtworks.go.plugin.access.common.settings.PluginSettingsMetadataLoader.pluginLoaded(PluginSettingsMetadataLoader.java:47)
+	at com.thoughtworks.go.plugin.infra.DefaultPluginManager$FilterChangeListener.pluginLoaded(DefaultPluginManager.java:253)
+	at com.thoughtworks.go.plugin.infra.FelixGoPluginOSGiFramework$2.execute(FelixGoPluginOSGiFramework.java:353)
+	at org.apache.commons.collections.CollectionUtils.forAllDo(CollectionUtils.java:389)
+	at com.thoughtworks.go.plugin.infra.FelixGoPluginOSGiFramework.getBundle(FelixGoPluginOSGiFramework.java:111)
+	at com.thoughtworks.go.plugin.infra.FelixGoPluginOSGiFramework.loadPlugin(FelixGoPluginOSGiFramework.java:97)
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.refreshBundle(DefaultPluginJarChangeListener.java:151)
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.addPlugin(DefaultPluginJarChangeListener.java:108)
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.pluginJarAdded(DefaultPluginJarChangeListener.java:71)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners$1.execute(DefaultPluginJarLocationMonitor.java:275)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners.doOnAllPluginJarChangeListener(DefaultPluginJarLocationMonitor.java:306)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners.pluginJarAdded(DefaultPluginJarLocationMonitor.java:273)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.notifyListenersOfAddedPlugins(DefaultPluginJarLocationMonitor.java:204)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.loadAndNotifyPluginsFrom(DefaultPluginJarLocationMonitor.java:195)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.oneShot(DefaultPluginJarLocationMonitor.java:187)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.run(DefaultPluginJarLocationMonitor.java:176)
+Caused by: java.lang.RuntimeException: The plugin sent a response that could not be understood by Go. Plugin returned with code '400' and the following response: 'Invalid request name go.plugin-settings.get-configuration'
+	at com.thoughtworks.go.plugin.access.PluginRequestHelper.submitRequest(PluginRequestHelper.java:39)
+	... 18 more
+2017-09-11 22:46:38,026  WARN [Thread-75] PluginInfoBuilder:55 - Plugin settings configuration and view could not be retrieved. May be because the plugin doesn't have any plugin settings
+java.lang.RuntimeException: Interaction with plugin with id 'yum' implementing 'package-repository' extension failed while requesting for 'go.plugin-settings.get-view'. Reason: [The plugin sent a response that could not be understood by Go. Plugin returned with code '400' and the following response: 'Invalid request name go.plugin-settings.get-view']
+	at com.thoughtworks.go.plugin.access.PluginRequestHelper.submitRequest(PluginRequestHelper.java:41)
+	at com.thoughtworks.go.plugin.access.common.AbstractExtension.getPluginSettingsView(AbstractExtension.java:60)
+	at com.thoughtworks.go.plugin.access.common.PluginInfoBuilder.getPluginSettingsAndView(PluginInfoBuilder.java:48)
+	at com.thoughtworks.go.plugin.access.packagematerial.PackageMaterialPluginInfoBuilder.pluginInfoFor(PackageMaterialPluginInfoBuilder.java:58)
+	at com.thoughtworks.go.plugin.access.packagematerial.PackageMaterialPluginInfoBuilder.pluginInfoFor(PackageMaterialPluginInfoBuilder.java:38)
+	at com.thoughtworks.go.plugin.access.common.MetadataLoader.pluginLoaded(MetadataLoader.java:41)
+	at com.thoughtworks.go.plugin.infra.DefaultPluginManager$FilterChangeListener.pluginLoaded(DefaultPluginManager.java:253)
+	at com.thoughtworks.go.plugin.infra.FelixGoPluginOSGiFramework$2.execute(FelixGoPluginOSGiFramework.java:353)
+	at org.apache.commons.collections.CollectionUtils.forAllDo(CollectionUtils.java:389)
+	at com.thoughtworks.go.plugin.infra.FelixGoPluginOSGiFramework.getBundle(FelixGoPluginOSGiFramework.java:111)
+	at com.thoughtworks.go.plugin.infra.FelixGoPluginOSGiFramework.loadPlugin(FelixGoPluginOSGiFramework.java:97)
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.refreshBundle(DefaultPluginJarChangeListener.java:151)
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.addPlugin(DefaultPluginJarChangeListener.java:108)
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.pluginJarAdded(DefaultPluginJarChangeListener.java:71)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners$1.execute(DefaultPluginJarLocationMonitor.java:275)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners.doOnAllPluginJarChangeListener(DefaultPluginJarLocationMonitor.java:306)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners.pluginJarAdded(DefaultPluginJarLocationMonitor.java:273)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.notifyListenersOfAddedPlugins(DefaultPluginJarLocationMonitor.java:204)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.loadAndNotifyPluginsFrom(DefaultPluginJarLocationMonitor.java:195)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.oneShot(DefaultPluginJarLocationMonitor.java:187)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.run(DefaultPluginJarLocationMonitor.java:176)
+Caused by: java.lang.RuntimeException: The plugin sent a response that could not be understood by Go. Plugin returned with code '400' and the following response: 'Invalid request name go.plugin-settings.get-view'
+	at com.thoughtworks.go.plugin.access.PluginRequestHelper.submitRequest(PluginRequestHelper.java:39)
+	... 20 more
+2017-09-11 22:46:38,244  WARN [Thread-75] PluginInfoBuilder:55 - Plugin settings configuration and view could not be retrieved. May be because the plugin doesn't have any plugin settings
+java.lang.RuntimeException: Interaction with plugin with id 'cd.go.authentication.passwordfile' implementing 'authorization' extension failed while requesting for 'go.plugin-settings.get-view'. Reason: [The plugin sent a response that could not be understood by Go. Plugin returned with code '500' and the following response: 'Request go.plugin-settings.get-view is not supported by plugin.']
+	at com.thoughtworks.go.plugin.access.PluginRequestHelper.submitRequest(PluginRequestHelper.java:41)
+	at com.thoughtworks.go.plugin.access.common.AbstractExtension.getPluginSettingsView(AbstractExtension.java:60)
+	at com.thoughtworks.go.plugin.access.common.PluginInfoBuilder.getPluginSettingsAndView(PluginInfoBuilder.java:48)
+	at com.thoughtworks.go.plugin.access.authorization.AuthorizationPluginInfoBuilder.pluginInfoFor(AuthorizationPluginInfoBuilder.java:44)
+	at com.thoughtworks.go.plugin.access.authorization.AuthorizationPluginInfoBuilder.pluginInfoFor(AuthorizationPluginInfoBuilder.java:29)
+	at com.thoughtworks.go.plugin.access.common.MetadataLoader.pluginLoaded(MetadataLoader.java:41)
+	at com.thoughtworks.go.plugin.infra.DefaultPluginManager$FilterChangeListener.pluginLoaded(DefaultPluginManager.java:253)
+	at com.thoughtworks.go.plugin.infra.FelixGoPluginOSGiFramework$2.execute(FelixGoPluginOSGiFramework.java:353)
+	at org.apache.commons.collections.CollectionUtils.forAllDo(CollectionUtils.java:389)
+	at com.thoughtworks.go.plugin.infra.FelixGoPluginOSGiFramework.getBundle(FelixGoPluginOSGiFramework.java:111)
+	at com.thoughtworks.go.plugin.infra.FelixGoPluginOSGiFramework.loadPlugin(FelixGoPluginOSGiFramework.java:97)
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.refreshBundle(DefaultPluginJarChangeListener.java:151)
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.addPlugin(DefaultPluginJarChangeListener.java:108)
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.pluginJarAdded(DefaultPluginJarChangeListener.java:71)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners$1.execute(DefaultPluginJarLocationMonitor.java:275)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners.doOnAllPluginJarChangeListener(DefaultPluginJarLocationMonitor.java:306)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners.pluginJarAdded(DefaultPluginJarLocationMonitor.java:273)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.notifyListenersOfAddedPlugins(DefaultPluginJarLocationMonitor.java:204)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.loadAndNotifyPluginsFrom(DefaultPluginJarLocationMonitor.java:195)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.oneShot(DefaultPluginJarLocationMonitor.java:187)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.run(DefaultPluginJarLocationMonitor.java:176)
+Caused by: java.lang.RuntimeException: The plugin sent a response that could not be understood by Go. Plugin returned with code '500' and the following response: 'Request go.plugin-settings.get-view is not supported by plugin.'
+	at com.thoughtworks.go.plugin.access.PluginRequestHelper.submitRequest(PluginRequestHelper.java:39)
+	... 20 more
+2017-09-11 22:46:38,251 ERROR [Thread-75] PluginSettingsMetadataLoader:77 - Failed to fetch Plugin Settings metadata for plugin : cd.go.authentication.passwordfile
+java.lang.RuntimeException: Interaction with plugin with id 'cd.go.authentication.passwordfile' implementing 'authorization' extension failed while requesting for 'go.plugin-settings.get-configuration'. Reason: [The plugin sent a response that could not be understood by Go. Plugin returned with code '500' and the following response: 'Request go.plugin-settings.get-configuration is not supported by plugin.']
+	at com.thoughtworks.go.plugin.access.PluginRequestHelper.submitRequest(PluginRequestHelper.java:41)
+	at com.thoughtworks.go.plugin.access.common.AbstractExtension.getPluginSettingsConfiguration(AbstractExtension.java:51)
+	at com.thoughtworks.go.plugin.access.common.settings.PluginSettingsMetadataLoader.fetchPluginSettingsMetaData(PluginSettingsMetadataLoader.java:67)
+	at com.thoughtworks.go.plugin.access.common.settings.PluginSettingsMetadataLoader.pluginLoaded(PluginSettingsMetadataLoader.java:47)
+	at com.thoughtworks.go.plugin.infra.DefaultPluginManager$FilterChangeListener.pluginLoaded(DefaultPluginManager.java:253)
+	at com.thoughtworks.go.plugin.infra.FelixGoPluginOSGiFramework$2.execute(FelixGoPluginOSGiFramework.java:353)
+	at org.apache.commons.collections.CollectionUtils.forAllDo(CollectionUtils.java:389)
+	at com.thoughtworks.go.plugin.infra.FelixGoPluginOSGiFramework.getBundle(FelixGoPluginOSGiFramework.java:111)
+	at com.thoughtworks.go.plugin.infra.FelixGoPluginOSGiFramework.loadPlugin(FelixGoPluginOSGiFramework.java:97)
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.refreshBundle(DefaultPluginJarChangeListener.java:151)
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.addPlugin(DefaultPluginJarChangeListener.java:108)
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.pluginJarAdded(DefaultPluginJarChangeListener.java:71)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners$1.execute(DefaultPluginJarLocationMonitor.java:275)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners.doOnAllPluginJarChangeListener(DefaultPluginJarLocationMonitor.java:306)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners.pluginJarAdded(DefaultPluginJarLocationMonitor.java:273)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.notifyListenersOfAddedPlugins(DefaultPluginJarLocationMonitor.java:204)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.loadAndNotifyPluginsFrom(DefaultPluginJarLocationMonitor.java:195)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.oneShot(DefaultPluginJarLocationMonitor.java:187)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.run(DefaultPluginJarLocationMonitor.java:176)
+Caused by: java.lang.RuntimeException: The plugin sent a response that could not be understood by Go. Plugin returned with code '500' and the following response: 'Request go.plugin-settings.get-configuration is not supported by plugin.'
+	at com.thoughtworks.go.plugin.access.PluginRequestHelper.submitRequest(PluginRequestHelper.java:39)
+	... 18 more
+2017-09-11 22:46:38,514  WARN [Thread-75] DefaultPluginJarLocationMonitor:308 - Plugin listener failed
+java.lang.RuntimeException: Found bundled plugin with ID: [yaml.config.plugin], external plugin could not be loaded
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.validateIfExternalPluginRemovingBundledPlugin(DefaultPluginJarChangeListener.java:128)
+	at com.thoughtworks.go.plugin.infra.listeners.DefaultPluginJarChangeListener.pluginJarAdded(DefaultPluginJarChangeListener.java:69)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners$1.execute(DefaultPluginJarLocationMonitor.java:275)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners.doOnAllPluginJarChangeListener(DefaultPluginJarLocationMonitor.java:306)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread$DoOnAllListeners.pluginJarAdded(DefaultPluginJarLocationMonitor.java:273)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.notifyListenersOfAddedPlugins(DefaultPluginJarLocationMonitor.java:204)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.loadAndNotifyPluginsFrom(DefaultPluginJarLocationMonitor.java:195)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.oneShot(DefaultPluginJarLocationMonitor.java:188)
+	at com.thoughtworks.go.plugin.infra.monitor.DefaultPluginJarLocationMonitor$PluginLocationMonitorThread.run(DefaultPluginJarLocationMonitor.java:176)
+2017-09-11 22:46:59,839  INFO [cachedGoConfigRefreshExecutorThread] GoFileConfigDataSource:146 - Config file changed at 1505169997000
+2017-09-11 22:46:59,839  INFO [cachedGoConfigRefreshExecutorThread] GoFileConfigDataSource:147 - Reloading config file: /go-working-dir/config/cruise-config.xml
+2017-09-11 22:46:59,913  INFO [cachedGoConfigRefreshExecutorThread] CachedGoConfig:226 - About to notify config listeners
+2017-09-11 22:46:59,917  INFO [cachedGoConfigRefreshExecutorThread] BuildAssignmentService:255 - [Configuration Changed] Removing jobs for pipelines that no longer exist in configuration.
+2017-09-11 22:46:59,918  INFO [cachedGoConfigRefreshExecutorThread] CachedGoConfig:234 - Finished notifying all listeners
+2017-09-11 22:47:07,120  INFO [105@MessageListener for ConfigMaterialUpdater] GoConfigDao:111 - Config update request by anonymous is in queue - com.thoughtworks.go.config.GoPartialConfig$GoPartialUpdateCommand@53ee483e
+2017-09-11 22:47:07,120  INFO [105@MessageListener for ConfigMaterialUpdater] GoConfigDao:114 - Config update request com.thoughtworks.go.config.GoPartialConfig$GoPartialUpdateCommand@53ee483e by anonymous is being processed
+2017-09-11 22:47:07,197  INFO [105@MessageListener for ConfigMaterialUpdater] MagicalGoConfigXmlWriter:83 - [Serializing Config] Generating config partial.
+2017-09-11 22:47:07,242  INFO [105@MessageListener for ConfigMaterialUpdater] GoFileConfigDataSource:497 - [Configuration Changed] Saving updated configuration.
+2017-09-11 22:47:07,254  INFO [105@MessageListener for ConfigMaterialUpdater] CachedGoConfig:226 - About to notify config listeners
+2017-09-11 22:47:07,256  INFO [105@MessageListener for ConfigMaterialUpdater] BuildAssignmentService:255 - [Configuration Changed] Removing jobs for pipelines that no longer exist in configuration.
+2017-09-11 22:47:07,257  INFO [105@MessageListener for ConfigMaterialUpdater] CachedGoConfig:234 - Finished notifying all listeners
+2017-09-11 22:47:07,258  INFO [105@MessageListener for ConfigMaterialUpdater] GoConfigDao:129 - Config update request by anonymous is completed
+2017-09-11 22:47:14,837  INFO [buildAssignmentServiceRefreshExecutorThread] H2EventListener:30 - Initializing database: jdbc:h2:db/h2db/cruise
+2017-09-11 22:47:40,782  INFO [qtp200006406-32] ServerVersionInfoManager:71 - [Go Update Check] Starting update check at: Mon Sep 11 22:47:40 GMT 2017
+2017-09-11 22:47:41,633  INFO [qtp200006406-21] ServerVersionInfoManager:86 - [Go Update Check] Update check done at: Mon Sep 11 22:47:41 GMT 2017, latest available version: 17.9.0-5368
+2017-09-11 22:51:02,479  WARN [qtp200006406-33] FeatureToggleRepository:68 - Toggles file, /go-working-dir/config/go.feature.toggles does not exist. Saying there are no toggles.
+2017-09-11 22:53:57,338  INFO [qtp200006406-33] MagicalGoConfigXmlWriter:83 - [Serializing Config] Generating config partial.
+2017-09-11 22:55:00,937  INFO [qtp200006406-23] GoConfigDao:91 - Config update for entity request by com.thoughtworks.go.server.domain.Username@43666646[displayName=anonymous,username=anonymous] is in queue - com.thoughtworks.go.config.update.AgentsEntityConfigUpdateCommand@7bbf9c9c
+2017-09-11 22:55:00,940  INFO [qtp200006406-23] GoConfigDao:94 - Config update for entity request by com.thoughtworks.go.server.domain.Username@43666646[displayName=anonymous,username=anonymous] is being processed
+2017-09-11 22:55:00,945  INFO [qtp200006406-23] GoFileConfigDataSource:308 - [Configuration Changed] Saving updated configuration.
+2017-09-11 22:55:00,961  INFO [qtp200006406-23] MagicalGoConfigXmlWriter:83 - [Serializing Config] Generating config partial.
+2017-09-11 22:55:01,077  INFO [qtp200006406-23] CachedGoConfig:164 - About to notify com.thoughtworks.go.config.Agents config listeners
+2017-09-11 22:55:01,082  INFO [qtp200006406-23] CachedGoConfig:179 - Finished notifying com.thoughtworks.go.config.Agents config listeners
+2017-09-11 22:55:01,084  INFO [qtp200006406-23] GoConfigDao:104 - Entity update for request by com.thoughtworks.go.server.domain.Username@43666646[displayName=anonymous,username=anonymous] is completed
+2017-09-11 22:55:09,352  INFO [qtp200006406-28] GoConfigDao:91 - Config update for entity request by com.thoughtworks.go.server.domain.Username@43666646[displayName=anonymous,username=anonymous] is in queue - com.thoughtworks.go.config.update.AgentsUpdateCommand@727d93ca
+2017-09-11 22:55:09,354  INFO [qtp200006406-28] GoConfigDao:94 - Config update for entity request by com.thoughtworks.go.server.domain.Username@43666646[displayName=anonymous,username=anonymous] is being processed
+2017-09-11 22:55:09,357  INFO [qtp200006406-28] GoFileConfigDataSource:308 - [Configuration Changed] Saving updated configuration.
+2017-09-11 22:55:09,396  INFO [qtp200006406-28] MagicalGoConfigXmlWriter:83 - [Serializing Config] Generating config partial.
+2017-09-11 22:55:09,501  INFO [qtp200006406-28] CachedGoConfig:164 - About to notify com.thoughtworks.go.config.Agents config listeners
+2017-09-11 22:55:09,503  INFO [qtp200006406-28] CachedGoConfig:179 - Finished notifying com.thoughtworks.go.config.Agents config listeners
+2017-09-11 22:55:09,505  INFO [qtp200006406-28] GoConfigDao:104 - Entity update for request by com.thoughtworks.go.server.domain.Username@43666646[displayName=anonymous,username=anonymous] is completed
+2017-09-11 22:55:26,420  INFO [qtp200006406-31] GoConfigDao:91 - Config update for entity request by com.thoughtworks.go.server.domain.Username@43666646[displayName=anonymous,username=anonymous] is in queue - com.thoughtworks.go.config.update.AgentsEntityConfigUpdateCommand@a5317c0
+2017-09-11 22:55:26,422  INFO [qtp200006406-31] GoConfigDao:94 - Config update for entity request by com.thoughtworks.go.server.domain.Username@43666646[displayName=anonymous,username=anonymous] is being processed
+2017-09-11 22:55:26,426  INFO [qtp200006406-31] GoFileConfigDataSource:308 - [Configuration Changed] Saving updated configuration.
+2017-09-11 22:55:26,442  INFO [qtp200006406-31] MagicalGoConfigXmlWriter:83 - [Serializing Config] Generating config partial.
+2017-09-11 22:55:26,530  INFO [qtp200006406-31] CachedGoConfig:164 - About to notify com.thoughtworks.go.config.Agents config listeners
+2017-09-11 22:55:26,532  INFO [qtp200006406-31] CachedGoConfig:179 - Finished notifying com.thoughtworks.go.config.Agents config listeners
+2017-09-11 22:55:26,533  INFO [qtp200006406-31] GoConfigDao:104 - Entity update for request by com.thoughtworks.go.server.domain.Username@43666646[displayName=anonymous,username=anonymous] is completed
+2017-09-11 22:55:30,614  INFO [qtp200006406-25] GoConfigDao:91 - Config update for entity request by com.thoughtworks.go.server.domain.Username@4353e5b3[displayName=agent_3390a691-e9c5-493c-819b-6e7c34748c7d_172.18.0.3_174a695a3ce1,username=agent_3390a691-e9c5-493c-819b-6e7c34748c7d_172.18.0.3_174a695a3ce1] is in queue - com.thoughtworks.go.config.update.AgentsUpdateCommand@1594b163
+2017-09-11 22:55:30,615  INFO [qtp200006406-25] GoConfigDao:94 - Config update for entity request by com.thoughtworks.go.server.domain.Username@4353e5b3[displayName=agent_3390a691-e9c5-493c-819b-6e7c34748c7d_172.18.0.3_174a695a3ce1,username=agent_3390a691-e9c5-493c-819b-6e7c34748c7d_172.18.0.3_174a695a3ce1] is being processed
+2017-09-11 22:55:30,617  INFO [qtp200006406-25] GoFileConfigDataSource:308 - [Configuration Changed] Saving updated configuration.
+2017-09-11 22:55:30,628  INFO [qtp200006406-25] MagicalGoConfigXmlWriter:83 - [Serializing Config] Generating config partial.
+2017-09-11 22:55:30,645  INFO [qtp200006406-25] CachedGoConfig:164 - About to notify com.thoughtworks.go.config.Agents config listeners
+2017-09-11 22:55:30,646  INFO [qtp200006406-25] CachedGoConfig:179 - Finished notifying com.thoughtworks.go.config.Agents config listeners
+2017-09-11 22:55:30,647  INFO [qtp200006406-25] GoConfigDao:104 - Entity update for request by com.thoughtworks.go.server.domain.Username@4353e5b3[displayName=agent_3390a691-e9c5-493c-819b-6e7c34748c7d_172.18.0.3_174a695a3ce1,username=agent_3390a691-e9c5-493c-819b-6e7c34748c7d_172.18.0.3_174a695a3ce1] is completed
+2017-09-11 22:55:30,807  INFO [qtp200006406-24] BuildRepositoryRemoteImpl:133 - [Agent Cookie] Agent [Agent [174a695a3ce1, 172.18.0.3, 3390a691-e9c5-493c-819b-6e7c34748c7d]] at location [/go] asked for a new cookie, assigned [bc08e4db-e78b-40b0-907e-3a8162f3b321]

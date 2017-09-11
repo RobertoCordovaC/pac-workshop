@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cruise xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cruise-config.xsd" schemaVersion="94">
+  <server artifactsdir="artifacts" agentAutoRegisterKey="31d189b6-0764-4daf-b555-a6a3549cd581" webhookSecret="299ddfb9-4be5-4c0d-97f0-ec5919cd6be8" commandRepositoryLocation="default" serverId="8f4ca722-75ed-40aa-890e-f7c5354a8c91" />
+  <config-repos>
+    <config-repo plugin="yaml.config.plugin" id="workshop">
+      <git url="https://github.com/RobertoCordovaC/pac-workshop.git" />
+    </config-repo>
+  </config-repos>
+  <pipelines group="workshop" />
+  <agents>
+    <agent hostname="174a695a3ce1" ipaddress="172.18.0.3" uuid="3390a691-e9c5-493c-819b-6e7c34748c7d" />
+  </agents>
+</cruise>
